@@ -1,0 +1,208 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ArticleCard from '../components/content/ArticleCard.astro';
+import { getCollection } from 'astro:content';
+import { CATEGORIES } from '../utils/categories';
+import type { Category } from '../utils/categories';
+
+const allPosts = await getCollection('blog', ({ data }) => !data.draft);
+const latestPosts = allPosts
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 6);
+
+const categories = Object.entries(CATEGORIES) as [Category, (typeof CATEGORIES)[Category]][];
+---
+
+<BaseLayout title="VidaSana360" description="Salud, bienestar y nutricion basados en ciencia. Consejos practicos respaldados por estudios reales.">
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero__inner">
+      <h1 class="hero__title">Tu guia de salud <span>basada en ciencia</span></h1>
+      <p class="hero__subtitle">
+        Consejos practicos de nutricion, ejercicio y bienestar respaldados por estudios reales.
+        Sin mitos, sin modas, solo evidencia.
+      </p>
+      <div class="hero__actions">
+        <a href="/blog" class="btn btn--primary">Ver articulos</a>
+        <a href="/newsletter" class="btn btn--outline">Suscribirme</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Latest Articles -->
+  <section class="section">
+    <div class="container">
+      <div class="section__header">
+        <h2>Ultimos articulos</h2>
+        <a href="/blog" class="section__link">Ver todos &rarr;</a>
+      </div>
+      <div class="articles-grid">
+        {latestPosts.map(post => (
+          <ArticleCard
+            title={post.data.title}
+            description={post.data.description}
+            pubDate={post.data.pubDate}
+            category={post.data.category}
+            slug={post.id}
+            image={post.data.image}
+            readingTime={post.data.readingTime}
+          />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Categories -->
+  <section class="section section--alt">
+    <div class="container">
+      <h2 class="section__heading-center">Explora por categoria</h2>
+      <div class="categories-grid">
+        {categories.map(([key, cat]) => (
+          <a href={`/categoria/${key}`} class={`cat-card cat-card--${key}`}>
+            <h3>{cat.name}</h3>
+            <p>{cat.description}</p>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter CTA -->
+  <section class="section newsletter-hero">
+    <div class="container newsletter-hero__inner">
+      <h2>Cada domingo, lo mejor de salud en tu email</h2>
+      <p>Unete a nuestra newsletter gratuita. Sin spam, solo ciencia.</p>
+      <a
+        href="http://eepurl.com/c_iwJy-3pL"
+        target="_blank"
+        rel="noopener"
+        class="btn btn--primary btn--lg"
+      >
+        Suscribirme gratis
+      </a>
+    </div>
+  </section>
+
+  <!-- YouTube CTA -->
+  <section class="section">
+    <div class="container yt-section">
+      <div class="yt-section__text">
+        <h2>Tambien en YouTube</h2>
+        <p>Tips de salud en 60 segundos. Shorts diarios con datos reales.</p>
+        <a href="https://youtube.com/@VidaSana360" target="_blank" rel="noopener" class="btn btn--outline">
+          Ver canal
+        </a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .hero {
+    background: linear-gradient(135deg, #1A1A2E 0%, #2D1B3D 50%, #1A1A2E 100%);
+    color: white;
+    padding: 5rem 0 4rem;
+  }
+  .hero__inner { max-width: 700px; }
+  .hero__title {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1.15;
+    color: white;
+  }
+  .hero__title span { color: var(--color-primary-light); }
+  .hero__subtitle {
+    font-size: 1.125rem;
+    color: #D1D5DB;
+    margin-top: 1.25rem;
+    line-height: 1.7;
+  }
+  .hero__actions {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  .hero .btn--outline {
+    color: white;
+    border-color: rgba(255,255,255,0.3);
+  }
+  .hero .btn--outline:hover {
+    background: rgba(255,255,255,0.1);
+    color: white;
+  }
+  .section { padding: 4rem 0; }
+  .section--alt { background: #F3F4F6; }
+  .section__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  .section__link {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--color-primary);
+  }
+  .section__heading-center {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .articles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.5rem;
+  }
+  .categories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  .cat-card {
+    display: block;
+    padding: 1.5rem;
+    border-radius: var(--radius);
+    color: white;
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-decoration: none;
+  }
+  .cat-card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-lg);
+    color: white;
+  }
+  .cat-card h3 { font-size: 1.125rem; margin-bottom: 0.5rem; color: white; }
+  .cat-card p { font-size: 0.8125rem; opacity: 0.9; }
+  .cat-card--nutricion { background: #2E7D32; }
+  .cat-card--ejercicio { background: #E65100; }
+  .cat-card--mente { background: #6A1B9A; }
+  .cat-card--longevidad { background: #00838F; }
+  .cat-card--recetas { background: #AD1457; }
+  .newsletter-hero {
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+    color: white;
+  }
+  .newsletter-hero__inner { text-align: center; max-width: 550px; margin: 0 auto; }
+  .newsletter-hero h2 { color: white; font-size: 1.75rem; }
+  .newsletter-hero p { color: #FECACA; margin: 1rem 0 1.5rem; }
+  .newsletter-hero .btn--primary {
+    background: white;
+    color: var(--color-primary);
+  }
+  .newsletter-hero .btn--primary:hover { background: #FFF5F5; }
+  .btn--lg { padding: 0.875rem 2rem; font-size: 1rem; }
+  .yt-section {
+    text-align: center;
+    max-width: 550px;
+    margin: 0 auto;
+  }
+  .yt-section p {
+    color: var(--color-text-light);
+    margin: 0.75rem 0 1.5rem;
+  }
+  @media (max-width: 600px) {
+    .hero { padding: 3rem 0; }
+    .hero__title { font-size: 2rem; }
+    .hero__actions { flex-direction: column; }
+    .articles-grid { grid-template-columns: 1fr; }
+  }
+</style>

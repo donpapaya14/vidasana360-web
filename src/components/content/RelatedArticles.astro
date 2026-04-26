@@ -1,0 +1,55 @@
+---
+import { getCollection } from 'astro:content';
+import ArticleCard from './ArticleCard.astro';
+import type { Category } from '../../utils/categories';
+
+interface Props {
+  category: Category;
+  currentSlug: string;
+  limit?: number;
+}
+
+const { category, currentSlug, limit = 3 } = Astro.props;
+
+const allPosts = await getCollection('blog', ({ data }) => !data.draft);
+const related = allPosts
+  .filter(post => post.data.category === category && post.id !== currentSlug)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, limit);
+---
+
+{related.length > 0 && (
+  <section class="related" aria-label="Articulos relacionados">
+    <h3>Articulos relacionados</h3>
+    <div class="related__grid">
+      {related.map(post => (
+        <ArticleCard
+          title={post.data.title}
+          description={post.data.description}
+          pubDate={post.data.pubDate}
+          category={post.data.category}
+          slug={post.id}
+          image={post.data.image}
+          readingTime={post.data.readingTime}
+        />
+      ))}
+    </div>
+  </section>
+)}
+
+<style>
+  .related {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 2px solid var(--color-border);
+  }
+  .related h3 {
+    font-size: 1.375rem;
+    margin-bottom: 1.5rem;
+  }
+  .related__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 1.5rem;
+  }
+</style>

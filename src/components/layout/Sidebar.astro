@@ -1,0 +1,103 @@
+---
+import { getCollection } from 'astro:content';
+import AdSenseSlot from '../monetization/AdSenseSlot.astro';
+
+const allPosts = await getCollection('blog', ({ data }) => !data.draft);
+const popular = allPosts
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 5);
+---
+
+<aside class="sidebar" aria-label="Barra lateral">
+  <div class="sidebar__section">
+    <h4 class="sidebar__title">Mas leidos</h4>
+    <ul class="sidebar__list">
+      {popular.map((post, i) => (
+        <li class="sidebar__item">
+          <span class="sidebar__num">{String(i + 1).padStart(2, '0')}</span>
+          <a href={`/blog/${post.id}`}>{post.data.title}</a>
+        </li>
+      ))}
+    </ul>
+  </div>
+
+  <div class="sidebar__section sidebar__newsletter">
+    <h4 class="sidebar__title">Newsletter</h4>
+    <p>Cada domingo, lo mejor de salud y bienestar en tu email.</p>
+    <a href="http://eepurl.com/c_iwJy-3pL" target="_blank" rel="noopener" class="btn btn--primary btn--full">
+      Suscribirme
+    </a>
+  </div>
+
+  <AdSenseSlot position="sidebar" />
+
+  <div class="sidebar__section">
+    <h4 class="sidebar__title">YouTube</h4>
+    <p class="sidebar__yt-text">Tips de salud en 60 segundos</p>
+    <a href="https://youtube.com/@VidaSana360" target="_blank" rel="noopener" class="btn btn--outline btn--full">
+      Ver canal
+    </a>
+  </div>
+</aside>
+
+<style>
+  .sidebar {
+    position: sticky;
+    top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .sidebar__section {
+    background: var(--color-surface);
+    border-radius: var(--radius);
+    padding: 1.5rem;
+    box-shadow: var(--shadow-sm);
+  }
+  .sidebar__title {
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-text);
+    margin-bottom: 1rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--color-primary);
+  }
+  .sidebar__list { list-style: none; }
+  .sidebar__item {
+    display: flex;
+    gap: 0.75rem;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid var(--color-border);
+  }
+  .sidebar__item:last-child { border-bottom: none; }
+  .sidebar__num {
+    font-weight: 800;
+    font-size: 1.25rem;
+    color: var(--color-primary);
+    opacity: 0.3;
+    flex-shrink: 0;
+  }
+  .sidebar__item a {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--color-text);
+    line-height: 1.4;
+  }
+  .sidebar__item a:hover { color: var(--color-primary); }
+  .sidebar__newsletter {
+    background: linear-gradient(135deg, #FFF5F5 0%, #FEF2F2 100%);
+    border: 1px solid #FECACA;
+  }
+  .sidebar__newsletter p {
+    font-size: 0.875rem;
+    color: var(--color-text-light);
+    margin-bottom: 1rem;
+  }
+  .sidebar__yt-text {
+    font-size: 0.875rem;
+    color: var(--color-text-light);
+    margin-bottom: 1rem;
+  }
+  .btn--full { width: 100%; justify-content: center; }
+</style>

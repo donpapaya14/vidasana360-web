@@ -1,0 +1,35 @@
+---
+interface Props {
+  position: 'top' | 'mid' | 'bottom' | 'sidebar';
+}
+
+const { position } = Astro.props;
+
+// Ad dimensions per position
+const sizes: Record<string, string> = {
+  top: 'min-height: 90px',
+  mid: 'min-height: 250px',
+  bottom: 'min-height: 90px',
+  sidebar: 'min-height: 250px; max-width: 300px',
+};
+---
+
+<div class="ad-slot" data-ad-position={position} style={sizes[position]}>
+  <!-- AdSense ad unit will render here after cookie consent + approval -->
+  <!-- Placeholder visible during development -->
+</div>
+
+<style>
+  .ad-slot {
+    background: #F3F4F6;
+    border: 1px dashed var(--color-border);
+    border-radius: var(--radius-sm);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5rem 0;
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+  }
+  .ad-slot::after { content: 'Espacio publicitario'; }
+</style>

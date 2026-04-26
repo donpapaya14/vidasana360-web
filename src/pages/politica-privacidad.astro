@@ -1,0 +1,58 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Politica de privacidad" noindex={true}>
+  <div class="container legal-page">
+    <h1>Politica de privacidad</h1>
+    <p><strong>Ultima actualizacion:</strong> 26 de abril de 2026</p>
+
+    <h2>Responsable del tratamiento</h2>
+    <p>VidaSana360 — Contacto: vladys.z96@gmail.com</p>
+
+    <h2>Datos que recopilamos</h2>
+    <p>VidaSana360 recopila datos de forma muy limitada:</p>
+    <ul>
+      <li><strong>Email:</strong> Solo si te suscribes voluntariamente a nuestra newsletter a traves de Mailchimp.</li>
+      <li><strong>Datos de navegacion:</strong> Datos anonimos mediante cookies de Google AdSense y Vercel Analytics (si aceptas cookies).</li>
+    </ul>
+
+    <h2>Finalidad</h2>
+    <ul>
+      <li>Envio de newsletter semanal con contenido de salud y bienestar.</li>
+      <li>Analisis anonimo de trafico para mejorar el contenido.</li>
+      <li>Mostrar publicidad relevante (Google AdSense).</li>
+    </ul>
+
+    <h2>Base legal</h2>
+    <p>El tratamiento de datos se basa en tu consentimiento expreso (suscripcion a newsletter, aceptacion de cookies).</p>
+
+    <h2>Destinatarios</h2>
+    <ul>
+      <li><strong>Mailchimp</strong> (The Rocket Science Group LLC): procesamiento de email marketing. Servidores en EE.UU. con clausulas contractuales tipo aprobadas por la CE.</li>
+      <li><strong>Google</strong> (Google Ireland Limited): publicidad y analitica. Cumple con el Marco de Privacidad de Datos UE-EE.UU.</li>
+      <li><strong>Vercel</strong> (Vercel Inc.): alojamiento web y analitica basica.</li>
+    </ul>
+
+    <h2>Tus derechos</h2>
+    <p>Puedes ejercer tus derechos de acceso, rectificacion, supresion, oposicion y portabilidad contactando a vladys.z96@gmail.com.</p>
+    <p>Para desuscribirte de la newsletter, usa el enlace "Unsubscribe" al final de cada email.</p>
+
+    <h2>Conservacion de datos</h2>
+    <p>Tus datos de email se conservan mientras mantengas la suscripcion activa. Los datos de navegacion anonimos se retienen segun las politicas de Google y Vercel.</p>
+
+    <h2>Seguridad</h2>
+    <p>Implementamos medidas de seguridad tecnicas (HTTPS, cabeceras de seguridad) para proteger la informacion.</p>
+  </div>
+</BaseLayout>
+
+<style>
+  .legal-page {
+    max-width: var(--content-width);
+    padding: 3rem 1.5rem;
+  }
+  .legal-page h1 { margin-bottom: 0.5rem; }
+  .legal-page h2 { margin-top: 2rem; margin-bottom: 0.75rem; font-size: 1.25rem; }
+  .legal-page p, .legal-page li { margin-bottom: 0.75rem; color: var(--color-text-light); line-height: 1.7; }
+  .legal-page ul { padding-left: 1.5rem; }
+</style>

@@ -1,0 +1,49 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Sobre nosotros" description="VidaSana360: salud y bienestar basados en evidencia cientifica. Conoce nuestra mision.">
+  <section class="about">
+    <div class="container about__inner">
+      <h1>Sobre VidaSana360</h1>
+
+      <p class="about__lead">
+        Creemos que las decisiones de salud deben basarse en ciencia, no en modas.
+      </p>
+
+      <h2>Nuestra mision</h2>
+      <p>VidaSana360 nacio con un objetivo claro: hacer accesible la informacion de salud respaldada por evidencia cientifica. Cada articulo que publicamos incluye referencias a estudios reales, publicados en revistas cientificas reconocidas.</p>
+
+      <h2>Como trabajamos</h2>
+      <p>Investigamos temas de salud, nutricion, ejercicio y bienestar. Consultamos estudios publicados en revistas como The New England Journal of Medicine, JAMA, The Lancet, y publicaciones de instituciones como Harvard, Oxford y la OMS. Cada afirmacion va acompanada de su fuente.</p>
+
+      <h2>Lo que NO somos</h2>
+      <p>No somos medicos ni profesionales sanitarios. Nuestro contenido es informativo y educativo. Siempre recomendamos consultar con un profesional de la salud antes de tomar decisiones medicas.</p>
+
+      <h2>Donde encontrarnos</h2>
+      <ul>
+        <li><a href="https://youtube.com/@VidaSana360" target="_blank" rel="noopener">YouTube</a> — Tips de salud en 60 segundos</li>
+        <li><a href="/newsletter">Newsletter</a> — Lo mejor de la semana, cada domingo</li>
+        <li><a href="/rss.xml">RSS</a> — Para lectores de feeds</li>
+      </ul>
+
+      <h2>Contacto</h2>
+      <p>vladys.z96@gmail.com</p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .about { padding: 3rem 0; }
+  .about__inner { max-width: var(--content-width); }
+  .about__lead {
+    font-size: 1.25rem;
+    color: var(--color-text-light);
+    margin-bottom: 2rem;
+    line-height: 1.7;
+  }
+  .about h2 { margin-top: 2rem; margin-bottom: 0.75rem; }
+  .about p { margin-bottom: 1rem; color: var(--color-text-light); line-height: 1.7; }
+  .about ul { padding-left: 1.5rem; margin-bottom: 1rem; }
+  .about li { margin-bottom: 0.5rem; color: var(--color-text-light); }
+</style>

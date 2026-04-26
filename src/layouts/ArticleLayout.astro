@@ -1,0 +1,172 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Breadcrumbs from '../components/layout/Breadcrumbs.astro';
+import Sidebar from '../components/layout/Sidebar.astro';
+import MedicalDisclaimer from '../components/content/MedicalDisclaimer.astro';
+import SourcesCitation from '../components/content/SourcesCitation.astro';
+import RelatedArticles from '../components/content/RelatedArticles.astro';
+import InlineSignup from '../components/newsletter/InlineSignup.astro';
+import AdSenseSlot from '../components/monetization/AdSenseSlot.astro';
+import ArticleSchema from '../components/seo/ArticleSchema.astro';
+import { formatDate } from '../utils/dates';
+import { getCategoryBadgeClass, getCategoryName } from '../utils/categories';
+import type { Category } from '../utils/categories';
+
+interface Props {
+  title: string;
+  description: string;
+  pubDate: Date;
+  updatedDate?: Date;
+  category: Category;
+  tags: string[];
+  author?: string;
+  image?: string;
+  imageAlt?: string;
+  readingTime?: number;
+  sources: string[];
+  youtubeRelated?: string;
+  slug: string;
+}
+
+const {
+  title, description, pubDate, updatedDate, category, tags,
+  author = 'VidaSana360', image, imageAlt, readingTime,
+  sources, youtubeRelated, slug
+} = Astro.props;
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  ogImage={image}
+  ogType="article"
+>
+  <ArticleSchema
+    title={title}
+    description={description}
+    pubDate={pubDate}
+    updatedDate={updatedDate}
+    image={image}
+    url={Astro.url.href}
+    author={author}
+  />
+
+  <div class="container article-page">
+    <div class="layout-with-sidebar">
+      <article class="article">
+        <Breadcrumbs items={[
+          { label: getCategoryName(category), href: `/categoria/${category}` },
+          { label: title },
+        ]} />
+
+        <header class="article__header">
+          <a href={`/categoria/${category}`} class={getCategoryBadgeClass(category)}>
+            {getCategoryName(category)}
+          </a>
+          <h1>{title}</h1>
+          <div class="article__meta">
+            <span>{author}</span>
+            <time datetime={pubDate.toISOString()}>{formatDate(pubDate)}</time>
+            {readingTime && <span>{readingTime} min lectura</span>}
+          </div>
+        </header>
+
+        {image && (
+          <img
+            class="article__hero"
+            src={image}
+            alt={imageAlt ?? title}
+            loading="eager"
+            decoding="async"
+          />
+        )}
+
+        <MedicalDisclaimer />
+
+        <AdSenseSlot position="top" />
+
+        <div class="prose">
+          <slot />
+        </div>
+
+        <SourcesCitation sources={sources} />
+
+        <InlineSignup />
+
+        {youtubeRelated && (
+          <div class="article__video">
+            <h3>Video relacionado</h3>
+            <lite-youtube videoid={youtubeRelated}></lite-youtube>
+          </div>
+        )}
+
+        <AdSenseSlot position="bottom" />
+
+        <RelatedArticles category={category} currentSlug={slug} />
+
+        <div class="article__tags">
+          {tags.map(tag => (
+            <span class="article__tag">#{tag}</span>
+          ))}
+        </div>
+      </article>
+
+      <Sidebar />
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .article-page { padding-top: 2rem; padding-bottom: 4rem; }
+  .article__header {
+    margin-bottom: 2rem;
+  }
+  .article__header h1 {
+    margin-top: 1rem;
+    font-size: 2.25rem;
+    line-height: 1.2;
+  }
+  .article__meta {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    font-size: 0.875rem;
+    color: var(--color-text-muted);
+  }
+  .article__meta span:not(:last-child)::after {
+    content: '·';
+    margin-left: 1rem;
+  }
+  .article__hero {
+    width: 100%;
+    border-radius: var(--radius);
+    margin-bottom: 2rem;
+    aspect-ratio: 2/1;
+    object-fit: cover;
+  }
+  .article__video {
+    margin-top: 2rem;
+  }
+  .article__video h3 {
+    margin-bottom: 1rem;
+  }
+  .article__tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--color-border);
+  }
+  .article__tag {
+    font-size: 0.8125rem;
+    color: var(--color-primary);
+    background: #FFF5F5;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+  }
+
+  @media (max-width: 900px) {
+    .article__header h1 { font-size: 1.75rem; }
+  }
+</style>

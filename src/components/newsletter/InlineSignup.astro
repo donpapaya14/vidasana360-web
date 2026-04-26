@@ -1,0 +1,42 @@
+---
+// In-article newsletter CTA
+// Uses Mailchimp signup URL from existing youtube-bot config
+---
+
+<aside class="inline-signup" aria-label="Suscripcion newsletter">
+  <div class="inline-signup__content">
+    <h3>Recibe tips de salud cada domingo</h3>
+    <p>Unete a nuestra newsletter gratuita. Consejos practicos basados en ciencia, directo a tu email.</p>
+    <a
+      href="http://eepurl.com/c_iwJy-3pL"
+      target="_blank"
+      rel="noopener"
+      class="btn btn--primary"
+    >
+      Suscribirme gratis
+    </a>
+  </div>
+</aside>
+
+<style>
+  .inline-signup {
+    background: linear-gradient(135deg, #FFF5F5 0%, #FEF2F2 100%);
+    border: 1px solid #FECACA;
+    border-radius: var(--radius);
+    padding: 2rem;
+    margin: 2.5rem 0;
+    text-align: center;
+  }
+  .inline-signup h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  .inline-signup p {
+    color: var(--color-text-light);
+    font-size: 0.9375rem;
+    margin-bottom: 1.25rem;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+</style>

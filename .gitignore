@@ -1,0 +1,25 @@
+# build output
+dist/
+.astro/
+.vercel/
+
+# dependencies
+node_modules/
+
+# logs
+npm-debug.log*
+
+# environment - NEVER commit secrets
+.env
+.env.*
+!.env.example
+
+# system
+.DS_Store
+.idea/
+.vscode/
+
+# python
+scripts/__pycache__/
+scripts/*.pyc
+scripts/venv/

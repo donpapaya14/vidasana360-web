@@ -1,0 +1,130 @@
+---
+const navLinks = [
+  { href: '/blog', label: 'Articulos' },
+  { href: '/categoria/nutricion', label: 'Nutricion' },
+  { href: '/categoria/ejercicio', label: 'Ejercicio' },
+  { href: '/categoria/mente', label: 'Mente' },
+  { href: '/categoria/longevidad', label: 'Longevidad' },
+  { href: '/categoria/recetas', label: 'Recetas' },
+];
+
+const currentPath = Astro.url.pathname;
+---
+
+<header class="header">
+  <div class="container header__inner">
+    <a href="/" class="header__logo" aria-label="VidaSana360 - Inicio">
+      <span class="header__logo-icon">&#9829;</span>
+      <span class="header__logo-text">VidaSana<strong>360</strong></span>
+    </a>
+
+    <nav class="header__nav" aria-label="Navegacion principal">
+      <ul class="header__nav-list">
+        {navLinks.map(link => (
+          <li>
+            <a
+              href={link.href}
+              class:list={['header__nav-link', { active: currentPath.startsWith(link.href) }]}
+            >
+              {link.label}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+
+    <a href="/newsletter" class="btn btn--primary header__cta">Suscribete</a>
+
+    <button class="header__menu-btn" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<style>
+  .header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: var(--color-surface);
+    border-bottom: 1px solid var(--color-border);
+    backdrop-filter: blur(8px);
+  }
+  .header__inner {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    height: 64px;
+  }
+  .header__logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.25rem;
+    color: var(--color-text);
+    font-weight: 600;
+    flex-shrink: 0;
+  }
+  .header__logo:hover { color: var(--color-primary); }
+  .header__logo-icon {
+    color: var(--color-primary);
+    font-size: 1.5rem;
+  }
+  .header__logo-text strong { color: var(--color-primary); }
+  .header__nav { flex: 1; }
+  .header__nav-list {
+    display: flex;
+    list-style: none;
+    gap: 0.25rem;
+  }
+  .header__nav-link {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--color-text-light);
+    border-radius: var(--radius-sm);
+    transition: all 0.2s;
+  }
+  .header__nav-link:hover,
+  .header__nav-link.active {
+    color: var(--color-primary);
+    background: #FFF5F5;
+  }
+  .header__cta {
+    font-size: 0.8125rem;
+    padding: 0.5rem 1.25rem;
+    flex-shrink: 0;
+  }
+  .header__menu-btn {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+  }
+  .header__menu-btn span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background: var(--color-text);
+    border-radius: 2px;
+    transition: 0.3s;
+  }
+
+  @media (max-width: 900px) {
+    .header__nav, .header__cta { display: none; }
+    .header__menu-btn { display: flex; }
+  }
+</style>
+
+<script>
+  const btn = document.querySelector('.header__menu-btn');
+  const nav = document.querySelector('.header__nav');
+  btn?.addEventListener('click', () => {
+    const expanded = btn.getAttribute('aria-expanded') === 'true';
+    btn.setAttribute('aria-expanded', String(!expanded));
+    nav?.classList.toggle('mobile-open');
+  });
+</script>

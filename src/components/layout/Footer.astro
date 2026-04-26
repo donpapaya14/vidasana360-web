@@ -1,0 +1,108 @@
+---
+const year = new Date().getFullYear();
+const categories = [
+  { href: '/categoria/nutricion', label: 'Nutricion' },
+  { href: '/categoria/ejercicio', label: 'Ejercicio' },
+  { href: '/categoria/mente', label: 'Mente' },
+  { href: '/categoria/longevidad', label: 'Longevidad' },
+  { href: '/categoria/recetas', label: 'Recetas' },
+];
+const legal = [
+  { href: '/aviso-legal', label: 'Aviso legal' },
+  { href: '/politica-privacidad', label: 'Politica de privacidad' },
+  { href: '/politica-cookies', label: 'Politica de cookies' },
+];
+---
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__brand">
+      <span class="footer__logo">&#9829; VidaSana<strong>360</strong></span>
+      <p class="footer__tagline">Salud y bienestar basados en ciencia</p>
+    </div>
+
+    <div class="footer__col">
+      <h4>Categorias</h4>
+      <ul>
+        {categories.map(c => <li><a href={c.href}>{c.label}</a></li>)}
+      </ul>
+    </div>
+
+    <div class="footer__col">
+      <h4>Legal</h4>
+      <ul>
+        {legal.map(l => <li><a href={l.href}>{l.label}</a></li>)}
+      </ul>
+    </div>
+
+    <div class="footer__col">
+      <h4>Conecta</h4>
+      <ul>
+        <li><a href="https://youtube.com/@VidaSana360" target="_blank" rel="noopener">YouTube</a></li>
+        <li><a href="/newsletter">Newsletter</a></li>
+        <li><a href="/rss.xml">RSS</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer__bottom">
+    <div class="container">
+      <p>&copy; {year} VidaSana360. Contenido informativo, no sustituye consejo medico profesional.</p>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .footer {
+    background: var(--color-text);
+    color: #D1D5DB;
+    margin-top: 4rem;
+    padding-top: 3rem;
+  }
+  .footer__inner {
+    display: grid;
+    grid-template-columns: 1.5fr repeat(3, 1fr);
+    gap: 2rem;
+    padding-bottom: 2rem;
+  }
+  .footer__logo {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+  }
+  .footer__logo strong { color: var(--color-primary-light); }
+  .footer__tagline {
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    color: #9CA3AF;
+  }
+  .footer__col h4 {
+    color: white;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 1rem;
+  }
+  .footer__col ul { list-style: none; }
+  .footer__col li { margin-bottom: 0.5rem; }
+  .footer__col a {
+    color: #9CA3AF;
+    font-size: 0.875rem;
+    transition: color 0.2s;
+  }
+  .footer__col a:hover { color: white; }
+  .footer__bottom {
+    border-top: 1px solid #374151;
+    padding: 1.25rem 0;
+  }
+  .footer__bottom p {
+    font-size: 0.8125rem;
+    color: #6B7280;
+    text-align: center;
+  }
+
+  @media (max-width: 700px) {
+    .footer__inner { grid-template-columns: 1fr 1fr; }
+    .footer__brand { grid-column: 1 / -1; }
+  }
+</style>

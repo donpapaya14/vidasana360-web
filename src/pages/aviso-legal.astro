@@ -1,0 +1,40 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Aviso legal" noindex={true}>
+  <div class="container legal-page">
+    <h1>Aviso legal</h1>
+    <p><strong>Ultima actualizacion:</strong> 26 de abril de 2026</p>
+
+    <h2>Titular del sitio web</h2>
+    <p>VidaSana360 es un proyecto de divulgacion sobre salud y bienestar.</p>
+    <p>Contacto: vladys.z96@gmail.com</p>
+
+    <h2>Objeto</h2>
+    <p>Este sitio web tiene como finalidad proporcionar informacion sobre salud, nutricion y bienestar basada en evidencia cientifica. El contenido es meramente informativo y educativo.</p>
+
+    <h2>Propiedad intelectual</h2>
+    <p>Los contenidos de este sitio web (textos, imagenes, diseno, logotipos) son propiedad de VidaSana360 o de sus respectivos autores y estan protegidos por las leyes de propiedad intelectual.</p>
+
+    <h2>Responsabilidad</h2>
+    <p>La informacion contenida en este sitio web no sustituye el consejo medico profesional. VidaSana360 no se responsabiliza de las decisiones tomadas a partir de la informacion proporcionada.</p>
+    <p>No garantizamos la disponibilidad continua del sitio web ni la ausencia total de errores en los contenidos.</p>
+
+    <h2>Enlaces externos</h2>
+    <p>Este sitio puede contener enlaces a sitios web de terceros. VidaSana360 no se responsabiliza del contenido ni de las politicas de privacidad de dichos sitios.</p>
+
+    <h2>Legislacion aplicable</h2>
+    <p>Este aviso legal se rige por la legislacion vigente.</p>
+  </div>
+</BaseLayout>
+
+<style>
+  .legal-page {
+    max-width: var(--content-width);
+    padding: 3rem 1.5rem;
+  }
+  .legal-page h1 { margin-bottom: 0.5rem; }
+  .legal-page h2 { margin-top: 2rem; margin-bottom: 0.75rem; font-size: 1.25rem; }
+  .legal-page p { margin-bottom: 0.75rem; color: var(--color-text-light); line-height: 1.7; }
+</style>

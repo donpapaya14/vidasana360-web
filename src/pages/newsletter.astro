@@ -1,0 +1,82 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Newsletter" description="Recibe cada domingo los mejores consejos de salud basados en ciencia. Newsletter gratuita de VidaSana360.">
+  <section class="newsletter-page">
+    <div class="container newsletter-page__inner">
+      <h1>Salud en tu inbox, cada domingo</h1>
+      <p class="newsletter-page__subtitle">
+        Cada semana seleccionamos lo mejor en nutricion, ejercicio y bienestar.
+        Todo respaldado por estudios reales. Sin spam, sin modas.
+      </p>
+
+      <div class="newsletter-page__benefits">
+        <div class="benefit">
+          <span class="benefit__icon">&#10003;</span>
+          <span>Consejos practicos y aplicables</span>
+        </div>
+        <div class="benefit">
+          <span class="benefit__icon">&#10003;</span>
+          <span>Basados en estudios cientificos reales</span>
+        </div>
+        <div class="benefit">
+          <span class="benefit__icon">&#10003;</span>
+          <span>100% gratuita, cancela cuando quieras</span>
+        </div>
+      </div>
+
+      <a
+        href="http://eepurl.com/c_iwJy-3pL"
+        target="_blank"
+        rel="noopener"
+        class="btn btn--primary btn--lg"
+      >
+        Suscribirme gratis
+      </a>
+
+      <p class="newsletter-page__note">
+        Tus datos estan seguros. Lee nuestra <a href="/politica-privacidad">politica de privacidad</a>.
+      </p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .newsletter-page {
+    padding: 5rem 0;
+    text-align: center;
+  }
+  .newsletter-page__inner { max-width: 600px; margin: 0 auto; }
+  .newsletter-page h1 { font-size: 2.5rem; }
+  .newsletter-page__subtitle {
+    font-size: 1.125rem;
+    color: var(--color-text-light);
+    margin: 1rem 0 2rem;
+    line-height: 1.7;
+  }
+  .newsletter-page__benefits {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+  }
+  .benefit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    font-size: 1rem;
+  }
+  .benefit__icon {
+    color: var(--color-accent);
+    font-weight: 700;
+    font-size: 1.25rem;
+  }
+  .btn--lg { padding: 0.875rem 2.5rem; font-size: 1.0625rem; }
+  .newsletter-page__note {
+    margin-top: 1.5rem;
+    font-size: 0.8125rem;
+    color: var(--color-text-muted);
+  }
+</style>

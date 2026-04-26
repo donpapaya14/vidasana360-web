@@ -1,0 +1,54 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Politica de cookies" noindex={true}>
+  <div class="container legal-page">
+    <h1>Politica de cookies</h1>
+    <p><strong>Ultima actualizacion:</strong> 26 de abril de 2026</p>
+
+    <h2>Que son las cookies</h2>
+    <p>Las cookies son pequenos archivos de texto que se almacenan en tu navegador cuando visitas un sitio web. Se utilizan para recordar preferencias y mejorar la experiencia.</p>
+
+    <h2>Cookies que utilizamos</h2>
+
+    <h3>Cookies tecnicas (necesarias)</h3>
+    <ul>
+      <li><strong>cookie-consent:</strong> Almacena tu preferencia de cookies. Duracion: 1 ano. Almacenamiento local (localStorage).</li>
+    </ul>
+
+    <h3>Cookies de publicidad (requieren consentimiento)</h3>
+    <ul>
+      <li><strong>Google AdSense:</strong> Cookies utilizadas para mostrar anuncios personalizados. Solo se activan si aceptas cookies. Proveedor: Google Ireland Limited. Mas info: <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Politica de anuncios de Google</a>.</li>
+    </ul>
+
+    <h3>Cookies de analitica (requieren consentimiento)</h3>
+    <ul>
+      <li><strong>Vercel Analytics:</strong> Datos anonimos de rendimiento y navegacion. Proveedor: Vercel Inc.</li>
+    </ul>
+
+    <h2>Como gestionar cookies</h2>
+    <p>Puedes aceptar o rechazar cookies desde el banner que aparece al visitar el sitio. Tambien puedes configurar tu navegador:</p>
+    <ul>
+      <li><strong>Chrome:</strong> Configuracion > Privacidad y seguridad > Cookies</li>
+      <li><strong>Firefox:</strong> Opciones > Privacidad y seguridad</li>
+      <li><strong>Safari:</strong> Preferencias > Privacidad</li>
+      <li><strong>Edge:</strong> Configuracion > Cookies y permisos</li>
+    </ul>
+
+    <h2>Cambiar tu preferencia</h2>
+    <p>Para cambiar tu preferencia de cookies, borra los datos del sitio en tu navegador y recarga la pagina. Volvera a aparecer el banner de consentimiento.</p>
+  </div>
+</BaseLayout>
+
+<style>
+  .legal-page {
+    max-width: var(--content-width);
+    padding: 3rem 1.5rem;
+  }
+  .legal-page h1 { margin-bottom: 0.5rem; }
+  .legal-page h2 { margin-top: 2rem; margin-bottom: 0.75rem; font-size: 1.25rem; }
+  .legal-page h3 { margin-top: 1.5rem; margin-bottom: 0.5rem; font-size: 1.0625rem; }
+  .legal-page p, .legal-page li { margin-bottom: 0.75rem; color: var(--color-text-light); line-height: 1.7; }
+  .legal-page ul { padding-left: 1.5rem; }
+</style>
