@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """
-Genera un artículo SEO completo en Markdown con links Amazon Afiliados.
-Pipeline: plan_topic → research AI → generate content AI → write markdown
-Optimizado para long-tail keywords y monetización.
+Genera UN artículo SEO de calidad con datos reales y links Amazon.
+Prioridad: contenido útil y real > volumen.
 """
 
 import json
 import logging
 import os
+import re
 import sys
 from datetime import date
 from pathlib import Path
@@ -18,7 +18,7 @@ from dotenv import load_dotenv
 sys.path.insert(0, str(Path(__file__).parent))
 
 from ai_client import call_ai
-from topic_planner import plan_topic, get_existing_titles
+from topic_planner import plan_topic
 from seo_utils import generate_slug, estimate_reading_time, clean_markdown
 
 load_dotenv()
@@ -34,183 +34,113 @@ CATEGORY_NAMES = {
     "recetas": "Recetas Saludables",
 }
 
-# Amazon affiliate tag — CAMBIAR cuando tengas tu tag real
 AMAZON_TAG = os.getenv("AMAZON_TAG", "vladys-21")
 SITE_URL = os.getenv("SITE_URL", "https://vidasana360-web.vercel.app")
 BRAND = os.getenv("BRAND", "VidaSana360")
 
 
 def research_topic(category: str, formula: str, existing_titles: list[str]) -> dict:
-    """Paso 1: Investiga tema con enfoque long-tail keyword."""
+    """Paso 1: Elige tema con keyword long-tail y plan detallado."""
     existing_str = "\n".join(f"- {t}" for t in existing_titles[:20]) if existing_titles else "Ninguno"
 
-    prompt = f"""Eres un experto SEO y editor de un blog en español sobre {CATEGORY_NAMES.get(category, category)}.
+    prompt = f"""Eres editor jefe de un blog profesional en español sobre {CATEGORY_NAMES.get(category, category)}.
 
-GENERA UN TEMA para un artículo SEO largo (2000-2500 palabras) sobre:
-{formula}
+Tu trabajo: elegir UN tema para un artículo que sea REALMENTE ÚTIL para el lector.
 
-ARTÍCULOS YA PUBLICADOS (NO repetir):
+TIPO DE ARTÍCULO A CREAR: {formula}
+
+ARTÍCULOS QUE YA EXISTEN (elige algo DIFERENTE):
 {existing_str}
 
-ESTRATEGIA SEO — LONG-TAIL KEYWORDS:
-- Elige una keyword LONG-TAIL (3-6 palabras) que sea MUY ESPECÍFICA
-- Ejemplo MALO: "ayuno intermitente" (demasiado competitivo)
-- Ejemplo BUENO: "ayuno intermitente 16/8 para principiantes mayores de 40"
-- La keyword debe ser algo que alguien buscaria en Google palabra por palabra
-- Prioriza keywords tipo "cómo", "qué es", "mejores", "guía", "para principiantes"
+INSTRUCCIONES:
+1. Elige un tema MUY ESPECÍFICO (no genérico). Ejemplo malo: "beneficios del ejercicio". Ejemplo bueno: "rutina de sentadillas búlgaras para fortalecer rodillas después de los 40".
+2. El título debe ser lo que alguien escribiría en Google, 3-6 palabras clave.
+3. Piensa en 5-6 secciones donde CADA UNA aporte información concreta que el lector no sabía.
+4. Para cada sección, escribe QUÉ dato específico o consejo práctico incluirás.
 
-REGLAS:
-- Título SEO: max 65 chars, incluir keyword EXACTA
-- Meta description: max 155 chars, incluir keyword, generar curiosidad
-- Outline con 6-8 secciones H2 (más secciones = más contenido = mejor SEO)
-- CADA sección debe citar al menos 1 fuente real
-- Incluir 1-2 productos REALES de Amazon relevantes al tema (nombre exacto del producto)
-
-Responde SOLO JSON:
+Responde JSON:
 {{
-  "title": "titulo SEO con keyword long-tail exacta",
-  "description": "meta description max 155 chars con keyword",
-  "keyword": "keyword long-tail principal de 3-6 palabras",
-  "secondary_keywords": ["kw2", "kw3", "kw4", "kw5"],
-  "outline": [
-    {{"h2": "Seccion 1", "points": ["punto", "estudio a citar"]}},
-    {{"h2": "Seccion 2", "points": ["punto", "estudio"]}},
-    ...
+  "title": "título max 65 chars, keyword exacta incluida",
+  "description": "max 150 chars, genera curiosidad real",
+  "keyword": "keyword long-tail de 3-6 palabras",
+  "secondary_keywords": ["kw2", "kw3", "kw4"],
+  "sections": [
+    {{
+      "heading": "Título de la sección",
+      "what_to_cover": "Qué información CONCRETA y ÚTIL va aquí",
+      "source_to_cite": "Nombre real del estudio o institución con año"
+    }}
   ],
-  "sources_preview": ["Estudio/revista 1", "Estudio/revista 2", "..."],
-  "amazon_products": [
-    {{"name": "nombre exacto producto Amazon", "why": "por que es relevante en 1 linea"}}
-  ]
+  "amazon_product": "nombre de UN producto relevante de Amazon (o null si no aplica)"
 }}"""
 
-    data = call_ai(prompt, temperature=0.85, fast=True)
-    log.info("Tema: %s | KW: %s", data.get("title", "?"), data.get("keyword", "?"))
-    return data
+    return call_ai(prompt, temperature=0.8)
 
 
 def generate_content(category: str, topic_data: dict) -> dict:
-    """Paso 2: Genera artículo completo con Amazon y SEO."""
-    outline_str = json.dumps(topic_data["outline"], ensure_ascii=False, indent=2)
-    products = topic_data.get("amazon_products", [])
-    products_str = json.dumps(products, ensure_ascii=False) if products else "ninguno"
+    """Paso 2: Genera artículo completo de alta calidad."""
+    sections = json.dumps(topic_data.get("sections", []), ensure_ascii=False, indent=2)
+    amazon_product = topic_data.get("amazon_product")
 
-    prompt = f"""Escribe un artículo COMPLETO de blog en español.
+    prompt = f"""Escribe un artículo de blog en español que sea REALMENTE ÚTIL para el lector.
 
 TÍTULO: {topic_data['title']}
 CATEGORÍA: {CATEGORY_NAMES.get(category, category)}
-KEYWORD PRINCIPAL: {topic_data['keyword']}
-KEYWORDS SECUNDARIAS: {', '.join(topic_data.get('secondary_keywords', []))}
-PRODUCTOS AMAZON RELEVANTES: {products_str}
+KEYWORD: {topic_data['keyword']}
 
-OUTLINE:
-{outline_str}
+PLAN DE SECCIONES:
+{sections}
 
-REGLAS DE CONTENIDO:
-1. CADA afirmación DEBE tener fuente real: "(Universidad X, año)" o "(Estudio en Revista Y, año)"
-2. CERO afirmaciones sin fuente. Si no hay estudio real, NO lo inventes
-3. Tono: informativo, cercano, como explicar a un amigo inteligente
-4. Usar TÚ para dirigirte al lector
-5. Incluir consejos PRÁCTICOS y APLICABLES
-6. 2000-2500 palabras MÍNIMO
+REGLAS DE CALIDAD (LEE ESTO CON ATENCIÓN):
 
-REGLAS SEO AVANZADO:
-1. Keyword principal en primer párrafo Y en un H2
-2. Keywords secundarias en H2 y distribuidas naturalmente
-3. Párrafos CORTOS (2-3 líneas máximo para móvil)
-4. Listas y bullets frecuentes (Google las ama para featured snippets)
-5. Incluir una sección tipo FAQ con 3-4 preguntas (## Preguntas frecuentes)
-6. Último H2: "Resumen práctico" con bullets de acción
+1. PROHIBIDO el relleno. Cada frase debe aportar información nueva o un consejo aplicable.
+   - MAL: "La nutrición es muy importante para nuestra salud y bienestar general"
+   - BIEN: "Según un ensayo de 2019 en The Lancet con 195 países, una dieta pobre causa 11 millones de muertes al año — más que el tabaco"
 
-REGLAS AMAZON AFILIADOS:
-1. Si hay productos relevantes, incluir una sección "## Productos recomendados"
-2. Para cada producto, escribir: nombre, para qué sirve, por qué lo recomiendas (1-2 líneas)
-3. Incluir placeholder: [AMAZON:nombre-producto] que será reemplazado por el link real
-4. NO ser agresivo vendiendo. Recomendar de forma natural y honesta
-5. Añadir disclaimer: "Este artículo contiene enlaces de afiliado. Si compras a través de ellos, recibimos una pequeña comisión sin coste adicional para ti."
+2. DATOS REALES obligatorios. Cuando cites un estudio:
+   - Nombre de la universidad o revista
+   - Año de publicación
+   - El dato concreto (cifra, porcentaje, resultado medible)
+   - MAL: "Estudios demuestran que es beneficioso"
+   - BIEN: "Un ensayo de la Universidad de Sydney (2021, publicado en BMJ) con 4.500 participantes encontró que 30 minutos de caminata diaria reduce el riesgo cardiovascular un 23%"
 
-REGLAS FORMATO:
-1. ## para H2, ### para H3
-2. **negrita** para términos clave
-3. Listas con - o números
-4. NO incluir título H1
-5. Incluir tabla comparativa si el tema lo permite
+3. CONSEJOS PRÁCTICOS con pasos concretos.
+   - MAL: "Es recomendable hacer ejercicio regularmente"
+   - BIEN: "Empieza con 3 sesiones de 20 minutos por semana. Semana 1-2: caminata rápida. Semana 3-4: añade 5 minutos de trote. Mes 2: alterna 3 min trote + 2 min caminata x 6 series"
 
-Responde SOLO JSON:
+4. PREGUNTAS FRECUENTES: incluye 3-4 preguntas que la gente realmente busca en Google. Cada respuesta debe ser CONCRETA (mínimo 3-4 líneas con dato o consejo real, no una frase vaga).
+   - MAL: "¿Es bueno el ayuno? Sí, tiene muchos beneficios para la salud"
+   - BIEN: "¿Cuántas horas de ayuno se necesitan para quemar grasa? El cambio metabólico de glucosa a cetonas ocurre entre las 12-16 horas de ayuno según Mattson (NEJM, 2019). Para principiantes, el protocolo 16:8 es el más estudiado y seguro"
+
+5. FORMATO:
+   - Párrafos de 2-3 líneas máximo
+   - Usa ## para secciones principales, ### para subsecciones
+   - Negrita para conceptos clave
+   - Listas cuando enumeres pasos o elementos
+   - NO incluir título H1 (se pone automáticamente)
+   - Incluir sección "## Preguntas frecuentes" con ### para cada pregunta
+   - Terminar con "## Resumen práctico" con 5-6 bullets de acción concreta
+
+6. LONGITUD: 1800-2200 palabras de contenido REAL (no relleno para llegar a un número).
+
+{f'7. PRODUCTO AMAZON: Menciona "{amazon_product}" de forma natural donde sea relevante. Usa el formato [AMAZON:{amazon_product}] que será reemplazado por el link. No fuerces la mención si no encaja.' if amazon_product else ''}
+
+Responde JSON:
 {{
-  "content": "contenido markdown completo (sin H1)",
-  "tags": ["tag1", "tag2", "tag3", "tag4", "tag5", "tag6"],
+  "content": "artículo completo en markdown (sin H1)",
+  "tags": ["tag1", "tag2", "tag3", "tag4", "tag5"],
   "sources": [
-    "Apellido, A. (año). Titulo. Revista, volumen(numero)",
-    "..."
+    "Apellido, A. et al. (año). Título del estudio. Revista, volumen",
+    "Institución (año). Nombre del informe"
   ],
-  "amazon_keywords": ["keyword busqueda amazon producto 1", "keyword producto 2"]
+  "amazon_keywords": ["keyword búsqueda amazon si hay producto relevante"]
 }}"""
 
-    data = call_ai(prompt, temperature=0.55, max_retries=2)
-    log.info("Artículo generado: %d chars", len(data.get("content", "")))
-    return data
-
-
-def inject_amazon_links(content: str, amazon_keywords: list[str]) -> str:
-    """Reemplaza [AMAZON:x] con links reales de Amazon Afiliados."""
-    import re
-
-    # Replace [AMAZON:product-name] placeholders
-    def replace_amazon(match):
-        product = match.group(1)
-        search_query = product.replace(" ", "+")
-        return f"[{product} en Amazon](https://www.amazon.es/s?k={search_query}&tag={AMAZON_TAG})"
-
-    content = re.sub(r'\[AMAZON:([^\]]+)\]', replace_amazon, content)
-
-    # If no placeholders found but we have amazon_keywords, add a products section
-    if amazon_keywords and "[AMAZON:" not in content and "amazon.es" not in content:
-        products_section = "\n\n## Productos recomendados\n\n"
-        products_section += "*Este artículo contiene enlaces de afiliado. Si compras a través de ellos, recibimos una pequeña comisión sin coste adicional para ti.*\n\n"
-        for kw in amazon_keywords[:3]:
-            search = kw.replace(" ", "+")
-            products_section += f"- [{kw}](https://www.amazon.es/s?k={search}&tag={AMAZON_TAG})\n"
-        content += products_section
-
-    return content
-
-
-def add_internal_links(content: str, current_slug: str) -> str:
-    """Add 2-3 internal links to existing articles."""
-    import re
-    existing = []
-    for md in BLOG_DIR.glob("*.md"):
-        if md.stem == current_slug:
-            continue
-        text = md.read_text(encoding="utf-8")
-        title_match = re.search(r'^title:\s*"?([^"\n]+)"?\s*$', text, re.MULTILINE)
-        if title_match:
-            existing.append({"slug": md.stem, "title": title_match.group(1).strip()})
-
-    if not existing:
-        return content
-
-    import random
-    links_to_add = random.sample(existing, min(3, len(existing)))
-
-    # Add "Related articles" section before the last ## heading
-    related = "\n\n### Articulos que te pueden interesar\n\n"
-    for link in links_to_add:
-        related += f"- [{link['title']}](/blog/{link['slug']})\n"
-
-    # Insert before "## Resumen" or at end
-    if "## Resumen" in content:
-        content = content.replace("## Resumen", related + "\n## Resumen")
-    elif "## Preguntas" in content:
-        content = content.replace("## Preguntas", related + "\n## Preguntas")
-    else:
-        content += related
-
-    return content
+    return call_ai(prompt, temperature=0.5)
 
 
 def fetch_pexels_image(query: str) -> tuple[str, str]:
-    """Busca imagen en Pexels. Devuelve (url, alt_text) o ('', '')."""
+    """Busca imagen relevante en Pexels."""
     api_key = os.getenv("PEXELS_API_KEY")
     if not api_key:
         return "", ""
@@ -224,49 +154,85 @@ def fetch_pexels_image(query: str) -> tuple[str, str]:
         resp.raise_for_status()
         photos = resp.json().get("photos", [])
         if photos:
-            photo = photos[0]
-            url = photo["src"]["medium"]  # Clean URL, no query params
-            alt = photo.get("alt", query)[:120]
-            log.info("Imagen Pexels: %s", url[:60])
-            return url, alt
+            return photos[0]["src"]["medium"], photos[0].get("alt", query)[:100]
     except Exception as e:
-        log.warning("Pexels falló: %s", e)
+        log.warning("Pexels: %s", e)
     return "", ""
 
 
+def inject_amazon_links(content: str, amazon_keywords: list[str]) -> str:
+    """Reemplaza [AMAZON:x] con links reales."""
+    def replace_amazon(match):
+        product = match.group(1)
+        search_query = product.replace(" ", "+")
+        return f"[{product} en Amazon](https://www.amazon.es/s?k={search_query}&tag={AMAZON_TAG})"
+
+    content = re.sub(r'\[AMAZON:([^\]]+)\]', replace_amazon, content)
+
+    if amazon_keywords and "amazon.es" not in content:
+        content += "\n\n---\n\n"
+        content += "*Este artículo contiene enlaces de afiliado. Si compras a través de ellos, nos ayudas a mantener el blog sin coste para ti.*\n\n"
+        for kw in amazon_keywords[:2]:
+            search = kw.replace(" ", "+")
+            content += f"- [{kw}](https://www.amazon.es/s?k={search}&tag={AMAZON_TAG})\n"
+
+    return content
+
+
+def add_internal_links(content: str, current_slug: str) -> str:
+    """Añade 2-3 links a artículos existentes."""
+    import random
+    existing = []
+    for md in BLOG_DIR.glob("*.md"):
+        if md.stem == current_slug:
+            continue
+        text = md.read_text(encoding="utf-8")
+        match = re.search(r'^title:\s*"?([^"\n]+)"?\s*$', text, re.MULTILINE)
+        if match:
+            existing.append({"slug": md.stem, "title": match.group(1).strip()})
+
+    if not existing:
+        return content
+
+    links = random.sample(existing, min(3, len(existing)))
+    section = "\n\n### Te puede interesar\n\n"
+    for link in links:
+        section += f"- [{link['title']}](/blog/{link['slug']})\n"
+
+    if "## Resumen" in content:
+        content = content.replace("## Resumen", section + "\n## Resumen")
+    else:
+        content += section
+
+    return content
+
+
 def write_markdown(category: str, topic_data: dict, content_data: dict) -> Path:
-    """Escribe markdown con frontmatter, Amazon links e imagen."""
+    """Escribe markdown final."""
     title = topic_data["title"][:70]
     slug = generate_slug(title)
     content = clean_markdown(content_data["content"])
 
-    # Inject Amazon affiliate links
-    amazon_kws = content_data.get("amazon_keywords", [])
-    content = inject_amazon_links(content, amazon_kws)
-
-    # Inject internal links to existing articles
+    content = inject_amazon_links(content, content_data.get("amazon_keywords", []))
     content = add_internal_links(content, slug)
 
-    # Fetch header image from Pexels
-    image_query = topic_data.get("keyword", title)
-    image_url, image_alt = fetch_pexels_image(image_query)
+    image_url, image_alt = fetch_pexels_image(topic_data.get("keyword", title))
 
     reading_time = estimate_reading_time(content)
-    sources = content_data.get("sources", topic_data.get("sources_preview", []))
-    tags = content_data.get("tags", topic_data.get("secondary_keywords", []))
+    sources = content_data.get("sources", [])
+    tags = content_data.get("tags", [])
     today = date.today().isoformat()
 
     sources_yaml = "\n".join(f'  - "{s}"' for s in sources)
     tags_yaml = json.dumps(tags, ensure_ascii=False)
 
-    # Build image frontmatter lines
     image_lines = ""
     if image_url:
         image_lines = f'image: "{image_url}"\nimageAlt: "{image_alt}"'
 
     frontmatter = f"""---
 title: "{title}"
-description: "{topic_data['description']}"
+description: "{topic_data['description'][:150]}"
 pubDate: {today}
 category: "{category}"
 tags: {tags_yaml}
@@ -280,18 +246,15 @@ draft: false
 
     BLOG_DIR.mkdir(parents=True, exist_ok=True)
     file_path = BLOG_DIR / f"{slug}.md"
-
     if file_path.exists():
-        slug = f"{slug}-{today}"
-        file_path = BLOG_DIR / f"{slug}.md"
+        file_path = BLOG_DIR / f"{slug}-{today}.md"
 
     file_path.write_text(f"{frontmatter}\n\n{content}", encoding="utf-8")
-    log.info("Artículo escrito: %s", file_path)
+    log.info("Escrito: %s (%d palabras)", file_path.name, len(content.split()))
     return file_path
 
 
 def notify_telegram(message: str):
-    """Notificación Telegram."""
     token = os.getenv("TELEGRAM_BOT_TOKEN")
     chat_id = os.getenv("TELEGRAM_CHAT_ID")
     if not token or not chat_id:
@@ -302,34 +265,34 @@ def notify_telegram(message: str):
             json={"chat_id": chat_id, "text": message, "parse_mode": "HTML"},
             timeout=30,
         )
-    except Exception as e:
-        log.warning("Telegram falló: %s", e)
+    except Exception:
+        pass
 
 
 def main():
-    log.info("=== Generando artículo SEO + Amazon ===")
+    log.info("=== %s: Generando artículo de calidad ===", BRAND)
 
     plan = plan_topic()
     category = plan["category"]
     formula = plan["formula"]
-    log.info("Cat: %s | Fórmula: %s", category, formula[:60])
+    log.info("Categoría: %s", category)
 
     topic_data = research_topic(category, formula, plan["existing_titles"])
+    log.info("Tema: %s", topic_data.get("title", "?"))
+
     content_data = generate_content(category, topic_data)
+    word_count = len(content_data.get("content", "").split())
+    log.info("Generado: %d palabras", word_count)
+
     file_path = write_markdown(category, topic_data, content_data)
 
-    title = topic_data["title"][:70]
-    keyword = topic_data.get("keyword", "")
-    msg = (
-        f"<b>📝 {BRAND} — Nuevo artículo</b>\n"
-        f"<b>Título:</b> {title}\n"
-        f"<b>Keyword:</b> {keyword}\n"
-        f"<b>Cat:</b> {CATEGORY_NAMES.get(category, category)}\n"
-        f"<b>Archivo:</b> {file_path.name}"
+    notify_telegram(
+        f"<b>📝 {BRAND}</b>\n"
+        f"{topic_data['title']}\n"
+        f"{word_count} palabras | {category}"
     )
-    notify_telegram(msg)
 
-    log.info("=== Completado: %s ===", title)
+    log.info("=== Completado ===")
     return str(file_path)
 
 
