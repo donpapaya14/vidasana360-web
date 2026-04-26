@@ -2,7 +2,7 @@
 title: "Rutina de Ejercicio en Casa de 30 Minutos sin Equipamiento"
 description: "Rutina completa de ejercicio en casa respaldada por ciencia. Sin pesas, sin equipo, resultados reales en 30 minutos."
 pubDate: 2026-04-24
-image: "https://images.pexels.com/photos/14598858/pexels-photo-14598858.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "https://images.pexels.com/photos/14598858/pexels-photo-14598858.jpeg"
 imageAlt: "A fit man performs push-ups in a Ciudad de México gym, showcasing strength and dedication."
 category: "ejercicio"
 tags: ["ejercicio casa", "rutina", "sin equipo", "fitness", "calistenia"]

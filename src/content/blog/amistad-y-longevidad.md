@@ -2,7 +2,7 @@
 title: "Amistad y longevidad"
 description: "Descubre cómo las relaciones sociales influyen en la longevidad según el Harvard Study of Adult Development"
 pubDate: 2026-04-26
-image: "https://images.pexels.com/photos/19860848/pexels-photo-19860848.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "https://images.pexels.com/photos/19860848/pexels-photo-19860848.jpeg"
 imageAlt: "Picturesque old stone house by a tranquil river in Betws-y-Coed, Wales."
 category: "longevidad"
 tags: ["relaciones sociales y longevidad", "amistad y salud", "redes sociales y salud mental", "Harvard Study of Adult Development", "Universidad de California", "Universidad de Oxford"]

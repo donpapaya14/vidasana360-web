@@ -225,7 +225,7 @@ def fetch_pexels_image(query: str) -> tuple[str, str]:
         photos = resp.json().get("photos", [])
         if photos:
             photo = photos[0]
-            url = photo["src"]["large"]  # 940px wide, good for blog
+            url = photo["src"]["medium"]  # Clean URL, no query params
             alt = photo.get("alt", query)[:120]
             log.info("Imagen Pexels: %s", url[:60])
             return url, alt

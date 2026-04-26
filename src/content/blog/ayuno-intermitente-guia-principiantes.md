@@ -2,7 +2,7 @@
 title: "Ayuno Intermitente: Guia Completa para Principiantes"
 description: "Todo lo que necesitas saber sobre el ayuno intermitente segun la ciencia. Metodos, beneficios reales y como empezar de forma segura."
 pubDate: 2026-04-25
-image: "https://images.pexels.com/photos/1034940/pexels-photo-1034940.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "https://images.pexels.com/photos/1034940/pexels-photo-1034940.jpeg"
 imageAlt: "Fresh and healthy bowl meal with juice and smartphone on a wooden table, perfect for lifestyle and f"
 category: "nutricion"
 tags: ["ayuno intermitente", "perdida peso", "metabolismo", "nutricion"]

@@ -2,7 +2,7 @@
 title: "Recetas de cena ligera para mejorar el sueño"
 description: "Descubre cómo las recetas de cena ligera pueden mejorar tu sueño con nutrientes específicos, ¡infórmate ahora!"
 pubDate: 2026-04-26
-image: "https://images.pexels.com/photos/4173302/pexels-photo-4173302.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "https://images.pexels.com/photos/4173302/pexels-photo-4173302.jpeg"
 imageAlt: "Smiling young lady in warm knitted sweater enjoying fresh sushi on wicker tray while relaxing on coz"
 category: "recetas"
 tags: ["recetas de cena ligera para dormir mejor", "alimentos para dormir mejor", "cena saludable para mejorar el sueño", "nutrientes para un sueño reparador", "recetas faciles para cena ligera"]

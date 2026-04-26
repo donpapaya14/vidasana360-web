@@ -2,7 +2,7 @@
 title: "Rutina de 45 minutos para bajar peso"
 description: "¿Quieres bajar peso en poco tiempo? Descubre la rutina de 45 minutos para bajar peso con progresión semanal y respaldo científico"
 pubDate: 2026-04-26
-image: "https://images.pexels.com/photos/15298449/pexels-photo-15298449.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+image: "https://images.pexels.com/photos/15298449/pexels-photo-15298449.jpeg"
 imageAlt: "A muscular woman in sportswear doing a plank exercise indoors in a gym."
 category: "ejercicio"
 tags: ["rutina de 45 minutos para bajar peso", "ejercicio para bajar peso", "rutina de ejercicio en casa", "dieta para bajar peso", "pérdida de peso saludable", "ejercicio para principiantes"]
