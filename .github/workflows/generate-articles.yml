@@ -52,6 +52,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GH_MODELS_TOKEN }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
         run: |
           for i in $(seq 1 ${{ steps.config.outputs.count }}); do
             echo "--- Generando artículo $i ---"

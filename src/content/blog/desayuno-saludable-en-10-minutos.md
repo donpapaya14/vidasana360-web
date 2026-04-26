@@ -2,6 +2,8 @@
 title: "Desayuno Saludable en 10 Minutos"
 description: "Aprende a preparar un desayuno saludable en 10 minutos con macros y beneficios respaldados por nutrición. ¡Descubre cómo!"
 pubDate: 2026-04-26
+image: "https://images.pexels.com/photos/16936138/pexels-photo-16936138.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+imageAlt: "A nutritious breakfast meal featuring granola, banana, and apples served with orange juice."
 category: "recetas"
 tags: ["desayuno saludable en 10 minutos", "recetas saludables para desayunar", "desayuno rápido y saludable", "nutrición para desayuno", "desayuno equilibrado"]
 author: "VidaSana360"

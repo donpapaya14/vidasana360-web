@@ -209,8 +209,33 @@ def add_internal_links(content: str, current_slug: str) -> str:
     return content
 
 
+def fetch_pexels_image(query: str) -> tuple[str, str]:
+    """Busca imagen en Pexels. Devuelve (url, alt_text) o ('', '')."""
+    api_key = os.getenv("PEXELS_API_KEY")
+    if not api_key:
+        return "", ""
+    try:
+        resp = requests.get(
+            "https://api.pexels.com/v1/search",
+            headers={"Authorization": api_key},
+            params={"query": query, "per_page": 3, "orientation": "landscape", "size": "medium"},
+            timeout=10,
+        )
+        resp.raise_for_status()
+        photos = resp.json().get("photos", [])
+        if photos:
+            photo = photos[0]
+            url = photo["src"]["large"]  # 940px wide, good for blog
+            alt = photo.get("alt", query)[:120]
+            log.info("Imagen Pexels: %s", url[:60])
+            return url, alt
+    except Exception as e:
+        log.warning("Pexels falló: %s", e)
+    return "", ""
+
+
 def write_markdown(category: str, topic_data: dict, content_data: dict) -> Path:
-    """Escribe markdown con frontmatter y links Amazon."""
+    """Escribe markdown con frontmatter, Amazon links e imagen."""
     title = topic_data["title"][:70]
     slug = generate_slug(title)
     content = clean_markdown(content_data["content"])
@@ -222,6 +247,10 @@ def write_markdown(category: str, topic_data: dict, content_data: dict) -> Path:
     # Inject internal links to existing articles
     content = add_internal_links(content, slug)
 
+    # Fetch header image from Pexels
+    image_query = topic_data.get("keyword", title)
+    image_url, image_alt = fetch_pexels_image(image_query)
+
     reading_time = estimate_reading_time(content)
     sources = content_data.get("sources", topic_data.get("sources_preview", []))
     tags = content_data.get("tags", topic_data.get("secondary_keywords", []))
@@ -229,6 +258,11 @@ def write_markdown(category: str, topic_data: dict, content_data: dict) -> Path:
 
     sources_yaml = "\n".join(f'  - "{s}"' for s in sources)
     tags_yaml = json.dumps(tags, ensure_ascii=False)
+
+    # Build image frontmatter lines
+    image_lines = ""
+    if image_url:
+        image_lines = f'image: "{image_url}"\nimageAlt: "{image_alt}"'
 
     frontmatter = f"""---
 title: "{title}"
@@ -238,6 +272,7 @@ category: "{category}"
 tags: {tags_yaml}
 author: "{BRAND}"
 readingTime: {reading_time}
+{image_lines}
 sources:
 {sources_yaml}
 draft: false

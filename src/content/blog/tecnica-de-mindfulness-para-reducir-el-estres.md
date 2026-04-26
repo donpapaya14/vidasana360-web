@@ -2,6 +2,8 @@
 title: "Técnica de Mindfulness para reducir el estrés"
 description: "Descubre la técnica de Mindfulness para reducir el estrés y mejorar tu salud mental. Aprende a manejar el estrés con esta guía práctica."
 pubDate: 2026-04-26
+image: "https://images.pexels.com/photos/8407043/pexels-photo-8407043.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+imageAlt: "Wooden mannequin arms holding a blue cloud with 'Mindfulness' text, promoting self-awareness."
 category: "mente"
 tags: ["salud mental", "Mindfulness", "técnicas de mindfulness", "reducción del estrés", "ansiedad", "meditación"]
 author: "VidaSana360"

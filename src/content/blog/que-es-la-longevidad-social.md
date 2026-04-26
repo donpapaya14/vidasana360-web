@@ -2,6 +2,8 @@
 title: "Qué es la longevidad social"
 description: "Descubre cómo las relaciones sociales impactan en tu longevidad según el Harvard Study of Adult Development"
 pubDate: 2026-04-26
+image: "https://images.pexels.com/photos/36878588/pexels-photo-36878588.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+imageAlt: "A lively evening scene at a restaurant in Chinchón, Spain featuring a group of people enjoying a war"
 category: "longevidad"
 tags: ["longevidad", "relaciones sociales", "salud mental", "amistad", "estilos de vida saludables"]
 author: "VidaSana360"

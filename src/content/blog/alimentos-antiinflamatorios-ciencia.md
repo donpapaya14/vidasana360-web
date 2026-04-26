@@ -2,6 +2,8 @@
 title: "7 Alimentos Antiinflamatorios Respaldados por la Ciencia"
 description: "Descubre que alimentos reducen la inflamacion cronica segun estudios de Harvard, Oxford y otras instituciones de prestigio."
 pubDate: 2026-04-26
+image: "https://images.pexels.com/photos/33579059/pexels-photo-33579059.png?auto=compress&cs=tinysrgb&h=650&w=940"
+imageAlt: "Two ripe strawberries splashing into clear water, isolated on white."
 category: "nutricion"
 tags: ["antiinflamatorios", "nutricion", "inflamacion", "dieta", "salud"]
 author: "VidaSana360"

@@ -2,6 +2,8 @@
 title: "Meditación y cerebro"
 description: "Descubre cómo la meditación afecta al cerebro según estudios de neuroimagen por investigadores como Luders y Toga"
 pubDate: 2026-04-26
+image: "https://images.pexels.com/photos/19860848/pexels-photo-19860848.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+imageAlt: "Picturesque old stone house by a tranquil river in Betws-y-Coed, Wales."
 category: "mente"
 tags: ["salud mental", "meditación", "cerebro", "neuroimagen", "salud"]
 author: "VidaSana360"
