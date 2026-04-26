@@ -56,7 +56,6 @@ def call_github(prompt: str, temperature: float = 0.7) -> dict:
         temperature=temperature,
     )
     text = response.choices[0].message.content.strip()
-    # Strip markdown code fences
     if text.startswith("```"):
         text = text.split("\n", 1)[1]
     if text.endswith("```"):
@@ -64,19 +63,24 @@ def call_github(prompt: str, temperature: float = 0.7) -> dict:
     return json.loads(text.strip())
 
 
-def call_ai(prompt: str, temperature: float = 0.7, max_retries: int = 2) -> dict:
-    """Groq primary con fallback a GitHub Models. Retry con backoff."""
+def call_ai(prompt: str, temperature: float = 0.7, max_retries: int = 3) -> dict:
+    """Groq primary con fallback a GitHub Models. Retry con backoff agresivo."""
     for attempt in range(max_retries):
         try:
             return call_groq(prompt, temperature)
         except Exception as e:
-            log.warning("Groq intento %d falló: %s", attempt + 1, e)
-            if attempt < max_retries - 1:
-                time.sleep(2 ** attempt)
+            wait = 5 * (attempt + 1)  # 5s, 10s, 15s
+            log.warning("Groq intento %d falló: %s. Esperando %ds...", attempt + 1, e, wait)
+            time.sleep(wait)
 
-    log.info("Groq agotado. Intentando GitHub Models...")
-    try:
-        return call_github(prompt, temperature)
-    except Exception as e:
-        log.error("GitHub Models también falló: %s", e)
-        raise RuntimeError("Ambos proveedores AI fallaron") from e
+    log.info("Groq agotado tras %d intentos. Intentando GitHub Models...", max_retries)
+    for attempt in range(2):
+        try:
+            return call_github(prompt, temperature)
+        except Exception as e:
+            wait = 10 * (attempt + 1)
+            log.warning("GitHub Models intento %d falló: %s. Esperando %ds...", attempt + 1, e, wait)
+            if attempt < 1:
+                time.sleep(wait)
+
+    raise RuntimeError("Ambos proveedores AI fallaron tras múltiples intentos")
