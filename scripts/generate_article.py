@@ -211,7 +211,7 @@ def add_internal_links(content: str, current_slug: str) -> str:
 
 def write_markdown(category: str, topic_data: dict, content_data: dict) -> Path:
     """Escribe markdown con frontmatter y links Amazon."""
-    title = topic_data["title"]
+    title = topic_data["title"][:70]
     slug = generate_slug(title)
     content = clean_markdown(content_data["content"])
 
@@ -283,7 +283,7 @@ def main():
     content_data = generate_content(category, topic_data)
     file_path = write_markdown(category, topic_data, content_data)
 
-    title = topic_data["title"]
+    title = topic_data["title"][:70]
     keyword = topic_data.get("keyword", "")
     msg = (
         f"<b>📝 {BRAND} — Nuevo artículo</b>\n"
