@@ -2,9 +2,7 @@ name: Generate SEO Articles
 
 on:
   schedule:
-    - cron: '0 5 * * *'     # Batch 1
-    - cron: '0 13 * * *'    # Batch 2
-    - cron: '0 20 * * *'    # Batch 3
+    - cron: '0 6 * * *'     # 2 artículos diarios
   workflow_dispatch:
     inputs:
       count:
@@ -58,13 +56,13 @@ jobs:
             echo "--- Generando artículo $i ---"
             python scripts/generate_article.py
             if [ $i -lt ${{ steps.config.outputs.count }} ]; then
-              sleep 20
+              sleep 30
             fi
           done
 
       - name: Commit and push
         run: |
-          git config user.name "VidaSana360 Bot"
+          git config user.name "Vidasana360 Bot"
           git config user.email "vladys.z96@gmail.com"
           git add src/content/blog/
           if git diff --staged --quiet; then

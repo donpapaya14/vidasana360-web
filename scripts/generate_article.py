@@ -83,7 +83,7 @@ Responde SOLO JSON:
   ]
 }}"""
 
-    data = call_ai(prompt, temperature=0.85)
+    data = call_ai(prompt, temperature=0.85, fast=True)
     log.info("Tema: %s | KW: %s", data.get("title", "?"), data.get("keyword", "?"))
     return data
 

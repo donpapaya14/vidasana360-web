@@ -1,6 +1,6 @@
 """
 AI client con fallback Groq → GitHub Models.
-Adaptado de youtube-bot/src/research.py
+Usa 8b-instant para research (ahorra tokens) y 70b para contenido.
 """
 
 import json
@@ -13,7 +13,8 @@ from openai import OpenAI
 
 log = logging.getLogger(__name__)
 
-GROQ_MODEL = "llama-3.3-70b-versatile"
+GROQ_MODEL_FAST = "llama-3.1-8b-instant"      # Research: barato
+GROQ_MODEL_QUALITY = "llama-3.3-70b-versatile"  # Content: calidad
 GITHUB_MODEL = "DeepSeek-V3-0324"
 
 
@@ -34,11 +35,12 @@ def _get_github_client():
     )
 
 
-def call_groq(prompt: str, temperature: float = 0.7, max_tokens: int = 4096) -> dict:
-    """Llama a Groq con formato JSON forzado."""
+def call_groq(prompt: str, temperature: float = 0.7, max_tokens: int = 4096, fast: bool = False) -> dict:
+    """Llama a Groq. fast=True usa modelo 8b (4x menos tokens)."""
     client = _get_groq_client()
+    model = GROQ_MODEL_FAST if fast else GROQ_MODEL_QUALITY
     response = client.chat.completions.create(
-        model=GROQ_MODEL,
+        model=model,
         messages=[{"role": "user", "content": prompt}],
         response_format={"type": "json_object"},
         temperature=temperature,
@@ -48,7 +50,7 @@ def call_groq(prompt: str, temperature: float = 0.7, max_tokens: int = 4096) -> 
 
 
 def call_github(prompt: str, temperature: float = 0.7) -> dict:
-    """Llama a GitHub Models (DeepSeek-V3). Limpia markdown fences."""
+    """Llama a GitHub Models (DeepSeek-V3)."""
     client = _get_github_client()
     response = client.chat.completions.create(
         model=GITHUB_MODEL,
@@ -63,24 +65,24 @@ def call_github(prompt: str, temperature: float = 0.7) -> dict:
     return json.loads(text.strip())
 
 
-def call_ai(prompt: str, temperature: float = 0.7, max_retries: int = 3) -> dict:
-    """Groq primary con fallback a GitHub Models. Retry con backoff agresivo."""
+def call_ai(prompt: str, temperature: float = 0.7, max_retries: int = 3, fast: bool = False) -> dict:
+    """Groq primary con fallback a GitHub Models."""
     for attempt in range(max_retries):
         try:
-            return call_groq(prompt, temperature)
+            return call_groq(prompt, temperature, fast=fast)
         except Exception as e:
-            wait = 5 * (attempt + 1)  # 5s, 10s, 15s
-            log.warning("Groq intento %d falló: %s. Esperando %ds...", attempt + 1, e, wait)
+            wait = 10 * (attempt + 1)
+            log.warning("Groq intento %d falló: %s. Esperando %ds...", attempt + 1, str(e)[:100], wait)
             time.sleep(wait)
 
-    log.info("Groq agotado tras %d intentos. Intentando GitHub Models...", max_retries)
+    log.info("Groq agotado. Intentando GitHub Models...")
     for attempt in range(2):
         try:
             return call_github(prompt, temperature)
         except Exception as e:
-            wait = 10 * (attempt + 1)
-            log.warning("GitHub Models intento %d falló: %s. Esperando %ds...", attempt + 1, e, wait)
+            wait = 30 * (attempt + 1)
+            log.warning("GitHub Models intento %d falló: %s. Esperando %ds...", attempt + 1, str(e)[:100], wait)
             if attempt < 1:
                 time.sleep(wait)
 
-    raise RuntimeError("Ambos proveedores AI fallaron tras múltiples intentos")
+    raise RuntimeError("Ambos proveedores AI fallaron")
