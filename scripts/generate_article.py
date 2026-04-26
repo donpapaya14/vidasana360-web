@@ -175,6 +175,40 @@ def inject_amazon_links(content: str, amazon_keywords: list[str]) -> str:
     return content
 
 
+def add_internal_links(content: str, current_slug: str) -> str:
+    """Add 2-3 internal links to existing articles."""
+    import re
+    existing = []
+    for md in BLOG_DIR.glob("*.md"):
+        if md.stem == current_slug:
+            continue
+        text = md.read_text(encoding="utf-8")
+        title_match = re.search(r'^title:\s*"?([^"\n]+)"?\s*$', text, re.MULTILINE)
+        if title_match:
+            existing.append({"slug": md.stem, "title": title_match.group(1).strip()})
+
+    if not existing:
+        return content
+
+    import random
+    links_to_add = random.sample(existing, min(3, len(existing)))
+
+    # Add "Related articles" section before the last ## heading
+    related = "\n\n### Articulos que te pueden interesar\n\n"
+    for link in links_to_add:
+        related += f"- [{link['title']}](/blog/{link['slug']})\n"
+
+    # Insert before "## Resumen" or at end
+    if "## Resumen" in content:
+        content = content.replace("## Resumen", related + "\n## Resumen")
+    elif "## Preguntas" in content:
+        content = content.replace("## Preguntas", related + "\n## Preguntas")
+    else:
+        content += related
+
+    return content
+
+
 def write_markdown(category: str, topic_data: dict, content_data: dict) -> Path:
     """Escribe markdown con frontmatter y links Amazon."""
     title = topic_data["title"]
@@ -184,6 +218,9 @@ def write_markdown(category: str, topic_data: dict, content_data: dict) -> Path:
     # Inject Amazon affiliate links
     amazon_kws = content_data.get("amazon_keywords", [])
     content = inject_amazon_links(content, amazon_kws)
+
+    # Inject internal links to existing articles
+    content = add_internal_links(content, slug)
 
     reading_time = estimate_reading_time(content)
     sources = content_data.get("sources", topic_data.get("sources_preview", []))

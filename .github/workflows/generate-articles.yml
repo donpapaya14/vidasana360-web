@@ -2,8 +2,9 @@ name: Generate SEO Articles
 
 on:
   schedule:
-    - cron: '0 5 * * *'     # Batch 1: 05:00 UTC — genera 2 artículos
-    - cron: '0 13 * * *'    # Batch 2: 13:00 UTC — genera 2 artículos
+    - cron: '0 5 * * *'     # Batch 1: 05:00 UTC — 2 artículos
+    - cron: '0 13 * * *'    # Batch 2: 13:00 UTC — 2 artículos
+    - cron: '0 20 * * *'    # Batch 3: 20:00 UTC — 2 artículos
   workflow_dispatch:
     inputs:
       count:
