@@ -43,7 +43,10 @@ def research_topic(category: str, formula: str, existing_titles: list[str]) -> d
     """Paso 1: Elige tema con keyword long-tail y plan detallado."""
     existing_str = "\n".join(f"- {t}" for t in existing_titles[:20]) if existing_titles else "Ninguno"
 
-    prompt = f"""Eres editor jefe de un blog profesional en español sobre {CATEGORY_NAMES.get(category, category)}.
+    prompt = f"""Eres editor jefe de VidaSana360, un blog de SALUD PRÁCTICA en español.
+ENFOQUE: pérdida de peso, nutrición diaria, ejercicio en casa, recetas saludables, dietas.
+Tu lector quiere BAJAR DE PESO, comer mejor y hacer ejercicio HOY.
+NO escribas sobre longevidad, envejecimiento, zonas azules ni biohacking — eso es otro blog.
 
 Tu trabajo: elegir UN tema para un artículo que sea REALMENTE ÚTIL para el lector.
 
