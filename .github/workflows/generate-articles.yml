@@ -2,16 +2,13 @@ name: Generate SEO Articles
 
 on:
   schedule:
-    - cron: '0 6 * * *'
-    - cron: '0 12 * * *'
-    - cron: '0 17 * * *'
-    - cron: '0 22 * * *'
+    - cron: '0 7 * * *'     # 6 artículos de calidad
   workflow_dispatch:
     inputs:
       count:
         description: 'Número de artículos a generar'
         required: false
-        default: '1'
+        default: '6'
         type: choice
         options: ['1', '2', '3', '5']
 
@@ -21,7 +18,7 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
 
     steps:
       - name: Checkout
@@ -45,7 +42,7 @@ jobs:
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "count=${{ github.event.inputs.count }}" >> $GITHUB_OUTPUT
           else
-            echo "count=1" >> $GITHUB_OUTPUT
+            echo "count=6" >> $GITHUB_OUTPUT
           fi
 
       - name: Generate articles
