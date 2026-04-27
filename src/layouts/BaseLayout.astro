@@ -65,6 +65,21 @@ const resolvedCanonical = canonicalUrl ?? Astro.url.href;
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="VidaSana360" href="/rss.xml" />
+
+  <!-- Schema.org WebSite -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "VidaSana360",
+    "url": "https://vida-sana-360.com",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://vida-sana-360.com/blog?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
 </head>
 <body>
   <Header />
