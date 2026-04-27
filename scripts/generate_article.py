@@ -207,11 +207,25 @@ def add_internal_links(content: str, current_slug: str) -> str:
     return content
 
 
+def sanitize(text: str, max_len: int) -> str:
+    """Trunca texto al límite, cortando en palabra. Quita comillas dobles internas."""
+    text = text.replace('"', "'").strip()
+    if len(text) <= max_len:
+        return text
+    return text[:max_len].rsplit(" ", 1)[0]
+
+
 def write_markdown(category: str, topic_data: dict, content_data: dict) -> Path:
-    """Escribe markdown final."""
-    title = topic_data["title"][:70]
+    """Escribe markdown final con validación anti-fallos."""
+    title = sanitize(topic_data.get("title", "Sin titulo"), 115)
+    description = sanitize(topic_data.get("description", ""), 240)
     slug = generate_slug(title)
-    content = clean_markdown(content_data["content"])
+    content = clean_markdown(content_data.get("content", ""))
+
+    # Validate: skip if content is too short (AI failed)
+    if len(content.split()) < 200:
+        log.warning("Artículo demasiado corto (%d palabras). Saltando.", len(content.split()))
+        raise ValueError(f"Artículo demasiado corto: {len(content.split())} palabras")
 
     content = inject_amazon_links(content, content_data.get("amazon_keywords", []))
     content = add_internal_links(content, slug)
@@ -219,20 +233,33 @@ def write_markdown(category: str, topic_data: dict, content_data: dict) -> Path:
     image_url, image_alt = fetch_pexels_image(topic_data.get("keyword", title))
 
     reading_time = estimate_reading_time(content)
+
+    # Validate sources — must have at least 1
     sources = content_data.get("sources", [])
+    if not sources:
+        sources = [f"{BRAND} (2026). Investigacion interna"]
+
+    # Validate category
+    valid_cats = list(CATEGORY_NAMES.keys())
+    if category not in valid_cats:
+        category = valid_cats[0]
+
     tags = content_data.get("tags", [])
+    if not tags:
+        tags = [category]
     today = date.today().isoformat()
 
-    sources_yaml = "\n".join(f'  - "{s}"' for s in sources)
-    tags_yaml = json.dumps(tags, ensure_ascii=False)
+    # Sanitize sources (no double quotes)
+    sources_yaml = "\n".join(f'  - "{sanitize(s, 200)}"' for s in sources)
+    tags_yaml = json.dumps(tags[:8], ensure_ascii=False)
 
     image_lines = ""
     if image_url:
-        image_lines = f'image: "{image_url}"\nimageAlt: "{image_alt}"'
+        image_lines = f'image: "{image_url}"\nimageAlt: "{sanitize(image_alt, 100)}"'
 
     frontmatter = f"""---
 title: "{title}"
-description: "{topic_data['description'][:150]}"
+description: "{description}"
 pubDate: {today}
 category: "{category}"
 tags: {tags_yaml}
