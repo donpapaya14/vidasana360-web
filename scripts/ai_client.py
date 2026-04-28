@@ -74,14 +74,16 @@ def _call_github(prompt: str, temperature: float = 0.7) -> dict:
 
 
 def call_ai(prompt: str, temperature: float = 0.7, **kwargs) -> dict:
-    """Groq → NVIDIA → GitHub Models."""
+    """Groq → NVIDIA → GitHub Models. Retry con backoff para 429."""
     # 1. Groq (fast, reliable)
-    for attempt in range(2):
+    for attempt in range(3):
         try:
             return _call_groq(prompt, temperature)
         except Exception as e:
-            log.warning("Groq %d: %s", attempt + 1, str(e)[:80])
-            time.sleep(5 * (attempt + 1))
+            err = str(e)
+            log.warning("Groq %d: %s", attempt + 1, err[:80])
+            wait = 30 * (attempt + 1) if "429" in err else 5 * (attempt + 1)
+            time.sleep(wait)
 
     # 2. NVIDIA (powerful but can timeout)
     for attempt in range(2):
@@ -89,7 +91,7 @@ def call_ai(prompt: str, temperature: float = 0.7, **kwargs) -> dict:
             return _call_nvidia(prompt, temperature)
         except Exception as e:
             log.warning("NVIDIA %d: %s", attempt + 1, str(e)[:80])
-            time.sleep(5)
+            time.sleep(10)
 
     # 3. GitHub Models (last resort)
     for attempt in range(2):
