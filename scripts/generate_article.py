@@ -85,58 +85,73 @@ def generate_content(category: str, topic_data: dict) -> dict:
     sections = json.dumps(topic_data.get("sections", []), ensure_ascii=False, indent=2)
     amazon_product = topic_data.get("amazon_product")
 
-    prompt = f"""Escribe un artículo de blog en español que sea REALMENTE ÚTIL para el lector.
+    secondary_kws = ", ".join(topic_data.get("secondary_keywords", []))
+
+    prompt = f"""Escribe un artículo de blog en español PROFESIONAL, COMPLETO y optimizado para SEO y GEO.
 
 TÍTULO: {topic_data['title']}
 CATEGORÍA: {CATEGORY_NAMES.get(category, category)}
-KEYWORD: {topic_data['keyword']}
+KEYWORD PRINCIPAL: {topic_data['keyword']}
+KEYWORDS SECUNDARIAS: {secondary_kws}
 
 PLAN DE SECCIONES:
 {sections}
 
-REGLAS DE CALIDAD (LEE ESTO CON ATENCIÓN):
+=== REGLAS DE CALIDAD (OBLIGATORIAS) ===
 
-1. PROHIBIDO el relleno. Cada frase debe aportar información nueva o un consejo aplicable.
+1. PROHIBIDO el relleno. Cada frase aporta dato nuevo o consejo aplicable.
    - MAL: "La nutrición es muy importante para nuestra salud y bienestar general"
    - BIEN: "Según un ensayo de 2019 en The Lancet con 195 países, una dieta pobre causa 11 millones de muertes al año — más que el tabaco"
 
-2. DATOS REALES obligatorios. Cuando cites un estudio:
-   - Nombre de la universidad o revista
-   - Año de publicación
-   - El dato concreto (cifra, porcentaje, resultado medible)
+2. DATOS REALES con fuente completa. Mínimo 5 datos con fuente en todo el artículo.
+   - Nombre de universidad/revista + año + dato concreto (cifra, %)
    - MAL: "Estudios demuestran que es beneficioso"
-   - BIEN: "Un ensayo de la Universidad de Sydney (2021, publicado en BMJ) con 4.500 participantes encontró que 30 minutos de caminata diaria reduce el riesgo cardiovascular un 23%"
+   - BIEN: "Un ensayo de la Universidad de Sydney (2021, BMJ) con 4.500 participantes encontró que 30 min de caminata diaria reduce riesgo cardiovascular un 23%"
 
-3. CONSEJOS PRÁCTICOS con pasos concretos.
-   - MAL: "Es recomendable hacer ejercicio regularmente"
-   - BIEN: "Empieza con 3 sesiones de 20 minutos por semana. Semana 1-2: caminata rápida. Semana 3-4: añade 5 minutos de trote. Mes 2: alterna 3 min trote + 2 min caminata x 6 series"
+3. CONSEJOS PRÁCTICOS numerados con pasos concretos.
+   - Incluye cantidades, tiempos, frecuencias exactas
+   - Al menos 2 listas de pasos o tablas comparativas en el artículo
 
-4. PREGUNTAS FRECUENTES: incluye 3-4 preguntas que la gente realmente busca en Google. Cada respuesta debe ser CONCRETA (mínimo 3-4 líneas con dato o consejo real, no una frase vaga).
-   - MAL: "¿Es bueno el ayuno? Sí, tiene muchos beneficios para la salud"
-   - BIEN: "¿Cuántas horas de ayuno se necesitan para quemar grasa? El cambio metabólico de glucosa a cetonas ocurre entre las 12-16 horas de ayuno según Mattson (NEJM, 2019). Para principiantes, el protocolo 16:8 es el más estudiado y seguro"
+4. ENLACES EXTERNOS de autoridad (mínimo 3):
+   - Enlaza a fuentes reales cuando cites datos: OMS, universidades, revistas científicas, instituciones oficiales
+   - Formato: [nombre fuente](URL real de la institución)
+   - Ejemplo: [Organización Mundial de la Salud](https://www.who.int), [Mayo Clinic](https://www.mayoclinic.org)
+   - Solo enlaces a dominios principales de instituciones reales, NO inventes URLs de estudios específicos
 
-5. FORMATO:
+5. PREGUNTAS FRECUENTES: sección "## Preguntas frecuentes" con 5-6 preguntas reales de Google.
+   - Cada ### pregunta con respuesta de 4-6 líneas con dato o consejo real
+   - Empieza cada respuesta con una frase directa que responda la pregunta (optimización GEO)
+   - MAL: "¿Es bueno el ayuno? Sí, tiene muchos beneficios"
+   - BIEN: "¿Cuántas horas de ayuno para quemar grasa? El cambio metabólico de glucosa a cetonas ocurre entre 12-16 horas según Mattson (NEJM, 2019). Para principiantes, el protocolo 16:8 es el más estudiado..."
+
+6. FORMATO:
    - Párrafos de 2-3 líneas máximo
-   - Usa ## para secciones principales, ### para subsecciones
-   - Negrita para conceptos clave
-   - Listas cuando enumeres pasos o elementos
+   - ## para secciones principales, ### para subsecciones
+   - **Negrita** para conceptos clave y cifras importantes
+   - Listas y tablas markdown cuando compares opciones
    - NO incluir título H1 (se pone automáticamente)
-   - Incluir sección "## Preguntas frecuentes" con ### para cada pregunta
-   - Terminar con "## Resumen práctico" con 5-6 bullets de acción concreta
+   - Terminar con "## Resumen práctico" con 6-8 bullets de acción concreta
 
-6. LONGITUD: 1800-2200 palabras de contenido REAL (no relleno para llegar a un número).
+7. OPTIMIZACIÓN SEO/GEO:
+   - Usa la keyword principal en el primer párrafo y en al menos 2 headings H2
+   - Usa keywords secundarias de forma natural repartidas en el texto
+   - Primer párrafo: respuesta directa y concisa a la intención de búsqueda (snippet de Google)
+   - Incluye una tabla markdown comparativa o de datos cuando sea relevante
+   - Las respuestas FAQ deben empezar respondiendo directamente (para featured snippets y citación por IAs)
 
-{f'7. PRODUCTO AMAZON: Menciona "{amazon_product}" de forma natural donde sea relevante. Usa el formato [AMAZON:{amazon_product}] que será reemplazado por el link. No fuerces la mención si no encaja.' if amazon_product else ''}
+8. LONGITUD: 2000-2800 palabras de contenido REAL y útil.
+
+{f'9. PRODUCTOS AMAZON: Menciona "{amazon_product}" y 1-2 productos complementarios de forma natural. Usa [AMAZON:nombre producto] para cada uno. No fuerces si no encaja.' if amazon_product else '9. PRODUCTOS AMAZON: Si hay productos relevantes para el tema, menciona 2-3 de forma natural con [AMAZON:nombre producto]. Solo si encaja orgánicamente.'}
 
 Responde JSON:
 {{
   "content": "artículo completo en markdown (sin H1)",
-  "tags": ["tag1", "tag2", "tag3", "tag4", "tag5"],
+  "tags": ["tag1", "tag2", "tag3", "tag4", "tag5", "tag6", "tag7", "tag8"],
   "sources": [
-    "Apellido, A. et al. (año). Título del estudio. Revista, volumen",
+    "Apellido, A. et al. (año). Título del estudio. Revista",
     "Institución (año). Nombre del informe"
   ],
-  "amazon_keywords": ["keyword búsqueda amazon si hay producto relevante"]
+  "amazon_keywords": ["producto1", "producto2", "producto3"]
 }}"""
 
     return call_ai(prompt, temperature=0.5)
@@ -183,23 +198,45 @@ def inject_amazon_links(content: str, amazon_keywords: list[str]) -> str:
 
 
 def add_internal_links(content: str, current_slug: str) -> str:
-    """Añade 2-3 links a artículos existentes."""
+    """Añade 4-6 links internos: algunos contextuales + sección dedicada."""
     import random
     existing = []
     for md in BLOG_DIR.glob("*.md"):
         if md.stem == current_slug:
             continue
         text = md.read_text(encoding="utf-8")
-        match = re.search(r'^title:\s*"?([^"\n]+)"?\s*$', text, re.MULTILINE)
-        if match:
-            existing.append({"slug": md.stem, "title": match.group(1).strip()})
+        title_match = re.search(r'^title:\s*"?([^"\n]+)"?\s*$', text, re.MULTILINE)
+        cat_match = re.search(r'^category:\s*"?(\w+)"?\s*$', text, re.MULTILINE)
+        if title_match:
+            existing.append({
+                "slug": md.stem,
+                "title": title_match.group(1).strip(),
+                "category": cat_match.group(1) if cat_match else "",
+            })
 
     if not existing:
         return content
 
-    links = random.sample(existing, min(3, len(existing)))
-    section = "\n\n### Te puede interesar\n\n"
-    for link in links:
+    # Insertar 2 links contextuales dentro del texto
+    shuffled = existing[:]
+    random.shuffle(shuffled)
+    contextual_count = 0
+    paragraphs = content.split("\n\n")
+    for i, para in enumerate(paragraphs):
+        if contextual_count >= 2:
+            break
+        if para.startswith("#") or len(para) < 80 or "[" in para:
+            continue
+        if i > 2 and i < len(paragraphs) - 3 and shuffled:
+            link = shuffled.pop(0)
+            paragraphs[i] = para + f"\n\n> Relacionado: [{link['title']}](/blog/{link['slug']})"
+            contextual_count += 1
+    content = "\n\n".join(paragraphs)
+
+    # Sección dedicada con 3-4 links más
+    remaining = shuffled[:4] if shuffled else random.sample(existing, min(4, len(existing)))
+    section = "\n\n### También te puede interesar\n\n"
+    for link in remaining:
         section += f"- [{link['title']}](/blog/{link['slug']})\n"
 
     if "## Resumen" in content:
@@ -226,7 +263,7 @@ def write_markdown(category: str, topic_data: dict, content_data: dict) -> Path:
     content = clean_markdown(content_data.get("content", ""))
 
     # Validate: skip if content is too short (AI failed)
-    if len(content.split()) < 200:
+    if len(content.split()) < 600:
         log.warning("Artículo demasiado corto (%d palabras). Saltando.", len(content.split()))
         raise ValueError(f"Artículo demasiado corto: {len(content.split())} palabras")
 

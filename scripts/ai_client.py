@@ -28,7 +28,7 @@ def _call_groq(prompt: str, temperature: float = 0.7) -> dict:
         messages=[{"role": "user", "content": prompt}],
         response_format={"type": "json_object"},
         temperature=temperature,
-        max_tokens=4096,
+        max_tokens=8192,
     )
     return json.loads(response.choices[0].message.content)
 
@@ -42,7 +42,7 @@ def _call_nvidia(prompt: str, temperature: float = 0.7) -> dict:
         model=NVIDIA_MODEL,
         messages=[{"role": "user", "content": prompt}],
         temperature=temperature,
-        max_tokens=4096,
+        max_tokens=8192,
     )
     text = response.choices[0].message.content.strip()
     if text.startswith("```"):
