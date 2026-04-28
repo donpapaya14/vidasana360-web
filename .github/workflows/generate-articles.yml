@@ -18,7 +18,7 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
 
     steps:
       - name: Checkout
@@ -64,10 +64,10 @@ jobs:
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
         run: |
           for i in $(seq 1 ${{ steps.config.outputs.count }}); do
-            echo "--- Generando artículo $i ---"
-            python scripts/generate_article.py || echo "⚠ Artículo $i falló, continuando..."
+            echo "--- Generando artículo $i de ${{ steps.config.outputs.count }} ---"
+            ARTICLE_INDEX=$i python scripts/generate_article.py || echo "⚠ Artículo $i falló, continuando..."
             if [ $i -lt ${{ steps.config.outputs.count }} ]; then
-              sleep 20
+              sleep 30
             fi
           done
 
