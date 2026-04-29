@@ -18,7 +18,7 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 90
 
     steps:
       - name: Checkout
@@ -71,17 +71,23 @@ jobs:
             if ARTICLE_INDEX=$i python scripts/generate_article.py; then
               SUCCESS=$((SUCCESS + 1))
             else
-              echo "⚠ Intento 1 falló, reintentando en 45s..."
-              sleep 45
+              echo "⚠ Intento 1 falló, reintentando en 120s..."
+              sleep 120
               if ARTICLE_INDEX=$i python scripts/generate_article.py; then
                 SUCCESS=$((SUCCESS + 1))
               else
-                FAILED=$((FAILED + 1))
-                echo "✗ Artículo $i falló tras 2 intentos"
+                echo "⚠ Intento 2 falló, reintentando en 120s..."
+                sleep 120
+                if ARTICLE_INDEX=$i python scripts/generate_article.py; then
+                  SUCCESS=$((SUCCESS + 1))
+                else
+                  FAILED=$((FAILED + 1))
+                  echo "✗ Artículo $i falló tras 3 intentos"
+                fi
               fi
             fi
             if [ $i -lt ${{ steps.config.outputs.count }} ]; then
-              sleep 30
+              sleep 90
             fi
           done
           echo "success=$SUCCESS" >> $GITHUB_OUTPUT
