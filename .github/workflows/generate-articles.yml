@@ -55,6 +55,7 @@ jobs:
           fi
 
       - name: Generate articles
+        id: generate
         env:
           NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
@@ -63,13 +64,29 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
         run: |
+          SUCCESS=0
+          FAILED=0
           for i in $(seq 1 ${{ steps.config.outputs.count }}); do
             echo "--- Generando artículo $i de ${{ steps.config.outputs.count }} ---"
-            ARTICLE_INDEX=$i python scripts/generate_article.py || echo "⚠ Artículo $i falló, continuando..."
+            if ARTICLE_INDEX=$i python scripts/generate_article.py; then
+              SUCCESS=$((SUCCESS + 1))
+            else
+              echo "⚠ Intento 1 falló, reintentando en 45s..."
+              sleep 45
+              if ARTICLE_INDEX=$i python scripts/generate_article.py; then
+                SUCCESS=$((SUCCESS + 1))
+              else
+                FAILED=$((FAILED + 1))
+                echo "✗ Artículo $i falló tras 2 intentos"
+              fi
+            fi
             if [ $i -lt ${{ steps.config.outputs.count }} ]; then
               sleep 30
             fi
           done
+          echo "success=$SUCCESS" >> $GITHUB_OUTPUT
+          echo "failed=$FAILED" >> $GITHUB_OUTPUT
+          echo "=== Resultado: $SUCCESS OK, $FAILED fallidos ==="
 
       - name: Build check
         run: |
@@ -90,12 +107,44 @@ jobs:
             git push
           fi
 
+      - name: Telegram summary
+        if: always()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          SUCCESS="${{ steps.generate.outputs.success }}"
+          FAILED="${{ steps.generate.outputs.failed }}"
+          TOTAL="${{ steps.config.outputs.count }}"
+          STATUS="${{ job.status }}"
+
+          if [ "$STATUS" = "success" ] && [ "${FAILED:-0}" = "0" ]; then
+            EMOJI="✅"
+            MSG="$EMOJI <b>VidaSana360</b> — $SUCCESS/$TOTAL artículos generados"
+          elif [ "${SUCCESS:-0}" != "0" ]; then
+            EMOJI="⚠️"
+            MSG="$EMOJI <b>VidaSana360</b> — $SUCCESS/$TOTAL OK, $FAILED fallidos"
+          else
+            EMOJI="❌"
+            MSG="$EMOJI <b>VidaSana360</b> — FALLÓ ($STATUS)"
+          fi
+
+          curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            -d chat_id="${TELEGRAM_CHAT_ID}" \
+            -d parse_mode="HTML" \
+            -d text="$MSG" || true
+
       - name: Fix and retry on build failure
         if: failure()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           echo "Build falló. Eliminando artículos problemáticos..."
-          # Try removing articles one by one until build passes
           for f in $(git diff --name-only -- src/content/blog/); do
             git checkout -- "$f" 2>/dev/null && echo "Reverted: $f"
           done
-          echo "Artículos problemáticos revertidos"
+          curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            -d chat_id="${TELEGRAM_CHAT_ID}" \
+            -d parse_mode="HTML" \
+            -d text="❌ <b>VidaSana360</b> — Build falló, artículos revertidos" || true
