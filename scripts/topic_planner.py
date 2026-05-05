@@ -1,68 +1,63 @@
 """
-Planifica temas evitando duplicados y rotando categorías.
-Lee artículos existentes en src/content/blog/ para evitar repetir.
+Plans topics avoiding duplicates and rotating categories.
+Reads existing articles in src/content/blog/ to avoid repetition.
 """
 
-import os
 import random
 import re
 from pathlib import Path
 
 BLOG_DIR = Path(__file__).parent.parent / "src" / "content" / "blog"
 
-CATEGORIES = ["nutricion", "ejercicio", "mente", "longevidad", "recetas"]
+CATEGORIES = ["nutrition", "fitness", "weight-loss", "wellness", "mental-health"]
 
 ARTICLE_FORMULAS = {
-    "nutricion": [
-        "Análisis completo de un alimento con 3+ beneficios respaldados por estudios reales (nombre universidad, año, revista)",
-        "Desmontaje de un mito nutricional común con evidencia científica concreta de al menos 2 estudios",
-        "Guía de un patrón alimentario específico (mediterránea, DASH, etc.) con plan semanal y base científica",
-        "Comparativa nutricional de 2 alimentos populares con datos reales de composición y estudios",
-        "Los X nutrientes más importantes para [objetivo específico] con fuentes alimentarias y cantidades",
-        "Alimentos que aceleran/ralentizan el metabolismo con datos metabólicos de estudios reales",
-        "Guía de suplementos para [objetivo]: cuáles funcionan y cuáles no, según metaanálisis recientes",
+    "nutrition": [
+        "Complete analysis of one food with 3+ benefits backed by real studies (university name, year, journal)",
+        "Debunking a common nutrition myth with concrete scientific evidence from at least 2 studies",
+        "Guide to a specific dietary pattern (Mediterranean, DASH, etc.) with weekly plan and science",
+        "Nutritional comparison of 2 popular foods with real composition data and studies",
+        "Most important nutrients for [specific goal] with food sources and amounts",
+        "Foods that speed up or slow down metabolism with metabolic data from real studies",
+        "Supplements for [goal]: which ones work and which don't according to recent meta-analyses",
     ],
-    "ejercicio": [
-        "Rutina completa de X minutos para [objetivo] con progresión semanal y respaldo científico",
-        "Comparativa de tipos de ejercicio (HIIT vs cardio, yoga vs pesas) con datos de estudios reales",
-        "Errores comunes en el gimnasio/ejercicio que causan lesiones o reducen resultados, con correcciones",
-        "Ejercicios específicos para [problema común: dolor espalda, rodillas, etc.] avalados por fisioterapia",
-        "Cómo empezar a hacer ejercicio desde cero: guía progresiva de 4 semanas con base científica",
-        "Beneficios de caminar X pasos al día con datos de estudios epidemiológicos reales",
+    "fitness": [
+        "Complete X-minute routine for [goal] with weekly progression and scientific backing",
+        "Comparison of exercise types (HIIT vs cardio, yoga vs weights) with real study data",
+        "Common gym/exercise mistakes that cause injury or reduce results with corrections",
+        "Exercises for [common problem: back pain, knees, etc.] endorsed by physiotherapy",
+        "How to start exercising from zero: 4-week progressive guide with scientific basis",
+        "Benefits of walking X steps per day with data from real epidemiological studies",
     ],
-    "mente": [
-        "Técnica de gestión del estrés respaldada por estudios de neurociencia con pasos concretos",
-        "Hábitos de sueño que mejoran la salud mental: datos de estudios con cifras de mejora medibles",
-        "Cómo la meditación afecta al cerebro: estudios de neuroimagen reales con nombres de investigadores",
-        "Alimentos que afectan al estado de ánimo: eje intestino-cerebro con estudios recientes",
-        "Señales de burnout y estrategias de recuperación basadas en psicología organizacional",
-        "Técnicas de productividad con respaldo en neurociencia: Pomodoro, deep work, etc.",
+    "weight-loss": [
+        "Science-backed fat loss method most people ignore: specific mechanism and study result",
+        "Common diet mistake that causes 80% of people to fail: specific psychological mechanism",
+        "One food that blocks fat absorption according to nutrition research: specific compound and amount",
+        "Intermittent fasting variant with best evidence for fat loss: specific protocol and result",
+        "Caloric deficit explained with real example: how to calculate and maintain it without hunger",
+        "Why the scale doesn't move: specific scientific reasons and what to do instead",
     ],
-    "longevidad": [
-        "Hábitos de las zonas azules con datos de los estudios de Dan Buettner y National Geographic",
-        "Biomarcadores de envejecimiento: qué medir y por qué, según estudios de gerontología",
-        "Ayuno intermitente y longevidad: evidencia actual de estudios en humanos",
-        "Ejercicio y esperanza de vida: cuántos años añade cada tipo según estudios epidemiológicos",
-        "Suplementos anti-envejecimiento: evidencia real vs marketing (NMN, resveratrol, etc.)",
-        "Relaciones sociales y longevidad: datos del Harvard Study of Adult Development",
+    "wellness": [
+        "Stress management technique backed by neuroscience studies with concrete steps",
+        "Sleep habits that improve health: data from studies with measurable improvement figures",
+        "Morning habit that boosts energy all day: specific neuroscience explanation and timing",
+        "Cold exposure benefits: specific protocol, measurable metabolic effects and evidence",
+        "Gut health and overall wellness: specific bacteria, dietary changes and evidence",
     ],
-    "recetas": [
-        "Receta antiinflamatoria con lista de ingredientes, pasos y explicación nutricional de cada componente",
-        "Desayuno saludable en 10 minutos con macros y beneficios respaldados por nutrición",
-        "Meal prep semanal saludable: 5 comidas con lista de compras y valores nutricionales",
-        "Receta alta en proteína sin carne con perfil de aminoácidos y alternativas",
-        "Snacks saludables para [objetivo: perder peso, ganar músculo, etc.] con valores calóricos reales",
-        "Recetas de cena ligera para mejorar el sueño con nutrientes específicos que ayudan",
+    "mental-health": [
+        "How meditation affects the brain: real neuroimaging studies with researcher names",
+        "Foods that affect mood: gut-brain axis with recent studies",
+        "Burnout signs and recovery strategies based on organizational psychology",
+        "Productivity techniques with neuroscience backing: Pomodoro, deep work, etc.",
+        "Anxiety reduction techniques with measurable cortisol impact and specific methods",
     ],
 }
 
 
 def get_existing_titles() -> set[str]:
-    """Lee títulos de artículos existentes del frontmatter."""
     titles = set()
     if not BLOG_DIR.exists():
         return titles
-
     for md_file in BLOG_DIR.glob("*.md"):
         content = md_file.read_text(encoding="utf-8")
         match = re.search(r'^title:\s*["\']?(.+?)["\']?\s*$', content, re.MULTILINE)
@@ -72,21 +67,18 @@ def get_existing_titles() -> set[str]:
 
 
 def get_category_counts() -> dict[str, int]:
-    """Cuenta artículos por categoría."""
     counts = {cat: 0 for cat in CATEGORIES}
     if not BLOG_DIR.exists():
         return counts
-
     for md_file in BLOG_DIR.glob("*.md"):
         content = md_file.read_text(encoding="utf-8")
-        match = re.search(r'^category:\s*["\']?(\w+)["\']?\s*$', content, re.MULTILINE)
-        if match and match.group(1) in counts:
-            counts[match.group(1)] += 1
+        match = re.search(r'^category:\s*["\']?([^"\'\n]+)["\']?\s*$', content, re.MULTILINE)
+        if match and match.group(1).strip() in counts:
+            counts[match.group(1).strip()] += 1
     return counts
 
 
 def pick_category() -> str:
-    """Elige categoría con menos artículos (rotación equilibrada)."""
     counts = get_category_counts()
     min_count = min(counts.values())
     least_covered = [cat for cat, count in counts.items() if count == min_count]
@@ -94,20 +86,17 @@ def pick_category() -> str:
 
 
 def pick_formula(category: str) -> str:
-    """Elige fórmula aleatoria para la categoría."""
-    formulas = ARTICLE_FORMULAS.get(category, ARTICLE_FORMULAS["nutricion"])
+    formulas = ARTICLE_FORMULAS.get(category, list(ARTICLE_FORMULAS.values())[0])
     return random.choice(formulas)
 
 
 def plan_topic() -> dict:
-    """Devuelve categoría y fórmula para el próximo artículo."""
     category = pick_category()
     formula = pick_formula(category)
     existing = get_existing_titles()
-
     return {
         "category": category,
         "formula": formula,
-        "existing_titles": list(existing)[:20],  # Para contexto al AI
+        "existing_titles": list(existing)[:20],
         "existing_count": len(existing),
     }

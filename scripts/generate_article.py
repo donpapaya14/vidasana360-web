@@ -27,11 +27,11 @@ log = logging.getLogger(__name__)
 
 BLOG_DIR = Path(__file__).parent.parent / "src" / "content" / "blog"
 CATEGORY_NAMES = {
-    "nutricion": "Nutrición",
-    "ejercicio": "Ejercicio",
-    "mente": "Salud Mental",
-    "longevidad": "Longevidad",
-    "recetas": "Recetas Saludables",
+    "nutrition": "Nutrition",
+    "fitness": "Fitness",
+    "weight-loss": "Weight Loss",
+    "wellness": "Wellness",
+    "mental-health": "Mental Health",
 }
 
 AMAZON_TAG = os.getenv("AMAZON_TAG", "vladys-21")
@@ -43,38 +43,38 @@ def research_topic(category: str, formula: str, existing_titles: list[str]) -> d
     """Paso 1: Elige tema con keyword long-tail y plan detallado."""
     existing_str = "\n".join(f"- {t}" for t in existing_titles[:20]) if existing_titles else "Ninguno"
 
-    prompt = f"""Eres editor jefe de VidaSana360, un blog de SALUD PRÁCTICA en español.
-ENFOQUE: pérdida de peso, nutrición diaria, ejercicio en casa, recetas saludables, dietas.
-Tu lector quiere BAJAR DE PESO, comer mejor y hacer ejercicio HOY.
-NO escribas sobre longevidad, envejecimiento, zonas azules ni biohacking — eso es otro blog.
+    prompt = f"""You are editor-in-chief of HealthSpark, an English blog about PRACTICAL HEALTH.
+FOCUS: weight loss, daily nutrition, home exercise, healthy recipes, diets.
+Your reader wants to LOSE WEIGHT, eat better and exercise TODAY.
+Do NOT write about longevity, aging, Blue Zones or biohacking — that is a different blog.
 
-Tu trabajo: elegir UN tema para un artículo que sea REALMENTE ÚTIL para el lector.
+Your job: choose ONE topic for an article that is GENUINELY USEFUL for the reader.
 
-TIPO DE ARTÍCULO A CREAR: {formula}
+ARTICLE TYPE TO CREATE: {formula}
 
-ARTÍCULOS QUE YA EXISTEN (elige algo DIFERENTE):
+ARTICLES THAT ALREADY EXIST (choose something DIFFERENT):
 {existing_str}
 
-INSTRUCCIONES:
-1. Elige un tema MUY ESPECÍFICO (no genérico). Ejemplo malo: "beneficios del ejercicio". Ejemplo bueno: "rutina de sentadillas búlgaras para fortalecer rodillas después de los 40".
-2. El título debe ser lo que alguien escribiría en Google, 3-6 palabras clave.
-3. Piensa en 5-6 secciones donde CADA UNA aporte información concreta que el lector no sabía.
-4. Para cada sección, escribe QUÉ dato específico o consejo práctico incluirás.
+INSTRUCTIONS:
+1. Choose a VERY SPECIFIC topic (not generic). Bad: "benefits of exercise". Good: "Bulgarian split squat routine to strengthen knees after 40".
+2. The title should be what someone would type in Google, 3-6 keywords.
+3. Think of 5-6 sections where EACH ONE adds concrete information the reader did not know.
+4. For each section, write WHAT specific data or practical advice you will include.
 
-Responde JSON:
+Respond JSON:
 {{
-  "title": "título max 65 chars, keyword exacta incluida",
-  "description": "max 150 chars, genera curiosidad real",
-  "keyword": "keyword long-tail de 3-6 palabras",
+  "title": "title max 65 chars, exact keyword included",
+  "description": "max 150 chars, generates real curiosity",
+  "keyword": "long-tail keyword of 3-6 words",
   "secondary_keywords": ["kw2", "kw3", "kw4"],
   "sections": [
     {{
-      "heading": "Título de la sección",
-      "what_to_cover": "Qué información CONCRETA y ÚTIL va aquí",
-      "source_to_cite": "Nombre real del estudio o institución con año"
+      "heading": "Section title",
+      "what_to_cover": "What CONCRETE and USEFUL information goes here",
+      "source_to_cite": "Real study or institution name with year"
     }}
   ],
-  "amazon_product": "nombre de UN producto relevante de Amazon (o null si no aplica)"
+  "amazon_product": "name of ONE relevant Amazon product (or null if not applicable)"
 }}"""
 
     return call_ai(prompt, temperature=0.8)
@@ -87,71 +87,71 @@ def generate_content(category: str, topic_data: dict) -> dict:
 
     secondary_kws = ", ".join(topic_data.get("secondary_keywords", []))
 
-    prompt = f"""Escribe un artículo de blog en español PROFESIONAL, COMPLETO y optimizado para SEO y GEO.
+    prompt = f"""Write a PROFESSIONAL, COMPLETE English blog article optimized for SEO and GEO.
 
-TÍTULO: {topic_data['title']}
-CATEGORÍA: {CATEGORY_NAMES.get(category, category)}
-KEYWORD PRINCIPAL: {topic_data['keyword']}
-KEYWORDS SECUNDARIAS: {secondary_kws}
+TITLE: {topic_data['title']}
+CATEGORY: {CATEGORY_NAMES.get(category, category)}
+MAIN KEYWORD: {topic_data['keyword']}
+SECONDARY KEYWORDS: {secondary_kws}
 
-PLAN DE SECCIONES:
+SECTION PLAN:
 {sections}
 
-=== REGLAS DE CALIDAD (OBLIGATORIAS) ===
+=== QUALITY RULES (MANDATORY) ===
 
-1. PROHIBIDO el relleno. Cada frase aporta dato nuevo o consejo aplicable.
-   - MAL: "La nutrición es muy importante para nuestra salud y bienestar general"
-   - BIEN: "Según un ensayo de 2019 en The Lancet con 195 países, una dieta pobre causa 11 millones de muertes al año — más que el tabaco"
+1. NO filler. Every sentence adds new data or actionable advice.
+   - BAD: "Nutrition is very important for our health and wellbeing"
+   - GOOD: "According to a 2019 Lancet study across 195 countries, poor diet causes 11 million deaths per year — more than smoking"
 
-2. DATOS REALES con fuente completa. Mínimo 5 datos con fuente en todo el artículo.
-   - Nombre de universidad/revista + año + dato concreto (cifra, %)
-   - MAL: "Estudios demuestran que es beneficioso"
-   - BIEN: "Un ensayo de la Universidad de Sydney (2021, BMJ) con 4.500 participantes encontró que 30 min de caminata diaria reduce riesgo cardiovascular un 23%"
+2. REAL DATA with full source. Minimum 5 data points with source in the entire article.
+   - University/journal name + year + specific figure (number, %)
+   - BAD: "Studies show it is beneficial"
+   - GOOD: "A University of Sydney trial (2021, BMJ) with 4,500 participants found 30 min of daily walking reduces cardiovascular risk by 23%"
 
-3. CONSEJOS PRÁCTICOS numerados con pasos concretos.
-   - Incluye cantidades, tiempos, frecuencias exactas
-   - Al menos 2 listas de pasos o tablas comparativas en el artículo
+3. PRACTICAL ADVICE with numbered steps.
+   - Include exact quantities, times, frequencies
+   - At least 2 numbered lists or comparison tables in the article
 
-4. ENLACES EXTERNOS de autoridad (mínimo 3):
-   - Enlaza a fuentes reales cuando cites datos: OMS, universidades, revistas científicas, instituciones oficiales
-   - Formato: [nombre fuente](URL real de la institución)
-   - Ejemplo: [Organización Mundial de la Salud](https://www.who.int), [Mayo Clinic](https://www.mayoclinic.org)
-   - Solo enlaces a dominios principales de instituciones reales, NO inventes URLs de estudios específicos
+4. EXTERNAL AUTHORITY LINKS (minimum 3):
+   - Link to real sources when citing data: WHO, universities, scientific journals, official institutions
+   - Format: [source name](real institution URL)
+   - Example: [World Health Organization](https://www.who.int), [Mayo Clinic](https://www.mayoclinic.org)
+   - Only link to main domains of real institutions, do NOT invent specific study URLs
 
-5. PREGUNTAS FRECUENTES: sección "## Preguntas frecuentes" con 5-6 preguntas reales de Google.
-   - Cada ### pregunta con respuesta de 4-6 líneas con dato o consejo real
-   - Empieza cada respuesta con una frase directa que responda la pregunta (optimización GEO)
-   - MAL: "¿Es bueno el ayuno? Sí, tiene muchos beneficios"
-   - BIEN: "¿Cuántas horas de ayuno para quemar grasa? El cambio metabólico de glucosa a cetonas ocurre entre 12-16 horas según Mattson (NEJM, 2019). Para principiantes, el protocolo 16:8 es el más estudiado..."
+5. FAQ SECTION: "## Frequently Asked Questions" with 5-6 real Google questions.
+   - Each ### question with 4-6 line answer with real data or advice
+   - Start each answer with a direct sentence that answers the question (GEO optimization)
+   - BAD: "Is fasting good? Yes, it has many benefits"
+   - GOOD: "How many hours of fasting to burn fat? The metabolic switch from glucose to ketones occurs between 12-16 hours according to Mattson (NEJM, 2019). For beginners, the 16:8 protocol is the most studied..."
 
-6. FORMATO:
-   - Párrafos de 2-3 líneas máximo
-   - ## para secciones principales, ### para subsecciones
-   - **Negrita** para conceptos clave y cifras importantes
-   - Listas y tablas markdown cuando compares opciones
-   - NO incluir título H1 (se pone automáticamente)
-   - Terminar con "## Resumen práctico" con 6-8 bullets de acción concreta
+6. FORMAT:
+   - Paragraphs of 2-3 lines maximum
+   - ## for main sections, ### for subsections
+   - **Bold** for key concepts and important figures
+   - Markdown lists and tables when comparing options
+   - Do NOT include H1 title (added automatically)
+   - End with "## Practical Summary" with 6-8 concrete action bullets
 
-7. OPTIMIZACIÓN SEO/GEO:
-   - Usa la keyword principal en el primer párrafo y en al menos 2 headings H2
-   - Usa keywords secundarias de forma natural repartidas en el texto
-   - Primer párrafo: respuesta directa y concisa a la intención de búsqueda (snippet de Google)
-   - Incluye una tabla markdown comparativa o de datos cuando sea relevante
-   - Las respuestas FAQ deben empezar respondiendo directamente (para featured snippets y citación por IAs)
+7. SEO/GEO OPTIMIZATION:
+   - Use main keyword in first paragraph and in at least 2 H2 headings
+   - Use secondary keywords naturally throughout the text
+   - First paragraph: direct and concise answer to search intent (Google snippet)
+   - Include a comparison or data markdown table where relevant
+   - FAQ answers should start by directly answering (for featured snippets and AI citation)
 
-8. LONGITUD: 2000-2800 palabras de contenido REAL y útil.
+8. LENGTH: 2000-2800 words of REAL and useful content.
 
-{f'9. PRODUCTOS AMAZON: Menciona "{amazon_product}" y 1-2 productos complementarios de forma natural. Usa [AMAZON:nombre producto] para cada uno. No fuerces si no encaja.' if amazon_product else '9. PRODUCTOS AMAZON: Si hay productos relevantes para el tema, menciona 2-3 de forma natural con [AMAZON:nombre producto]. Solo si encaja orgánicamente.'}
+{f'9. AMAZON PRODUCTS: Mention "{amazon_product}" and 1-2 complementary products naturally. Use [AMAZON:product name] for each. Do not force it if it does not fit.' if amazon_product else '9. AMAZON PRODUCTS: If there are relevant products, mention 2-3 naturally with [AMAZON:product name]. Only if it fits organically.'}
 
-Responde JSON:
+Respond JSON:
 {{
-  "content": "artículo completo en markdown (sin H1)",
+  "content": "full article in markdown (no H1)",
   "tags": ["tag1", "tag2", "tag3", "tag4", "tag5", "tag6", "tag7", "tag8"],
   "sources": [
-    "Apellido, A. et al. (año). Título del estudio. Revista",
-    "Institución (año). Nombre del informe"
+    "Author, A. et al. (year). Study title. Journal",
+    "Institution (year). Report name"
   ],
-  "amazon_keywords": ["producto1", "producto2", "producto3"]
+  "amazon_keywords": ["product1", "product2", "product3"]
 }}"""
 
     return call_ai(prompt, temperature=0.5)
@@ -183,16 +183,16 @@ def inject_amazon_links(content: str, amazon_keywords: list[str]) -> str:
     def replace_amazon(match):
         product = match.group(1)
         search_query = product.replace(" ", "+")
-        return f"[{product} en Amazon](https://www.amazon.es/s?k={search_query}&tag={AMAZON_TAG})"
+        return f"[{product} en Amazon](https://www.amazon.com/s?k={search_query}&tag={AMAZON_TAG})"
 
     content = re.sub(r'\[AMAZON:([^\]]+)\]', replace_amazon, content)
 
-    if amazon_keywords and "amazon.es" not in content:
+    if amazon_keywords and "amazon.com" not in content:
         content += "\n\n---\n\n"
         content += "*Este artículo contiene enlaces de afiliado. Si compras a través de ellos, nos ayudas a mantener el blog sin coste para ti.*\n\n"
         for kw in amazon_keywords[:2]:
             search = kw.replace(" ", "+")
-            content += f"- [{kw}](https://www.amazon.es/s?k={search}&tag={AMAZON_TAG})\n"
+            content += f"- [{kw}](https://www.amazon.com/s?k={search}&tag={AMAZON_TAG})\n"
 
     return content
 
@@ -235,12 +235,12 @@ def add_internal_links(content: str, current_slug: str) -> str:
 
     # Sección dedicada con 3-4 links más
     remaining = shuffled[:4] if shuffled else random.sample(existing, min(4, len(existing)))
-    section = "\n\n### También te puede interesar\n\n"
+    section = "\n\n### You might also like\n\n"
     for link in remaining:
         section += f"- [{link['title']}](/blog/{link['slug']})\n"
 
-    if "## Resumen" in content:
-        content = content.replace("## Resumen", section + "\n## Resumen")
+    if "## Practical Summary" in content:
+        content = content.replace("## Practical Summary", section + "\n## Practical Summary")
     else:
         content += section
 
@@ -277,7 +277,7 @@ def write_markdown(category: str, topic_data: dict, content_data: dict) -> Path:
     # Validate sources — must have at least 1
     sources = content_data.get("sources", [])
     if not sources:
-        sources = [f"{BRAND} (2026). Investigacion interna"]
+        sources = [f"{BRAND} (2026). Internal research"]
 
     # Validate category
     valid_cats = list(CATEGORY_NAMES.keys())
