@@ -18,7 +18,7 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 120
 
     steps:
       - name: Checkout
@@ -87,7 +87,7 @@ jobs:
               fi
             fi
             if [ $i -lt ${{ steps.config.outputs.count }} ]; then
-              sleep 90
+              sleep 60
             fi
           done
           echo "success=$SUCCESS" >> $GITHUB_OUTPUT
