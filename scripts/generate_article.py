@@ -35,6 +35,7 @@ CATEGORY_NAMES = {
     "nutrition": "Nutrición",
     "weight-loss": "Pérdida de Grasa",
     "wellness": "Bienestar",
+    "mental-health": "Salud Mental",
 }
 
 AMAZON_TAG = os.getenv("AMAZON_TAG", "vds96-20")
