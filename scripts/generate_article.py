@@ -27,11 +27,14 @@ log = logging.getLogger(__name__)
 
 BLOG_DIR = Path(__file__).parent.parent / "src" / "content" / "blog"
 CATEGORY_NAMES = {
-    "nutrition": "Nutrition",
+    "nutricion": "Nutrición",
     "fitness": "Fitness",
-    "weight-loss": "Weight Loss",
-    "wellness": "Wellness",
-    "mental-health": "Mental Health",
+    "perdida-de-grasa": "Pérdida de Grasa",
+    "bienestar": "Bienestar",
+    "salud-mental": "Salud Mental",
+    "nutrition": "Nutrición",
+    "weight-loss": "Pérdida de Grasa",
+    "wellness": "Bienestar",
 }
 
 AMAZON_TAG = os.getenv("AMAZON_TAG", "vds96-20")
@@ -43,38 +46,38 @@ def research_topic(category: str, formula: str, existing_titles: list[str]) -> d
     """Paso 1: Elige tema con keyword long-tail y plan detallado."""
     existing_str = "\n".join(f"- {t}" for t in existing_titles[:20]) if existing_titles else "Ninguno"
 
-    prompt = f"""You are editor-in-chief of HealthSpark, an English blog about PRACTICAL HEALTH.
-FOCUS: weight loss, daily nutrition, home exercise, healthy recipes, diets.
-Your reader wants to LOSE WEIGHT, eat better and exercise TODAY.
-Do NOT write about longevity, aging, Blue Zones or biohacking — that is a different blog.
+    prompt = f"""Eres editor jefe de VidaSana360, un blog en español sobre SALUD PRÁCTICA.
+ENFOQUE: pérdida de grasa, nutrición diaria, ejercicio en casa, recetas saludables, dietas.
+Tu lector quiere PERDER PESO, comer mejor y hacer ejercicio HOY.
+NO escribas sobre longevidad, envejecimiento, Zonas Azules o biohacking — eso es otro blog.
 
-Your job: choose ONE topic for an article that is GENUINELY USEFUL for the reader.
+Tu trabajo: elegir UN tema para un artículo que sea REALMENTE ÚTIL.
 
-ARTICLE TYPE TO CREATE: {formula}
+TIPO DE ARTÍCULO: {formula}
 
-ARTICLES THAT ALREADY EXIST (choose something DIFFERENT):
+ARTÍCULOS QUE YA EXISTEN (elige algo DIFERENTE):
 {existing_str}
 
-INSTRUCTIONS:
-1. Choose a VERY SPECIFIC topic (not generic). Bad: "benefits of exercise". Good: "Bulgarian split squat routine to strengthen knees after 40".
-2. The title should be what someone would type in Google, 3-6 keywords.
-3. Think of 5-6 sections where EACH ONE adds concrete information the reader did not know.
-4. For each section, write WHAT specific data or practical advice you will include.
+INSTRUCCIONES:
+1. Tema MUY ESPECÍFICO. Malo: "beneficios del ejercicio". Bueno: "Rutina de sentadillas búlgaras para fortalecer rodillas después de los 40".
+2. El título debe ser lo que alguien escribiría en Google, 3-6 palabras clave.
+3. 5-6 secciones donde CADA UNA aporta información concreta que el lector no sabía.
+4. Para cada sección, escribe QUÉ datos específicos o consejo práctico va a incluir.
 
-Respond JSON:
+Responde JSON:
 {{
-  "title": "title max 65 chars, exact keyword included",
-  "description": "max 150 chars, generates real curiosity",
-  "keyword": "long-tail keyword of 3-6 words",
+  "title": "título max 65 chars, keyword exacta incluida",
+  "description": "max 150 chars, genera curiosidad real",
+  "keyword": "keyword long-tail de 3-6 palabras",
   "secondary_keywords": ["kw2", "kw3", "kw4"],
   "sections": [
     {{
-      "heading": "Section title",
-      "what_to_cover": "What CONCRETE and USEFUL information goes here",
-      "source_to_cite": "Real study or institution name with year"
+      "heading": "Título de sección",
+      "what_to_cover": "Qué información CONCRETA y ÚTIL va aquí",
+      "source_to_cite": "Nombre real de estudio o institución con año"
     }}
   ],
-  "amazon_product": "name of ONE relevant Amazon product (or null if not applicable)"
+  "amazon_product": "nombre de UN producto Amazon relevante (o null si no aplica)"
 }}"""
 
     return call_ai(prompt, temperature=0.8)
@@ -87,71 +90,67 @@ def generate_content(category: str, topic_data: dict) -> dict:
 
     secondary_kws = ", ".join(topic_data.get("secondary_keywords", []))
 
-    prompt = f"""Write a PROFESSIONAL, COMPLETE English blog article optimized for SEO and GEO.
+    prompt = f"""Escribe un artículo de blog PROFESIONAL y COMPLETO en español, optimizado para SEO.
 
-TITLE: {topic_data['title']}
-CATEGORY: {CATEGORY_NAMES.get(category, category)}
-MAIN KEYWORD: {topic_data['keyword']}
-SECONDARY KEYWORDS: {secondary_kws}
+TÍTULO: {topic_data['title']}
+CATEGORÍA: {CATEGORY_NAMES.get(category, category)}
+KEYWORD PRINCIPAL: {topic_data['keyword']}
+KEYWORDS SECUNDARIAS: {secondary_kws}
 
-SECTION PLAN:
+PLAN DE SECCIONES:
 {sections}
 
-=== QUALITY RULES (MANDATORY) ===
+=== REGLAS DE CALIDAD (OBLIGATORIAS) ===
 
-1. NO filler. Every sentence adds new data or actionable advice.
-   - BAD: "Nutrition is very important for our health and wellbeing"
-   - GOOD: "According to a 2019 Lancet study across 195 countries, poor diet causes 11 million deaths per year — more than smoking"
+1. CERO relleno. Cada frase aporta dato nuevo o consejo accionable.
+   - MAL: "La nutrición es muy importante para nuestra salud y bienestar"
+   - BIEN: "Según un estudio Lancet (2019) en 195 países, una mala dieta causa 11 millones de muertes al año — más que el tabaco"
 
-2. REAL DATA with full source. Minimum 5 data points with source in the entire article.
-   - University/journal name + year + specific figure (number, %)
-   - BAD: "Studies show it is beneficial"
-   - GOOD: "A University of Sydney trial (2021, BMJ) with 4,500 participants found 30 min of daily walking reduces cardiovascular risk by 23%"
+2. DATOS REALES con fuente completa. Mínimo 5 datos con fuente en todo el artículo.
+   - Nombre universidad/revista + año + cifra concreta (número, %)
+   - MAL: "Los estudios demuestran que es beneficioso"
+   - BIEN: "Un ensayo de la Universidad de Sydney (2021, BMJ) con 4.500 participantes encontró que 30 min de caminata diaria reduce el riesgo cardiovascular un 23%"
 
-3. PRACTICAL ADVICE with numbered steps.
-   - Include exact quantities, times, frequencies
-   - At least 2 numbered lists or comparison tables in the article
+3. CONSEJOS PRÁCTICOS con pasos numerados.
+   - Incluye cantidades exactas, tiempos, frecuencias
+   - Al menos 2 listas numeradas o tablas comparativas
 
-4. EXTERNAL AUTHORITY LINKS (minimum 3):
-   - Link to real sources when citing data: WHO, universities, scientific journals, official institutions
-   - Format: [source name](real institution URL)
-   - Example: [World Health Organization](https://www.who.int), [Mayo Clinic](https://www.mayoclinic.org)
-   - Only link to main domains of real institutions, do NOT invent specific study URLs
+4. LINKS EXTERNOS DE AUTORIDAD (mínimo 3):
+   - Enlaza fuentes reales al citar datos: OMS, universidades, revistas científicas
+   - Formato: [nombre fuente](URL institución real)
+   - Solo dominios principales reales, NO inventes URLs específicas de estudios
 
-5. FAQ SECTION: "## Frequently Asked Questions" with 5-6 real Google questions.
-   - Each ### question with 4-6 line answer with real data or advice
-   - Start each answer with a direct sentence that answers the question (GEO optimization)
-   - BAD: "Is fasting good? Yes, it has many benefits"
-   - GOOD: "How many hours of fasting to burn fat? The metabolic switch from glucose to ketones occurs between 12-16 hours according to Mattson (NEJM, 2019). For beginners, the 16:8 protocol is the most studied..."
+5. SECCIÓN FAQ: "## Preguntas Frecuentes" con 5-6 preguntas reales de Google.
+   - Cada ### pregunta con respuesta de 4-6 líneas con datos reales
+   - Empieza con frase directa que responde la pregunta (optimización GEO)
 
-6. FORMAT:
-   - Paragraphs of 2-3 lines maximum
-   - ## for main sections, ### for subsections
-   - **Bold** for key concepts and important figures
-   - Markdown lists and tables when comparing options
-   - Do NOT include H1 title (added automatically)
-   - End with "## Practical Summary" with 6-8 concrete action bullets
+6. FORMATO:
+   - Párrafos de 2-3 líneas máximo
+   - ## para secciones principales, ### para subsecciones
+   - **Negrita** para conceptos clave y cifras importantes
+   - Listas y tablas markdown cuando compares opciones
+   - NO incluyas título H1 (se añade automáticamente)
+   - Termina con "## Resumen Práctico" con 6-8 puntos de acción concretos
 
-7. SEO/GEO OPTIMIZATION:
-   - Use main keyword in first paragraph and in at least 2 H2 headings
-   - Use secondary keywords naturally throughout the text
-   - First paragraph: direct and concise answer to search intent (Google snippet)
-   - Include a comparison or data markdown table where relevant
-   - FAQ answers should start by directly answering (for featured snippets and AI citation)
+7. SEO/GEO:
+   - Keyword principal en primer párrafo y en al menos 2 títulos H2
+   - Keywords secundarias de forma natural
+   - Primer párrafo: respuesta directa y concisa a la intención de búsqueda
+   - FAQ: respuestas directas (para featured snippets y citación por IA)
 
-8. LENGTH: 2000-2800 words of REAL and useful content.
+8. LONGITUD: 2000-2800 palabras de contenido REAL y útil.
 
-{f'9. AMAZON PRODUCTS: Mention "{amazon_product}" and 1-2 complementary products naturally. Use [AMAZON:product name] for each. Do not force it if it does not fit.' if amazon_product else '9. AMAZON PRODUCTS: If there are relevant products, mention 2-3 naturally with [AMAZON:product name]. Only if it fits organically.'}
+{f'9. PRODUCTOS AMAZON: Menciona "{amazon_product}" y 1-2 productos complementarios de forma natural. Usa [AMAZON:nombre producto] para cada uno.' if amazon_product else '9. PRODUCTOS AMAZON: Si hay productos relevantes, menciona 2-3 de forma natural con [AMAZON:nombre producto]. Solo si encaja orgánicamente.'}
 
-Respond JSON:
+Responde JSON:
 {{
-  "content": "full article in markdown (no H1)",
+  "content": "artículo completo en markdown (sin H1)",
   "tags": ["tag1", "tag2", "tag3", "tag4", "tag5", "tag6", "tag7", "tag8"],
   "sources": [
-    "Author, A. et al. (year). Study title. Journal",
-    "Institution (year). Report name"
+    "Autor, A. et al. (año). Título estudio. Revista",
+    "Institución (año). Nombre informe"
   ],
-  "amazon_keywords": ["product1", "product2", "product3"]
+  "amazon_keywords": ["producto1", "producto2", "producto3"]
 }}"""
 
     return call_ai(prompt, temperature=0.5)
