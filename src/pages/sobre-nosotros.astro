@@ -2,30 +2,35 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 ---
 
-<BaseLayout title="Sobre nosotros" description="VidaSana360: salud y bienestar basados en evidencia cientifica. Conoce nuestra mision.">
+<BaseLayout title="Sobre VidaSana360" description="Vladys Z. — desarrollador de apps y cocinero profesional. Salud, nutricion y perdida de grasa basados en ciencia real.">
   <section class="about">
     <div class="container about__inner">
       <h1>Sobre VidaSana360</h1>
+      <div class="about-author">
+        <h2>Vladys Z.</h2>
+        <p class="author-subtitle">Desarrollador de aplicaciones · Cocinero profesional</p>
+      </div>
 
-      <p class="about__lead">
-        Creemos que las decisiones de salud deben basarse en ciencia, no en modas.
-      </p>
+      <p>Soy Vladys, desarrollador de aplicaciones y cocinero profesional con formación en ambos campos. Después de años combinando tecnología y cocina, descubrí que la clave para una vida sana está en la intersección de la ciencia, la nutrición práctica y los hábitos diarios.</p>
 
-      <h2>Nuestra mision</h2>
-      <p>VidaSana360 nacio con un objetivo claro: hacer accesible la informacion de salud respaldada por evidencia cientifica. Cada articulo que publicamos incluye referencias a estudios reales, publicados en revistas cientificas reconocidas.</p>
+      <p><strong>VidaSana360</strong> nace de mi experiencia personal perdiendo grasa de forma saludable y de mi formación como cocinero. Aquí no encontrarás dietas milagro ni productos mágicos — solo ciencia verificada, datos reales y consejos que puedes aplicar hoy mismo.</p>
 
-      <h2>Como trabajamos</h2>
-      <p>Investigamos temas de salud, nutricion, ejercicio y bienestar. Consultamos estudios publicados en revistas como The New England Journal of Medicine, JAMA, The Lancet, y publicaciones de instituciones como Harvard, Oxford y la OMS. Cada afirmacion va acompanada de su fuente.</p>
+      <h2>¿Por qué este blog?</h2>
 
-      <h2>Lo que NO somos</h2>
-      <p>No somos medicos ni profesionales sanitarios. Nuestro contenido es informativo y educativo. Siempre recomendamos consultar con un profesional de la salud antes de tomar decisiones medicas.</p>
+      <p>Como cocinero profesional, entiendo que la nutrición no es solo calorías y macros — es sabor, textura y disfrute. Y como desarrollador, sé que los buenos sistemas necesitan datos fiables para funcionar. Tu cuerpo no es diferente.</p>
 
-      <h2>Donde encontrarnos</h2>
+      <p>Cada artículo que publico cita estudios científicos reales con fuentes verificables. No repito mitos ni generalidades. Si algo no tiene evidencia sólida, no lo publico.</p>
+
+      <h2>Mi compromiso</h2>
       <ul>
-        <li><a href="https://youtube.com/@VidaSana360" target="_blank" rel="noopener">YouTube</a> — Tips de salud en 60 segundos</li>
-        <li><a href="/newsletter">Newsletter</a> — Lo mejor de la semana, cada domingo</li>
-        <li><a href="/rss.xml">RSS</a> — Para lectores de feeds</li>
+        <li><strong>Ciencia real</strong> — Cada dato lleva su fuente: universidad, revista científica o institución</li>
+        <li><strong>Cero productos milagro</strong> — No promociono gadgets, suplementos dudosos ni apps de pago</li>
+        <li><strong>Experiencia personal</strong> — Comparto lo que he probado y lo que funciona de verdad</li>
+        <li><strong>Contenido gratuito</strong> — Todo el conocimiento es libre y accesible</li>
       </ul>
+
+      <h2>También en YouTube</h2>
+      <p>Publico contenido diario en mi canal <a href="https://youtube.com/@VidaSana360" target="_blank" rel="noopener">@VidaSana360</a> con tips rápidos de salud, nutrición y pérdida de grasa basados en ciencia.</p>
 
       <h2>Contacto</h2>
       <p>vladys.z96@gmail.com</p>
@@ -36,11 +41,11 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 <style>
   .about { padding: 3rem 0; }
   .about__inner { max-width: var(--content-width); }
-  .about__lead {
-    font-size: 1.25rem;
+  .about-author { margin-bottom: 2rem; }
+  .author-subtitle {
+    font-size: 1.1rem;
     color: var(--color-text-light);
-    margin-bottom: 2rem;
-    line-height: 1.7;
+    margin-top: 0.25rem;
   }
   .about h2 { margin-top: 2rem; margin-bottom: 0.75rem; }
   .about p { margin-bottom: 1rem; color: var(--color-text-light); line-height: 1.7; }

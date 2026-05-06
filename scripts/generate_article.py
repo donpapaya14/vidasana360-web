@@ -39,8 +39,9 @@ CATEGORY_NAMES = {
 }
 
 AMAZON_TAG = os.getenv("AMAZON_TAG", "vds96-20")
-SITE_URL = os.getenv("SITE_URL", "https://vidasana360-web.vercel.app")
+SITE_URL = os.getenv("SITE_URL", "https://vida-sana-360.com")
 BRAND = os.getenv("BRAND", "VidaSana360")
+AUTHOR = "Vladys Z."
 
 
 def research_topic(category: str, formula: str, existing_titles: list[str]) -> dict:
@@ -139,9 +140,11 @@ PLAN DE SECCIONES:
    - Primer párrafo: respuesta directa y concisa a la intención de búsqueda
    - FAQ: respuestas directas (para featured snippets y citación por IA)
 
-8. LONGITUD: 2000-2800 palabras de contenido REAL y útil.
+8. TOQUE PERSONAL: Incluye una sección "## Mi Experiencia" (después de las FAQ) con 2-3 párrafos en primera persona del autor Vladys Z., desarrollador de apps y cocinero profesional. Comparte una reflexión personal, anécdota o consejo basado en experiencia real sobre el tema. Esto es OBLIGATORIO — Google penaliza contenido 100% generado sin voz humana.
 
-{f'9. PRODUCTOS AMAZON: Menciona "{amazon_product}" y 1-2 productos complementarios de forma natural. Usa [AMAZON:nombre producto] para cada uno.' if amazon_product else '9. PRODUCTOS AMAZON: Si hay productos relevantes, menciona 2-3 de forma natural con [AMAZON:nombre producto]. Solo si encaja orgánicamente.'}
+9. LONGITUD: 2000-2800 palabras de contenido REAL y útil.
+
+{f'10. PRODUCTOS AMAZON: Menciona "{amazon_product}" y 1-2 productos complementarios de forma natural. Usa [AMAZON:nombre producto] para cada uno.' if amazon_product else '10. PRODUCTOS AMAZON: Si hay productos relevantes, menciona 2-3 de forma natural con [AMAZON:nombre producto]. Solo si encaja orgánicamente.'}
 
 Responde JSON:
 {{
@@ -303,7 +306,7 @@ description: "{description}"
 pubDate: {today}
 category: "{category}"
 tags: {tags_yaml}
-author: "{BRAND}"
+author: "{AUTHOR}"
 readingTime: {reading_time}
 {image_lines}
 sources:
@@ -315,6 +318,10 @@ draft: false
     file_path = BLOG_DIR / f"{slug}.md"
     if file_path.exists():
         file_path = BLOG_DIR / f"{slug}-{today}.md"
+
+    # Author bio footer
+    author_bio = f"\n\n---\n\n*Escrito por **{AUTHOR}** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*\n"
+    content = content + author_bio
 
     file_path.write_text(f"{frontmatter}\n\n{content}", encoding="utf-8")
     log.info("Escrito: %s (%d palabras)", file_path.name, len(content.split()))
