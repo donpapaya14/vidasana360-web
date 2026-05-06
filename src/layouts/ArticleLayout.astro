@@ -33,6 +33,9 @@ const {
   author = 'VidaSana360', image, imageAlt, readingTime,
   sources, youtubeRelated, slug
 } = Astro.props;
+
+const siteUrl = Astro.site?.toString().replace(/\/$/, '') ?? '';
+const canonicalUrl = `${siteUrl}/blog/${slug}`;
 ---
 
 <BaseLayout
@@ -40,6 +43,7 @@ const {
   description={description}
   ogImage={image}
   ogType="article"
+  canonicalUrl={canonicalUrl}
 >
   <ArticleSchema
     title={title}
