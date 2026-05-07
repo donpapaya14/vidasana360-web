@@ -5,7 +5,6 @@ import Sidebar from '../components/layout/Sidebar.astro';
 import MedicalDisclaimer from '../components/content/MedicalDisclaimer.astro';
 import SourcesCitation from '../components/content/SourcesCitation.astro';
 import RelatedArticles from '../components/content/RelatedArticles.astro';
-import InlineSignup from '../components/newsletter/InlineSignup.astro';
 import AdSenseSlot from '../components/monetization/AdSenseSlot.astro';
 import ArticleSchema from '../components/seo/ArticleSchema.astro';
 import { formatDate } from '../utils/dates';
@@ -95,8 +94,7 @@ const canonicalUrl = `${siteUrl}/blog/${slug}`;
 
         <SourcesCitation sources={sources} />
 
-        <InlineSignup />
-
+        
         {youtubeRelated && (
           <div class="article__video">
             <h3>Video relacionado</h3>
