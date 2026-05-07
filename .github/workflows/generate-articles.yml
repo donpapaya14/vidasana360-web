@@ -21,6 +21,12 @@ jobs:
     timeout-minutes: 120
 
     steps:
+      - name: Anti-pattern random delay
+        run: |
+          DELAY=$((RANDOM % 1500))
+          echo "::notice::Anti-pattern delay: ${DELAY}s"
+          sleep $DELAY
+
       - name: Checkout
         uses: actions/checkout@v4
         with:
