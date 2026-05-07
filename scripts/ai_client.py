@@ -18,7 +18,7 @@ log = logging.getLogger(__name__)
 GROQ_MODEL = "llama-3.3-70b-versatile"
 GITHUB_MODEL = "DeepSeek-V3-0324"
 # NVIDIA: v4-flash es rápido pero inestable (504), llama-3.3 es lento pero fiable
-NVIDIA_FAST = "mistralai/mistral-7b-instruct-v0.2"
+NVIDIA_FAST = "meta/llama-3.1-8b-instruct"
 NVIDIA_STABLE = "meta/llama-3.3-70b-instruct"
 
 # Orden: Groq (rápido) → GitHub (fiable) → NVIDIA (generoso, último recurso)
