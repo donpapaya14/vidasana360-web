@@ -41,15 +41,17 @@ const related = allPosts
   .related {
     margin-top: 3rem;
     padding-top: 2rem;
-    border-top: 2px solid var(--color-border);
+    border-top: 0.5px solid var(--line);
   }
   .related h3 {
-    font-size: 1.375rem;
+    font-family: var(--font-serif);
+    font-size: 26px;
+    color: var(--ink-1);
     margin-bottom: 1.5rem;
   }
   .related__grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-    gap: 1.5rem;
+    gap: 28px 22px;
   }
 </style>

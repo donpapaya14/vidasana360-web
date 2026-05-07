@@ -24,7 +24,8 @@ const sorted = posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.va
 >
   <section class="section">
     <div class="container">
-      <h1>{catInfo.name}</h1>
+      <div class="eyebrow">Categoría</div>
+      <h1 class="section-title" style="margin-bottom:6px">{catInfo.name}</h1>
       <p class="page-subtitle">{catInfo.description}</p>
       {sorted.length > 0 ? (
         <div class="articles-grid">
@@ -41,20 +42,12 @@ const sorted = posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.va
           ))}
         </div>
       ) : (
-        <p class="empty">Proximamente articulos en esta categoria.</p>
+        <p class="empty">Próximamente artículos en esta categoría.</p>
       )}
     </div>
   </section>
 </BaseLayout>
 
 <style>
-  .section { padding: 3rem 0; }
-  h1 { margin-bottom: 0.25rem; }
-  .page-subtitle { color: var(--color-text-muted); margin-bottom: 2rem; }
-  .articles-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-    gap: 1.5rem;
-  }
-  .empty { color: var(--color-text-muted); font-style: italic; }
+  .empty { color: var(--ink-3); font-style: italic; }
 </style>

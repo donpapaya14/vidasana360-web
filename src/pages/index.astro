@@ -13,17 +13,33 @@ const latestPosts = allPosts
 const categories = Object.entries(CATEGORIES) as [Category, (typeof CATEGORIES)[Category]][];
 ---
 
-<BaseLayout title="VidaSana360" description="Salud, bienestar y nutricion basados en ciencia. Consejos practicos respaldados por estudios reales.">
+<BaseLayout title="VidaSana360" description="Salud, nutricion y perdida de grasa basados en ciencia. Consejos practicos respaldados por estudios reales — sin mitos ni productos milagro.">
   <!-- Hero -->
   <section class="hero">
-    <div class="container hero__inner">
-      <h1 class="hero__title">Tu guia de salud <span>basada en ciencia</span></h1>
-      <p class="hero__subtitle">
-        Consejos practicos de nutricion, ejercicio y bienestar respaldados por estudios reales.
-        Sin mitos, sin modas, solo evidencia.
-      </p>
-      <div class="hero__actions">
-        <a href="/blog" class="btn btn--primary">Ver articulos</a>
+    <div class="container hero__inner hero-grid">
+      <div class="hero-text">
+        <div class="eyebrow">Guía editorial de salud y fitness</div>
+        <h1 class="display hero__title">
+          Salud,<br />
+          <em>basada en ciencia</em>
+        </h1>
+        <p class="lede hero__subtitle">
+          Nutrición, ejercicio y pérdida de grasa con estudios reales.
+          Sin mitos, sin productos milagro — solo lo que de verdad funciona.
+        </p>
+        <div class="hero__actions">
+          <a href="/blog" class="btn-primary">Leer artículos &rarr;</a>
+          <a href="#categories" class="btn-ghost">Explorar categorías</a>
+        </div>
+
+        <div class="pop-chips" aria-label="Temas populares">
+          <span class="pop-chips-label">Popular</span>
+          <a href="/categoria/nutricion" class="pop-chip">Ayuno intermitente</a>
+          <a href="/categoria/ejercicio" class="pop-chip">Pérdida de grasa</a>
+          <a href="/categoria/mente" class="pop-chip">Sueño profundo</a>
+          <a href="/categoria/longevidad" class="pop-chip">Longevidad</a>
+          <a href="/categoria/recetas" class="pop-chip">Recetas saludables</a>
+        </div>
       </div>
     </div>
   </section>
@@ -32,7 +48,10 @@ const categories = Object.entries(CATEGORIES) as [Category, (typeof CATEGORIES)[
   <section class="section">
     <div class="container">
       <div class="section__header">
-        <h2>Ultimos articulos</h2>
+        <div>
+          <div class="eyebrow">Reciente</div>
+          <h2 class="section-title">Últimos artículos</h2>
+        </div>
         <a href="/blog" class="section__link">Ver todos &rarr;</a>
       </div>
       <div class="articles-grid">
@@ -52,9 +71,12 @@ const categories = Object.entries(CATEGORIES) as [Category, (typeof CATEGORIES)[
   </section>
 
   <!-- Categories -->
-  <section class="section section--alt">
+  <section id="categories" class="section section--alt">
     <div class="container">
-      <h2 class="section__heading-center">Explora por categoria</h2>
+      <div style="text-align:center;margin-bottom:36px">
+        <div class="eyebrow" style="justify-content:center">Explora</div>
+        <h2 class="section-title">Por categoría</h2>
+      </div>
       <div class="categories-grid">
         {categories.map(([key, cat]) => (
           <a href={`/categoria/${key}`} class={`cat-card cat-card--${key}`}>
@@ -65,128 +87,53 @@ const categories = Object.entries(CATEGORIES) as [Category, (typeof CATEGORIES)[
       </div>
     </div>
   </section>
-  
 
   <!-- YouTube CTA -->
-  <section class="section">
-    <div class="container yt-section">
-      <div class="yt-section__text">
-        <h2>Tambien en YouTube</h2>
-        <p>Tips de salud en 60 segundos. Shorts diarios con datos reales.</p>
-        <a href="https://youtube.com/@VidaaSana360" target="_blank" rel="noopener" class="btn btn--outline">
-          Ver canal
-        </a>
-      </div>
+  <section class="section yt-section">
+    <div class="container yt-section__inner">
+      <div class="eyebrow" style="justify-content:center">YouTube</div>
+      <h2 class="section-title">También en YouTube</h2>
+      <p>Tips de salud en 60 segundos. Shorts diarios con datos reales.</p>
+      <a href="https://youtube.com/@VidaaSana360" target="_blank" rel="noopener" class="btn--warm btn btn--lg">
+        Ver canal &rarr;
+      </a>
     </div>
   </section>
 </BaseLayout>
 
 <style>
-  .hero {
-    background: linear-gradient(135deg, #1A1A2E 0%, #2D1B3D 50%, #1A1A2E 100%);
-    color: white;
-    padding: 5rem 0 4rem;
-  }
-  .hero__inner { max-width: 700px; }
-  .hero__title {
-    font-size: 3rem;
-    font-weight: 800;
-    line-height: 1.15;
-    color: white;
-  }
-  .hero__title span { color: var(--color-primary-light); }
-  .hero__subtitle {
-    font-size: 1.125rem;
-    color: #D1D5DB;
-    margin-top: 1.25rem;
-    line-height: 1.7;
-  }
-  .hero__actions {
-    display: flex;
-    gap: 1rem;
-    margin-top: 2rem;
-  }
-  .hero .btn--outline {
-    color: white;
-    border-color: rgba(255,255,255,0.3);
-  }
-  .hero .btn--outline:hover {
-    background: rgba(255,255,255,0.1);
-    color: white;
-  }
-  .section { padding: 4rem 0; }
-  .section--alt { background: #F3F4F6; }
-  .section__header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 2rem;
-  }
-  .section__link {
-    font-size: 0.875rem;
-    font-weight: 600;
-    color: var(--color-primary);
-  }
-  .section__heading-center {
-    text-align: center;
-    margin-bottom: 2rem;
-  }
-  .articles-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-    gap: 1.5rem;
-  }
-  .categories-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 1rem;
-  }
-  .cat-card {
-    display: block;
-    padding: 1.5rem;
-    border-radius: var(--radius);
-    color: white;
-    transition: transform 0.2s, box-shadow 0.2s;
-    text-decoration: none;
-  }
-  .cat-card:hover {
-    transform: translateY(-3px);
-    box-shadow: var(--shadow-lg);
-    color: white;
-  }
-  .cat-card h3 { font-size: 1.125rem; margin-bottom: 0.5rem; color: white; }
-  .cat-card p { font-size: 0.8125rem; opacity: 0.9; }
-  .cat-card--nutricion { background: #2E7D32; }
-  .cat-card--ejercicio { background: #E65100; }
-  .cat-card--mente { background: #6A1B9A; }
-  .cat-card--longevidad { background: #00838F; }
-  .cat-card--recetas { background: #AD1457; }
-  .newsletter-hero {
-    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
-    color: white;
-  }
-  .newsletter-hero__inner { text-align: center; max-width: 550px; margin: 0 auto; }
-  .newsletter-hero h2 { color: white; font-size: 1.75rem; }
-  .newsletter-hero p { color: #FECACA; margin: 1rem 0 1.5rem; }
-  .newsletter-hero .btn--primary {
-    background: white;
-    color: var(--color-primary);
-  }
-  .newsletter-hero .btn--primary:hover { background: #FFF5F5; }
-  .btn--lg { padding: 0.875rem 2rem; font-size: 1rem; }
+  .hero-text { max-width: 760px; }
+  .hero__title em { font-style: italic; color: var(--accent); }
+
+  /* Per-category accent edge */
+  .cat-card--nutricion     { box-shadow: inset 4px 0 0 #16A34A, var(--shadow-md); }
+  .cat-card--ejercicio     { box-shadow: inset 4px 0 0 #F97316, var(--shadow-md); }
+  .cat-card--mente         { box-shadow: inset 4px 0 0 #6366F1, var(--shadow-md); }
+  .cat-card--longevidad    { box-shadow: inset 4px 0 0 #0891B2, var(--shadow-md); }
+  .cat-card--recetas       { box-shadow: inset 4px 0 0 #DB2777, var(--shadow-md); }
+  .cat-card--nutrition     { box-shadow: inset 4px 0 0 #16A34A, var(--shadow-md); }
+  .cat-card--fitness       { box-shadow: inset 4px 0 0 #F97316, var(--shadow-md); }
+  .cat-card--weight-loss   { box-shadow: inset 4px 0 0 #DB2777, var(--shadow-md); }
+  .cat-card--wellness      { box-shadow: inset 4px 0 0 #0891B2, var(--shadow-md); }
+  .cat-card--mental-health { box-shadow: inset 4px 0 0 #6366F1, var(--shadow-md); }
+
   .yt-section {
     text-align: center;
-    max-width: 550px;
-    margin: 0 auto;
+    background: var(--surface-1);
+    border-top: 0.5px solid var(--line);
+    border-bottom: 0.5px solid var(--line);
   }
+  .yt-section__inner { max-width: 580px; margin: 0 auto; }
   .yt-section p {
-    color: var(--color-text-light);
-    margin: 0.75rem 0 1.5rem;
+    color: var(--ink-2);
+    margin: 12px auto 24px;
+    max-width: 520px;
+    font-size: 16px;
   }
+
   @media (max-width: 600px) {
-    .hero { padding: 3rem 0; }
-    .hero__title { font-size: 2rem; }
-    .hero__actions { flex-direction: column; }
-    .articles-grid { grid-template-columns: 1fr; }
+    .hero__actions { flex-direction: column; align-items: flex-start; }
+    .hero__actions .btn-primary,
+    .hero__actions .btn-ghost { width: 100%; justify-content: center; }
   }
 </style>

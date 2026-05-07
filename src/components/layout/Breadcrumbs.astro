@@ -31,16 +31,17 @@ const allItems = [{ label: 'Inicio', href: '/' }, ...items];
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    font-size: 0.8125rem;
-    color: var(--color-text-muted);
+    font-size: 12px;
+    color: var(--ink-3);
     gap: 0.25rem;
+    letter-spacing: 0.04em;
   }
   .breadcrumbs li:not(:last-child)::after {
     content: '/';
-    margin-left: 0.25rem;
-    color: var(--color-border);
+    margin-left: 0.4rem;
+    color: var(--line-strong);
   }
-  .breadcrumbs a { color: var(--color-text-light); }
-  .breadcrumbs a:hover { color: var(--color-primary); }
-  .breadcrumbs [aria-current] { color: var(--color-text); font-weight: 500; }
+  .breadcrumbs a { color: var(--ink-2); transition: color 0.15s; }
+  .breadcrumbs a:hover { color: var(--accent); }
+  .breadcrumbs [aria-current] { color: var(--ink-1); font-weight: 500; }
 </style>

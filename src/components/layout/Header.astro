@@ -1,126 +1,133 @@
 ---
 const navLinks = [
+  { href: '/', label: 'Inicio' },
   { href: '/blog', label: 'Articulos' },
   { href: '/categoria/nutricion', label: 'Nutricion' },
   { href: '/categoria/ejercicio', label: 'Ejercicio' },
   { href: '/categoria/mente', label: 'Mente' },
   { href: '/categoria/longevidad', label: 'Longevidad' },
   { href: '/categoria/recetas', label: 'Recetas' },
+  { href: '/sobre-nosotros', label: 'Sobre' },
 ];
 
 const currentPath = Astro.url.pathname;
+const isActive = (href: string) =>
+  href === '/' ? currentPath === '/' : currentPath.startsWith(href);
 ---
 
-<header class="header">
-  <div class="container header__inner">
-    <a href="/" class="header__logo" aria-label="VidaSana360 - Inicio">
-      <span class="header__logo-icon">&#9829;</span>
-      <span class="header__logo-text">VidaSana<strong>360</strong></span>
+<header class="topbar">
+  <div class="container topbar__inner">
+    <a href="/" class="topbar__brand" aria-label="VidaSana360 — Inicio">
+      <span class="brand-mark" aria-hidden="true">VS</span>
+      <span class="brand-name">Vida<em>Sana</em><strong>360</strong></span>
     </a>
 
-    <nav class="header__nav" aria-label="Navegacion principal">
-      <ul class="header__nav-list">
-        {navLinks.map(link => (
-          <li>
-            <a
-              href={link.href}
-              class:list={['header__nav-link', { active: currentPath.startsWith(link.href) }]}
-            >
-              {link.label}
-            </a>
-          </li>
-        ))}
-      </ul>
+    <nav class="topnav-links" aria-label="Navegacion principal">
+      {navLinks.map(link => (
+        <a
+          href={link.href}
+          class:list={['topnav-link', { active: isActive(link.href) }]}
+        >
+          {link.label}
+        </a>
+      ))}
     </nav>
 
-    
-    <button class="header__menu-btn" aria-label="Abrir menu" aria-expanded="false">
+    <button class="topbar__menu-btn" aria-label="Abrir menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
   </div>
 </header>
 
 <style>
-  .header {
+  .topbar {
     position: sticky;
     top: 0;
-    z-index: 100;
-    background: var(--color-surface);
-    border-bottom: 1px solid var(--color-border);
-    backdrop-filter: blur(8px);
+    z-index: 50;
+    backdrop-filter: blur(20px) saturate(140%);
+    -webkit-backdrop-filter: blur(20px) saturate(140%);
+    background: color-mix(in oklab, var(--bg) 78%, transparent);
+    border-bottom: 0.5px solid var(--line);
   }
-  .header__inner {
+  .topbar__inner {
     display: flex;
     align-items: center;
-    gap: 2rem;
-    height: 64px;
+    justify-content: space-between;
+    padding: 14px 0;
+    gap: 18px;
   }
-  .header__logo {
-    display: flex;
+  .topbar__brand {
+    display: inline-flex;
     align-items: center;
-    gap: 0.5rem;
-    font-size: 1.25rem;
-    color: var(--color-text);
-    font-weight: 600;
+    gap: 12px;
+    text-decoration: none;
+    color: var(--ink-1);
     flex-shrink: 0;
   }
-  .header__logo:hover { color: var(--color-primary); }
-  .header__logo-icon {
-    color: var(--color-primary);
-    font-size: 1.5rem;
-  }
-  .header__logo-text strong { color: var(--color-primary); }
-  .header__nav { flex: 1; }
-  .header__nav-list {
+  .topbar__brand:hover .brand-name em { color: var(--accent-secondary); }
+
+  .topnav-links {
     display: flex;
-    list-style: none;
-    gap: 0.25rem;
+    gap: 22px;
+    font-size: 13px;
+    color: var(--ink-2);
   }
-  .header__nav-link {
-    padding: 0.5rem 0.75rem;
-    font-size: 0.875rem;
+  .topnav-link {
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--ink-2);
+    transition: color 0.15s;
     font-weight: 500;
-    color: var(--color-text-light);
-    border-radius: var(--radius-sm);
-    transition: all 0.2s;
+    letter-spacing: 0.01em;
+    padding: 6px 2px;
   }
-  .header__nav-link:hover,
-  .header__nav-link.active {
-    color: var(--color-primary);
-    background: #FFF5F5;
+  .topnav-link:hover { color: var(--ink-1); }
+  .topnav-link.active {
+    color: var(--ink-1);
+    font-weight: 600;
+    border-bottom: 1px solid var(--accent);
   }
-  .header__cta {
-    font-size: 0.8125rem;
-    padding: 0.5rem 1.25rem;
-    flex-shrink: 0;
-  }
-  .header__menu-btn {
+
+  .topbar__menu-btn {
     display: none;
     flex-direction: column;
     gap: 5px;
     background: none;
     border: none;
     cursor: pointer;
-    padding: 0.5rem;
+    padding: 8px;
   }
-  .header__menu-btn span {
+  .topbar__menu-btn span {
     display: block;
     width: 22px;
     height: 2px;
-    background: var(--color-text);
+    background: var(--ink-1);
     border-radius: 2px;
     transition: 0.3s;
   }
 
   @media (max-width: 900px) {
-    .header__nav, .header__cta { display: none; }
-    .header__menu-btn { display: flex; }
+    .topnav-links { display: none; }
+    .topbar__menu-btn { display: flex; }
+    .topnav-links.mobile-open {
+      display: flex;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      flex-direction: column;
+      background: color-mix(in oklab, var(--bg) 92%, transparent);
+      backdrop-filter: blur(16px);
+      padding: 18px 28px;
+      border-bottom: 0.5px solid var(--line);
+      gap: 14px;
+    }
   }
 </style>
 
 <script>
-  const btn = document.querySelector('.header__menu-btn');
-  const nav = document.querySelector('.header__nav');
+  const btn = document.querySelector('.topbar__menu-btn');
+  const nav = document.querySelector('.topnav-links');
   btn?.addEventListener('click', () => {
     const expanded = btn.getAttribute('aria-expanded') === 'true';
     btn.setAttribute('aria-expanded', String(!expanded));

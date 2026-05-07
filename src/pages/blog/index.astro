@@ -10,8 +10,9 @@ const sortedPosts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pu
 <BaseLayout title="Todos los articulos" description="Articulos de salud, nutricion, ejercicio y bienestar basados en evidencia cientifica.">
   <section class="section">
     <div class="container">
-      <h1>Todos los articulos</h1>
-      <p class="page-subtitle">Salud y bienestar respaldados por ciencia</p>
+      <div class="eyebrow">Biblioteca</div>
+      <h1 class="section-title" style="margin-bottom:6px">Todos los artículos</h1>
+      <p class="page-subtitle">Salud y bienestar respaldados por ciencia real</p>
       <div class="articles-grid">
         {sortedPosts.map(post => (
           <ArticleCard
@@ -28,17 +29,3 @@ const sortedPosts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pu
     </div>
   </section>
 </BaseLayout>
-
-<style>
-  .section { padding: 3rem 0; }
-  h1 { margin-bottom: 0.25rem; }
-  .page-subtitle {
-    color: var(--color-text-muted);
-    margin-bottom: 2rem;
-  }
-  .articles-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-    gap: 1.5rem;
-  }
-</style>

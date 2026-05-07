@@ -55,13 +55,19 @@ const resolvedCanonical = canonicalUrl ?? Astro.url.href;
   <meta name="twitter:description" content={description} />
   <meta name="twitter:image" content={resolvedOgImage} />
 
-  <!-- Fonts -->
+  <!-- Fonts: Fraunces (display serif) + Inter (sans) + Pacifico (script accent) -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..600&family=Inter:wght@300;400;500;600;700&family=Pacifico&display=swap"
+    rel="stylesheet"
+  />
 
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+  <!-- Theme color (matches deep green bg) -->
+  <meta name="theme-color" content="#0d1f17" />
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="VidaSana360" href="/rss.xml" />
@@ -82,6 +88,17 @@ const resolvedCanonical = canonicalUrl ?? Astro.url.href;
   </script>
 </head>
 <body>
+  <!-- Decorative full-page background (healthy meal hero) -->
+  <div class="site-bg" aria-hidden="true">
+    <img
+      src="https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&w=1920&q=70"
+      alt=""
+      loading="eager"
+      decoding="async"
+    />
+    <div class="site-bg-mask"></div>
+  </div>
+
   <Header />
   <main>
     <slot />
