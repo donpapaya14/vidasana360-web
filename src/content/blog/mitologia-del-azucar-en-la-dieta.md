@@ -55,7 +55,7 @@ Puedes encontrar información confiable sobre el azúcar y la salud en sitios we
 
 ## Mi Experiencia
 Como desarrollador de apps y cocinero profesional, he visto cómo el azúcar puede afectar la salud y el bienestar de las personas. He trabajado con clientes que han logrado reducir su consumo de azúcar y mejorar su salud general. Una de las cosas que he aprendido es que la clave para reducir el consumo de azúcar es ser consciente de los alimentos que se consumen y elegir opciones saludables.
-He encontrado que el libro [The Sugar Impact Diet](https://www.amazon.com/Sugar-Impact-Diet-JJ-Virgin/dp/1455529155) de JJ Virgin es una excelente fuente de información sobre el azúcar y la salud. También he utilizado productos como [Stevia](https://www.amazon.com/Stevia-0-Calorie-Natural-Sweetener/dp/B076MX9RYG) y [Monk Fruit Sweetener](https://www.amazon.com/Monk-Fruit-Sweetener-0-Calorie-Natural/dp/B076MX9RYG) para reducir el consumo de azúcar en mis recetas.
+He encontrado que el libro [The Sugar Impact Diet](https://www.amazon.es/Sugar-Impact-Diet-JJ-Virgin/dp/1455529155) de JJ Virgin es una excelente fuente de información sobre el azúcar y la salud. También he utilizado productos como [Stevia](https://www.amazon.es/Stevia-0-Calorie-Natural-Sweetener/dp/B076MX9RYG) y [Monk Fruit Sweetener](https://www.amazon.es/Monk-Fruit-Sweetener-0-Calorie-Natural/dp/B076MX9RYG) para reducir el consumo de azúcar en mis recetas.
 
 ## Resumen Práctico
 Aquí hay 8 puntos de acción concretos para reducir el consumo de azúcar y mejorar la salud:

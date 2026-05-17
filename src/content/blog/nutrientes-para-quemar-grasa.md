@@ -27,7 +27,7 @@ Las proteínas son clave para la **pérdida de grasa** porque incrementan la sac
 
 1. **Huevos enteros**: 6 g de proteína por unidad
 2. **Pechuga de pollo**: 31 g por 100 g
-3. **Proteína en polvo para pérdida de grasa** [Optimum Nutrition Gold Standard en Amazon](https://www.amazon.com/s?k=Optimum+Nutrition+Gold+Standard&tag=vds96-20): 24 g por scoop
+3. **Proteína en polvo para pérdida de grasa** [Optimum Nutrition Gold Standard en Amazon](https://www.amazon.es/s?k=Optimum+Nutrition+Gold+Standard&tag=vladys-21): 24 g por scoop
 
 ## Grasas saludables para la pérdida de grasa
 
@@ -85,7 +85,7 @@ Con una dieta adecuada y ejercicio, la [Sociedad Española de Nutrición](https:
 
 ## Mi Experiencia
 
-Como cocinero profesional y desarrollador de apps de nutrición, he visto cómo pequeños cambios generan grandes resultados. En 2020, diseñé un plan para un cliente con **15 kg de exceso**: sustituimos jugos industriales por agua con limón y añadimos 30 g de [Proteína de guisante orgánica en sus smoothies en Amazon](https://www.amazon.com/s?k=Proteína+de+guisante+orgánica+en+sus+smoothies&tag=vds96-20). En 3 meses, perdió **8 kg de pura grasa** según una densitometría. La clave fue la consistencia, no la perfección.
+Como cocinero profesional y desarrollador de apps de nutrición, he visto cómo pequeños cambios generan grandes resultados. En 2020, diseñé un plan para un cliente con **15 kg de exceso**: sustituimos jugos industriales por agua con limón y añadimos 30 g de [Proteína de guisante orgánica en sus smoothies en Amazon](https://www.amazon.es/s?k=Proteína+de+guisante+orgánica+en+sus+smoothies&tag=vladys-21). En 3 meses, perdió **8 kg de pura grasa** según una densitometría. La clave fue la consistencia, no la perfección.
 
 ## Resumen Práctico
 
@@ -96,7 +96,7 @@ Como cocinero profesional y desarrollador de apps de nutrición, he visto cómo 
 5. Bebe **2-3 L de agua** diarios (aumenta la quema de grasa un 3%)
 6. Combina nutrición con **ejercicio de fuerza** 3x/semana
 7. Evita **azúcares añadidos** y harinas refinadas
-8. Usa **termómetro de cocina** [ThermoPro TP03 en Amazon](https://www.amazon.com/s?k=ThermoPro+TP03&tag=vds96-20) para cocinar carnes sin quemar nutrientes
+8. Usa **termómetro de cocina** [ThermoPro TP03 en Amazon](https://www.amazon.es/s?k=ThermoPro+TP03&tag=vladys-21) para cocinar carnes sin quemar nutrientes
 
 
 ### You might also like

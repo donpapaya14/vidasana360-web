@@ -78,7 +78,7 @@ La [Academia de Nutrición y Dietética (2020)](https://www.eatright.org) recomi
 
 1. **Proteína post-yoga**: 20g dentro de los 45 minutos (ej: huevos o yogur griego).
 2. **Hidratación**: 500ml de agua durante la práctica (estudio de *Medicine & Science in Sports*).
-3. **Suplementos**: Magnesio para evitar calambres ([Yoga Mat de ALO en Amazon](https://www.amazon.es/s?k=Yoga+Mat+de+ALO&tag=vladys-21)(https://www.amazon.com) + [Magnesio en polvo Natural Vitality en Amazon](https://www.amazon.es/s?k=Magnesio+en+polvo+Natural+Vitality&tag=vladys-21)(https://www.amazon.com)).
+3. **Suplementos**: Magnesio para evitar calambres ([Yoga Mat de ALO en Amazon](https://www.amazon.es/s?k=Yoga+Mat+de+ALO&tag=vladys-21)(https://www.amazon.es) + [Magnesio en polvo Natural Vitality en Amazon](https://www.amazon.es/s?k=Magnesio+en+polvo+Natural+Vitality&tag=vladys-21)(https://www.amazon.es)).
 
 ---
 
@@ -106,7 +106,7 @@ Orden de efectividad (*ACE Fitness*, 2020):
 3. Hatha (280 kcal/h)
 
 ### ¿Puedo hacer yoga si tengo sobrepeso?
-Absolutamente. Modifica posturas con bloques ([Bloques de yoga Gaiam en Amazon](https://www.amazon.es/s?k=Bloques+de+yoga+Gaiam&tag=vladys-21)(https://www.amazon.com)). La *Clínica Cleveland* recomienda empezar con clases de "Yoga Restaurativo".
+Absolutamente. Modifica posturas con bloques ([Bloques de yoga Gaiam en Amazon](https://www.amazon.es/s?k=Bloques+de+yoga+Gaiam&tag=vladys-21)(https://www.amazon.es)). La *Clínica Cleveland* recomienda empezar con clases de "Yoga Restaurativo".
 
 ### ¿El yoga reemplaza al gimnasio para perder peso?
 No completamente. Según *Harvard Health*, combínalo con 2 días de fuerza semanales para mejores resultados.
@@ -115,7 +115,7 @@ No completamente. Según *Harvard Health*, combínalo con 2 días de fuerza sema
 
 ## Mi Experiencia
 
-Como desarrollador de apps, pasaba 12 horas sentado y gané 15kg. Empecé con **10 minutos diarios de yoga** usando la [Yoga Mat de ALO en Amazon](https://www.amazon.es/s?k=Yoga+Mat+de+ALO&tag=vladys-21)(https://www.amazon.com), y en 3 meses perdí 8kg. La clave fue la constancia: incluso los días sin ganas, hacía solo 5 posturas básicas. Descubrí que la **respiración Ujjayi** me ayudaba a controlar los antojos nocturnos. Ahora recomiendo empezar con apps como Down Dog para rutinas personalizadas.
+Como desarrollador de apps, pasaba 12 horas sentado y gané 15kg. Empecé con **10 minutos diarios de yoga** usando la [Yoga Mat de ALO en Amazon](https://www.amazon.es/s?k=Yoga+Mat+de+ALO&tag=vladys-21)(https://www.amazon.es), y en 3 meses perdí 8kg. La clave fue la constancia: incluso los días sin ganas, hacía solo 5 posturas básicas. Descubrí que la **respiración Ujjayi** me ayudaba a controlar los antojos nocturnos. Ahora recomiendo empezar con apps como Down Dog para rutinas personalizadas.
 
 ---
 
@@ -124,7 +124,7 @@ Como desarrollador de apps, pasaba 12 horas sentado y gané 15kg. Empecé con **
 1. Practica **Vinyasa o Power Yoga** 3x/semana (30 min mínimo).
 2. Combínalo con **proteína post-ejercicio** (20g en 45 min).
 3. Usa **respiración Nadi Shodhana** para controlar estrés y antojos.
-4. Invierte en una buena **esterilla antideslizante** ([Yoga Mat de ALO en Amazon](https://www.amazon.es/s?k=Yoga+Mat+de+ALO&tag=vladys-21)(https://www.amazon.com)).
+4. Invierte en una buena **esterilla antideslizante** ([Yoga Mat de ALO en Amazon](https://www.amazon.es/s?k=Yoga+Mat+de+ALO&tag=vladys-21)(https://www.amazon.es)).
 5. Mide progreso con cinta métrica (no solo báscula).
 6. Complementa con **2 días de entrenamiento de fuerza** semanal.
 7. Hidrátate con **500ml agua durante la práctica**.

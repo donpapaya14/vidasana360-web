@@ -61,14 +61,14 @@ No, el ayuno 16/8 puede ser peligroso para personas con diabetes, por lo que es 
 El mejor momento para hacer el ayuno 16/8 es cuando se siente más cómodo y seguro, pero es importante consultar con un médico antes de empezar.
 
 ## Mi Experiencia
-Como desarrollador de apps y cocinero profesional, he experimentado con el ayuno 16/8 y he encontrado que es una herramienta efectiva para la **pérdida de grasa** y la mejora de la salud. Recomiendo leer [The Complete Guide to Intermittent Fasting](https://www.amazon.com/Complete-Guide-Intermittent-Fasting/dp/1646114456) para obtener más información sobre el tema.
+Como desarrollador de apps y cocinero profesional, he experimentado con el ayuno 16/8 y he encontrado que es una herramienta efectiva para la **pérdida de grasa** y la mejora de la salud. Recomiendo leer [The Complete Guide to Intermittent Fasting](https://www.amazon.es/Complete-Guide-Intermittent-Fasting/dp/1646114456) para obtener más información sobre el tema.
 
 ## Resumen Práctico
 1. **Planifica tus comidas**: Planifica tus comidas para asegurarte de que estás comiendo dentro de la ventana de 8 horas.
 2. **Maneja el hambre**: Bebe agua y té verde para manejar el hambre y la sed.
 3. **Evita los errores comunes**: Evita comer demasiado o demasiado poco, y asegúrate de estar hidratado.
 4. **Consulta con un médico**: Consulta con un médico antes de empezar el ayuno 16/8, especialmente si tienes alguna condición médica.
-5. **Lee [The Complete Guide to Intermittent Fasting](https://www.amazon.com/Complete-Guide-Intermittent-Fasting/dp/1646114456)**: Lee este libro para obtener más información sobre el tema y cómo implementar el ayuno 16/8 de manera efectiva.
+5. **Lee [The Complete Guide to Intermittent Fasting](https://www.amazon.es/Complete-Guide-Intermittent-Fasting/dp/1646114456)**: Lee este libro para obtener más información sobre el tema y cómo implementar el ayuno 16/8 de manera efectiva.
 6. **Busca apoyo**: Busca apoyo en línea o en persona para ayudarte a mantener el ayuno 16/8 y alcanzar tus objetivos de **pérdida de grasa**.
 7. **Registra tus progresos**: Registra tus progresos y ajusta tu plan según sea necesario.
 8. **Mantén una actitud positiva**: Mantén una actitud positiva y no te rindas, el ayuno 16/8 puede ser desafiante al principio, pero los beneficios valen la pena.

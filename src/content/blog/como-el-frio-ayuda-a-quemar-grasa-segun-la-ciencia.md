@@ -59,7 +59,7 @@ Es importante evitar errores comunes al intentar activar la grasa parda. Un art�
 Algunos alimentos pueden potenciar el efecto de la quema de grasa con frío. Un estudio publicado en el [American Journal of Clinical Nutrition](https://academic.oup.com/ajcn) (2021) encontró que compuestos como la **capsaicina** (encontrada en los chiles) y el **mentol** pueden estimular receptores de frío.
 
 1. Incluya 2-3 porciones diarias de alimentos que contengan capsaicina o mentol.
-2. Utilice [Chaleco de hielo para crioterapia](https://www.amazon.com/) para aumentar la quema de grasa.
+2. Utilice [Chaleco de hielo para crioterapia](https://www.amazon.es/) para aumentar la quema de grasa.
 
 ## Preguntas Frecuentes
 ### ¿Cuál es la temperatura ideal para activar la grasa parda?
@@ -72,7 +72,7 @@ Debes exponerte al frío durante **1-2 horas** al día. Un estudio publicado en 
 Puedes comer alimentos que contengan **capsaicina** (encontrada en los chiles) y **mentol**. Un estudio publicado en el [American Journal of Clinical Nutrition](https://academic.oup.com/ajcn) (2021) encontró que estos compuestos pueden estimular receptores de frío.
 
 ### ¿Es seguro utilizar un chaleco de hielo para crioterapia?
-Sí, es seguro utilizar un [Chaleco de hielo para crioterapia](https://www.amazon.com/) siempre y cuando sigas las instrucciones del fabricante y no te expongas a temperaturas extremas.
+Sí, es seguro utilizar un [Chaleco de hielo para crioterapia](https://www.amazon.es/) siempre y cuando sigas las instrucciones del fabricante y no te expongas a temperaturas extremas.
 
 ### ¿Cuánto tiempo debo esperar para ver resultados?
 Debes esperar al menos **14 días** para ver resultados. Un estudio publicado en [Nature Metabolism](https://www.nature.com/natmetabol/) (2020) encontró que la exposición controlada al frío durante 14 días puede aumentar la actividad de la grasa parda en un **42%**.
@@ -83,13 +83,13 @@ No, no es necesario combinar el frío con ejercicio para ver resultados. Sin emb
 ## Mi Experiencia
 Como desarrollador de apps y cocinero profesional, he experimentado personalmente con la quema de grasa con frío. He encontrado que la exposición controlada al frío durante 14 días puede aumentar la actividad de la grasa parda en un **42%**. También he descubierto que la combinación de frío y ejercicio puede aumentar la quema de calorías.
 
-He utilizado un [Chaleco de hielo para crioterapia](https://www.amazon.com/) para aumentar la quema de grasa y he encontrado que es seguro y efectivo siempre y cuando se sigan las instrucciones del fabricante.
+He utilizado un [Chaleco de hielo para crioterapia](https://www.amazon.es/) para aumentar la quema de grasa y he encontrado que es seguro y efectivo siempre y cuando se sigan las instrucciones del fabricante.
 
 ## Resumen Práctico
 1. Exponga su cuerpo a temperaturas frías durante **1-2 horas** al día.
 2. Aumente gradualmente el tiempo de exposición durante los 14 días.
 3. Coma alimentos que contengan **capsaicina** y **mentol**.
-4. Utilice un [Chaleco de hielo para crioterapia](https://www.amazon.com/) para aumentar la quema de grasa.
+4. Utilice un [Chaleco de hielo para crioterapia](https://www.amazon.es/) para aumentar la quema de grasa.
 5. Combine el frío con ejercicio para aumentar la quema de calorías.
 6. Espere al menos **14 días** para ver resultados.
 7. No se exponga a temperaturas extremas.

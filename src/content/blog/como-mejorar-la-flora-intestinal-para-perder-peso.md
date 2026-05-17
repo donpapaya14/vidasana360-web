@@ -61,7 +61,7 @@ Las **bacterias** como la **Akkermansia muciniphila** y la **Bifidobacterium lac
 ### ¿Cómo puedo evitar dañar mi microbiota?
 Es importante evitar o limitar el consumo de **alimentos procesados** y **ingredientes dañinos** como los **edulcorantes artificiales** y los **emulsionantes**. También es importante consumir **alimentos frescos** y **naturales** para mantener una **microbiota** saludable.
 ### ¿Qué suplementos puedo tomar para mejorar mi flora intestinal?
-Se recomienda tomar **probióticos** con **50 billones de UFC** (como la marca [Renew Life en Amazon](https://www.amazon.es/s?k=Renew+Life&tag=vladys-21)(https://www.amazon.com)) para mejorar la **flora intestinal**. También es importante consultar con un profesional de la salud antes de tomar cualquier suplemento.
+Se recomienda tomar **probióticos** con **50 billones de UFC** (como la marca [Renew Life en Amazon](https://www.amazon.es/s?k=Renew+Life&tag=vladys-21)(https://www.amazon.es)) para mejorar la **flora intestinal**. También es importante consultar con un profesional de la salud antes de tomar cualquier suplemento.
 ### ¿Cómo puedo mantener mi flora intestinal saludable a largo plazo?
 Es importante mantener una **dieta equilibrada** y **saludable**, evitar **alimentos procesados** y **ingredientes dañinos**, y consumir **alimentos probióticos** y **ricos en fibra** de manera regular.
 
@@ -74,7 +74,7 @@ A continuación, se presentan **6 puntos de acción** para mejorar la **flora in
 1. **Consume alimentos probióticos** como el **kefir** y el **chucrut** para mejorar la **flora intestinal**.
 2. **Evita alimentos procesados** y **ingredientes dañinos** como los **edulcorantes artificiales** y los **emulsionantes**.
 3. **Come alimentos ricos en fibra** como las **frutas**, las **verduras** y los **granados** para mantener una **microbiota** saludable.
-4. **Toma suplementos de probióticos** con **50 billones de UFC** (como la marca [Renew Life en Amazon](https://www.amazon.es/s?k=Renew+Life&tag=vladys-21)(https://www.amazon.com)) para mejorar la **flora intestinal**.
+4. **Toma suplementos de probióticos** con **50 billones de UFC** (como la marca [Renew Life en Amazon](https://www.amazon.es/s?k=Renew+Life&tag=vladys-21)(https://www.amazon.es)) para mejorar la **flora intestinal**.
 5. **Mantén una dieta equilibrada** y **saludable** para mantener una **microbiota** saludable a largo plazo.
 6. **Consulta con un profesional de la salud** antes de tomar cualquier suplemento o seguir cualquier rutina para mejorar la **flora intestinal**.
 

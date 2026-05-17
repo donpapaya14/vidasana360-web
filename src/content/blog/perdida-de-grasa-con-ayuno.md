@@ -71,8 +71,8 @@ A continuación, se presentan algunos puntos de acción concretos para iniciar e
 3. **Come alimentos saludables**: cuando no estés en ayuno, come alimentos saludables y equilibrados para mantener la salud y el bienestar
 4. **Aumenta gradualmente la duración del ayuno**: a medida que te sientas más cómodo con el ayuno, aumenta gradualmente la duración
 5. **Escucha a tu cuerpo**: si te sientes débil o mareado durante el ayuno, es importante escuchar a tu cuerpo y comer algo
-6. **Considera leer un Libro sobre ayuno intermitente** [Libro sobre ayuno intermitente en Amazon](https://www.amazon.com/s?k=Libro+sobre+ayuno+intermitente&tag=vds96-20) para obtener más información y consejos prácticos
-7. **Considera comprar un suplemento de vitaminas y minerales** [Suplemento de vitaminas y minerales en Amazon](https://www.amazon.com/s?k=Suplemento+de+vitaminas+y+minerales&tag=vds96-20) para evitar deficiencias durante el ayuno
+6. **Considera leer un Libro sobre ayuno intermitente** [Libro sobre ayuno intermitente en Amazon](https://www.amazon.es/s?k=Libro+sobre+ayuno+intermitente&tag=vladys-21) para obtener más información y consejos prácticos
+7. **Considera comprar un suplemento de vitaminas y minerales** [Suplemento de vitaminas y minerales en Amazon](https://www.amazon.es/s?k=Suplemento+de+vitaminas+y+minerales&tag=vladys-21) para evitar deficiencias durante el ayuno
 8. **Considera unirte a un grupo de apoyo en línea** para conectarte con otras personas que están intentando el ayuno intermitente
 
 

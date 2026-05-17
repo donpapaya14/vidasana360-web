@@ -45,8 +45,8 @@ Hay muchas herramientas y recursos disponibles para ayudar a los principiantes a
 * Aplicaciones de seguimiento de actividad física como MyFitnessPal o Fitbit.
 * Sitios web de ejercicio en casa como Nike Training Club o YouTube Fitness.
 * **Resistance Bands de Perform Better**, que pueden ser utilizados para realizar ejercicios de fuerza en casa.
-* [Resistance Bands de Perform Better en Amazon](https://www.amazon.com/s?k=Resistance+Bands+de+Perform+Better&tag=vds96-20)
-* [Kettlebell de CAP Barbell en Amazon](https://www.amazon.com/s?k=Kettlebell+de+CAP+Barbell&tag=vds96-20)
+* [Resistance Bands de Perform Better en Amazon](https://www.amazon.es/s?k=Resistance+Bands+de+Perform+Better&tag=vladys-21)
+* [Kettlebell de CAP Barbell en Amazon](https://www.amazon.es/s?k=Kettlebell+de+CAP+Barbell&tag=vladys-21)
 
 ## Preguntas Frecuentes
 ### ¿Cuánto tiempo debo hacer ejercicio en casa?

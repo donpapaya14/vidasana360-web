@@ -56,7 +56,7 @@ La duración del ayuno depende del tipo de ayuno intermitente que se elija. Seg�
 Durante el ayuno intermitente, es importante comer alimentos nutritivos y equilibrados. Según una entrevista con un experto en nutrición, es importante **planificar** sus comidas y asegurarse de que estén equilibradas y nutritivas.
 
 ### ¿Qué productos se pueden usar para ayudar con el ayuno intermitente?
-Algunos productos que se pueden usar para ayudar con el ayuno intermitente incluyen el [Fitbit Inspire HR](https://www.fitbit.com/), un reloj inteligente para monitorear la actividad física y el ayuno intermitente, y [suplementos de proteínas](https://www.amazon.com/), que pueden ayudar a reducir el apetito y aumentar la sensibilidad a la insulina.
+Algunos productos que se pueden usar para ayudar con el ayuno intermitente incluyen el [Fitbit Inspire HR](https://www.fitbit.com/), un reloj inteligente para monitorear la actividad física y el ayuno intermitente, y [suplementos de proteínas](https://www.amazon.es/), que pueden ayudar a reducir el apetito y aumentar la sensibilidad a la insulina.
 
 ## Mi Experiencia
 Como desarrollador de apps y cocinero profesional, he experimentado con el ayuno intermitente y he visto resultados positivos en mi salud y bienestar. En primer lugar, he notado una **reducción en el apetito** y una **aumento en la energía**. En segundo lugar, he notado una **mejora en la función cerebral** y una **reducción en la inflamación**. En tercer lugar, he notado una **pérdida de grasa** y una **mejora en la apariencia física**. Según mi experiencia, el ayuno intermitente es una técnica de alimentación que puede ser beneficioso para la salud y el bienestar.
@@ -68,7 +68,7 @@ Para implementar un plan de ayuno intermitente efectivo, es importante seguir lo
 3. **Beber suficiente agua** y evitar la **deshidratación**.
 4. **Supervisar** su progreso y ajustar su plan de ayuno intermitente según sea necesario.
 5. **Adaptar** su plan de ayuno intermitente a su estilo de vida y preferencias personales.
-6. **Usar productos** que ayuden con el ayuno intermitente, como el [Fitbit Inspire HR](https://www.fitbit.com/) y [suplementos de proteínas](https://www.amazon.com/).
+6. **Usar productos** que ayuden con el ayuno intermitente, como el [Fitbit Inspire HR](https://www.fitbit.com/) y [suplementos de proteínas](https://www.amazon.es/).
 7. **Consultar con un médico** antes de empezar un plan de ayuno intermitente.
 8. **Ser paciente y consistente**, ya que el ayuno intermitente es una técnica de alimentación que requiere tiempo y esfuerzo para ver resultados positivos.
 

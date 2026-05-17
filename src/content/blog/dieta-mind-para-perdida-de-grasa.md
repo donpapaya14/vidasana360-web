@@ -67,7 +67,7 @@ Como desarrollador de apps y cocinero profesional, he tenido la oportunidad de e
 5. **Bebe suficiente agua** - bebe al menos 8 vasos de agua al día.
 6. **Consulta con un profesional de la salud** - antes de iniciar cualquier dieta o plan de comidas. 
 
-Puedes encontrar más información y recetas en el [Libro de recetas de la dieta MIND](https://www.amazon.com/) o en [suplementos de omega-3 en Amazon](https://www.amazon.es/s?k=suplementos+de+omega-3&tag=vladys-21)(https://www.amazon.com/).
+Puedes encontrar más información y recetas en el [Libro de recetas de la dieta MIND](https://www.amazon.es/) o en [suplementos de omega-3 en Amazon](https://www.amazon.es/s?k=suplementos+de+omega-3&tag=vladys-21)(https://www.amazon.es/).
 
 
 ### You might also like

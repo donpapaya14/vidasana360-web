@@ -79,7 +79,7 @@ Sí, puede hacer ejercicio con dolor de rodilla, pero es importante elegir ejerc
 ### ¿Cuál es el mejor tratamiento para el dolor de rodilla?
 El mejor tratamiento para el dolor de rodilla es una combinación de ejercicios de estiramiento y fortalecimiento, uso de equipo de protección y técnicas de aterrizaje seguras, así como cambios en el estilo de vida.
 ### ¿Puedo usar una rodillera de compresión para dolor de rodilla?
-Sí, puede usar una rodillera de compresión para dolor de rodilla, como la [Rodillera de compresión para dolor de rodilla](https://www.amazon.com/Rodillera-de-compresion-para-dolor-de-rodilla/).
+Sí, puede usar una rodillera de compresión para dolor de rodilla, como la [Rodillera de compresión para dolor de rodilla](https://www.amazon.es/Rodillera-de-compresion-para-dolor-de-rodilla/).
 
 ## Mi Experiencia
 Como desarrollador de apps y cocinero profesional, he experimentado dolor de rodilla en varias ocasiones. Sin embargo, después de investigar y probar diferentes ejercicios y técnicas, he encontrado que los ejercicios de estiramiento y fortalecimiento son los más efectivos para aliviar el dolor de rodilla. También he descubierto que el uso de equipo de protección y técnicas de aterrizaje seguras es fundamental para prevenir lesiones y dolor de rodilla.
@@ -91,7 +91,7 @@ Aquí hay 6 puntos de acción concretos que puede tomar para aliviar y prevenir 
 3. Evite actividades que impliquen impacto o choque
 4. Mantenga un peso saludable
 5. Realice un calentamiento adecuado antes de realizar cualquier actividad física
-6. Use una rodillera de compresión para dolor de rodilla, como la [Rodillera de compresión para dolor de rodilla](https://www.amazon.com/Rodillera-de-compresion-para-dolor-de-rodilla/)
+6. Use una rodillera de compresión para dolor de rodilla, como la [Rodillera de compresión para dolor de rodilla](https://www.amazon.es/Rodillera-de-compresion-para-dolor-de-rodilla/)
 
 
 ---

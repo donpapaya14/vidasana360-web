@@ -59,7 +59,7 @@ Para preparar la avena de manera saludable, siga estos pasos:
 El arroz integral contiene **110 calorías**, **2g de proteínas**, **1g de grasas** y **25g de carbohidratos** por cada 100g, según la [Base de Datos de Nutrición del USDA](https://ndb.nal.usda.gov/), 2022.
 
 ### ¿Qué productos complementarios puedo comprar en Amazon?
-Puede comprar [Avena Orgánica Bob's Red Mill](https://www.amazon.com/Bobs-Red-Mill-Rolled-Oats/) y otros productos complementarios como [Aceite de Oliva](https://www.amazon.com/Olive-Oil-Extra-Virgin/) y [Frutas Secas](https://www.amazon.com/Dried-Fruits/) en Amazon.
+Puede comprar [Avena Orgánica Bob's Red Mill](https://www.amazon.es/Bobs-Red-Mill-Rolled-Oats/) y otros productos complementarios como [Aceite de Oliva](https://www.amazon.es/Olive-Oil-Extra-Virgin/) y [Frutas Secas](https://www.amazon.es/Dried-Fruits/) en Amazon.
 
 ### ¿Cuál es el beneficio de consumir avena y arroz integral juntos?
 El consumo de avena y arroz integral juntos puede ofrecer beneficios adicionales para la salud, como la reducción del **riesgo de enfermedades cardiovasculares** y la mejora de la **digestión**.
@@ -81,7 +81,7 @@ Para resumir, aquí hay 6 puntos de acción concretos que puede seguir para inco
 3. **Lave** la avena y el arroz integral antes de cocinarlos.
 4. **Cocine** la avena con **2 tazas de agua** y el arroz integral con **1 taza de agua**.
 5. **Agregue** frutas, verduras y especias para dar sabor a sus recetas.
-6. **Compra** [Avena Orgánica Bob's Red Mill](https://www.amazon.com/Bobs-Red-Mill-Rolled-Oats/) y otros productos complementarios en Amazon.
+6. **Compra** [Avena Orgánica Bob's Red Mill](https://www.amazon.es/Bobs-Red-Mill-Rolled-Oats/) y otros productos complementarios en Amazon.
 
 
 ### You might also like

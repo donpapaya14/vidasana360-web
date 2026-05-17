@@ -69,7 +69,7 @@ El mejor tipo de ejercicio para perder peso es el que te guste y que puedas real
 Para mantener un déficit calórico a largo plazo, debes planificar tus comidas, realizar ejercicio regularmente y beber suficiente agua. Según la [Asociación Americana de Dietética](https://www.andjrnl.org/), en 2020, se recomendó que las personas deben planificar sus comidas con anticipación para evitar el consumo de alimentos no saludables.
 
 ## Mi Experiencia
-Como desarrollador de apps y cocinero profesional, he aprendido que la clave para perder peso es crear un déficit calórico de manera sostenible. He probado diferentes dietas y ejercicios, y he encontrado que la planificación de las comidas y el ejercicio regular son fundamentales para mantener un déficit calórico a largo plazo. Recomiendo que las personas lean un [libro sobre nutrición y pérdida de peso](https://www.amazon.com/) para aprender más sobre cómo crear un déficit calórico de manera efectiva.
+Como desarrollador de apps y cocinero profesional, he aprendido que la clave para perder peso es crear un déficit calórico de manera sostenible. He probado diferentes dietas y ejercicios, y he encontrado que la planificación de las comidas y el ejercicio regular son fundamentales para mantener un déficit calórico a largo plazo. Recomiendo que las personas lean un [libro sobre nutrición y pérdida de peso](https://www.amazon.es/) para aprender más sobre cómo crear un déficit calórico de manera efectiva.
 
 ## Resumen Práctico
 Aquí hay algunos puntos de acción que puedes seguir para crear un déficit calórico y perder peso:
@@ -77,8 +77,8 @@ Aquí hay algunos puntos de acción que puedes seguir para crear un déficit cal
 2. Planifica tus comidas con anticipación para evitar el consumo de alimentos no saludables.
 3. Realiza ejercicio regularmente, como entrenamiento de fuerza y cardio.
 4. Bebe suficiente agua para mantener tu cuerpo hidratado.
-5. Lee un [libro sobre nutrición y pérdida de peso](https://www.amazon.com/) para aprender más sobre cómo crear un déficit calórico de manera efectiva.
-6. Considera comprar un [kit de nutrición](https://www.amazon.com/) o un [suplemento de proteínas](https://www.amazon.com/) para ayudarte a mantener un déficit calórico.
+5. Lee un [libro sobre nutrición y pérdida de peso](https://www.amazon.es/) para aprender más sobre cómo crear un déficit calórico de manera efectiva.
+6. Considera comprar un [kit de nutrición](https://www.amazon.es/) o un [suplemento de proteínas](https://www.amazon.es/) para ayudarte a mantener un déficit calórico.
 7. Busca apoyo en línea o en persona para mantener tu motivación y alcanzar tus objetivos de pérdida de peso.
 8. Recuerda que la pérdida de peso es un proceso lento y gradual, y que debes ser paciente y consistente para alcanzar tus objetivos.
 
