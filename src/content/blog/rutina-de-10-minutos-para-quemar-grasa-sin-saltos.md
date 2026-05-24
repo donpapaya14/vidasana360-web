@@ -19,10 +19,10 @@ draft: false
 
 
 ## Introducción a la rutina de 10 minutos para quemar grasa sin saltos
-La búsqueda de **quemar grasa sin saltos** es una tendencia creciente, ya que muchas personas buscan métodos efectivos y seguros para perder peso sin dañar sus articulaciones. Según un estudio de la [American Council on Exercise (ACE)](https://www.acefitness.org/), 2022, los ejercicios de bajo impacto pueden activar el metabolismo sin causar lesiones. En este artículo, exploraremos cómo funciona esta rutina y cómo puedes implementarla en tu vida diaria.
+La búsqueda de **quemar grasa sin saltos** es una tendencia creciente, ya que muchas personas buscan métodos efectivos y seguros para perder peso sin dañar sus articulaciones. Según un estudio de la American Council on Exercise (ACE), 2022, los ejercicios de bajo impacto pueden activar el metabolismo sin causar lesiones. En este artículo, exploraremos cómo funciona esta rutina y cómo puedes implementarla en tu vida diaria.
 
 ## Por qué funciona quemar grasa sin saltos
-Los ejercicios de bajo impacto, como la caminata, el yoga o los ejercicios con bandas de resistencia, pueden ser tan efectivos como los ejercicios de alto impacto para quemar grasa. Un estudio publicado en el [Journal of Sports Science & Medicine](https://www.jssm.org/), 2021, encontró que los ejercicios de bajo impacto pueden mejorar la función cardiovascular y reducir el riesgo de lesiones. Además, estos ejercicios pueden ser realizados en cualquier lugar y no requieren equipo especializado.
+Los ejercicios de bajo impacto, como la caminata, el yoga o los ejercicios con bandas de resistencia, pueden ser tan efectivos como los ejercicios de alto impacto para quemar grasa. Un estudio publicado en el Journal of Sports Science & Medicine, 2021, encontró que los ejercicios de bajo impacto pueden mejorar la función cardiovascular y reducir el riesgo de lesiones. Además, estos ejercicios pueden ser realizados en cualquier lugar y no requieren equipo especializado.
 
 ## Los 4 ejercicios clave (y cómo hacerlos bien)
 A continuación, te presentamos 4 ejercicios clave para quemar grasa sin saltos:

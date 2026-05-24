@@ -22,7 +22,7 @@ draft: false
 El **déficit calórico para perder peso** es un concepto fundamental en la nutrición y el ejercicio. Según un estudio de la [Academia Nacional de Ciencias](https://www.nap.edu/), en 2019, se encontró que una dieta con un déficit calórico puede ayudar a perder peso de manera efectiva. El **déficit calórico** se refiere a la diferencia entre la cantidad de calorías que ingieres y la cantidad que quemas. Para perder peso, debes crear un déficit calórico, es decir, consumir menos calorías de las que quemas.
 
 ## ¿Qué es el Déficit Calórico?
-El déficit calórico es el resultado de consumir menos calorías de las que el cuerpo necesita para funcionar. Esto puede lograrse a través de una combinación de dieta y ejercicio. Según la [Asociación Americana de Dietética](https://www.andjrnl.org/), en 2020, se recomendó que las personas que desean perder peso deben crear un déficit calórico de 500-1000 calorías al día.
+El déficit calórico es el resultado de consumir menos calorías de las que el cuerpo necesita para funcionar. Esto puede lograrse a través de una combinación de dieta y ejercicio. Según la Asociación Americana de Dietética, en 2020, se recomendó que las personas que desean perder peso deben crear un déficit calórico de 500-1000 calorías al día.
 
 ## Cómo Calcular tu Déficit Calórico
 Para calcular tu déficit calórico, debes determinar tu tasa metabólica basal (TMB) y tu nivel de actividad física. La fórmula para calcular el déficit calórico es:
@@ -51,14 +51,14 @@ Algunos consejos para mantener un déficit calórico a largo plazo son:
 1. Planificar las comidas
 2. Seguir un diario de alimentos
 3. Realizar ejercicio regularmente
-Según la [Asociación Americana de Dietética](https://www.andjrnl.org/), en 2020, se recomendó que las personas deben planificar sus comidas con anticipación para evitar el consumo de alimentos no saludables.
+Según la Asociación Americana de Dietética, en 2020, se recomendó que las personas deben planificar sus comidas con anticipación para evitar el consumo de alimentos no saludables.
 
 ## Errores Comunes al Seguir un Déficit Calórico
 Algunos errores comunes que las personas cometen al seguir un déficit calórico son:
 1. No planificar las comidas
 2. No realizar ejercicio regularmente
 3. No beber suficiente agua
-Según la [Revista de Nutrición y Dietética](https://www.jandonline.org/), en 2019, se encontró que las personas que no planifican sus comidas tienen más probabilidades de consumir alimentos no saludables.
+Según la Revista de Nutrición y Dietética, en 2019, se encontró que las personas que no planifican sus comidas tienen más probabilidades de consumir alimentos no saludables.
 
 ## Preguntas Frecuentes
 ### ¿Cuántas calorías debo consumir al día para perder peso?
@@ -66,7 +66,7 @@ La cantidad de calorías que debes consumir al día para perder peso depende de 
 ### ¿Cuál es el mejor tipo de ejercicio para perder peso?
 El mejor tipo de ejercicio para perder peso es el que te guste y que puedas realizar regularmente. Según el [Centro de Control y Prevención de Enfermedades](https://www.cdc.gov/), en 2019, se recomendó que las personas deben realizar al menos 150 minutos de ejercicio moderado a la semana.
 ### ¿Cómo puedo mantener un déficit calórico a largo plazo?
-Para mantener un déficit calórico a largo plazo, debes planificar tus comidas, realizar ejercicio regularmente y beber suficiente agua. Según la [Asociación Americana de Dietética](https://www.andjrnl.org/), en 2020, se recomendó que las personas deben planificar sus comidas con anticipación para evitar el consumo de alimentos no saludables.
+Para mantener un déficit calórico a largo plazo, debes planificar tus comidas, realizar ejercicio regularmente y beber suficiente agua. Según la Asociación Americana de Dietética, en 2020, se recomendó que las personas deben planificar sus comidas con anticipación para evitar el consumo de alimentos no saludables.
 
 ## Mi Experiencia
 Como desarrollador de apps y cocinero profesional, he aprendido que la clave para perder peso es crear un déficit calórico de manera sostenible. He probado diferentes dietas y ejercicios, y he encontrado que la planificación de las comidas y el ejercicio regular son fundamentales para mantener un déficit calórico a largo plazo. Recomiendo que las personas lean un [libro sobre nutrición y pérdida de peso](https://www.amazon.es/) para aprender más sobre cómo crear un déficit calórico de manera efectiva.

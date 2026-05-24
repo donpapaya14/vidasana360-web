@@ -19,7 +19,7 @@ draft: false
 
 ## Introducción a la nutrición para la pérdida de grasa
 
-Los **nutrientes para quemar grasa** son esenciales para un enfoque saludable y sostenible de la pérdida de peso. Según la [Academia de Nutrición y Dietética (2020)](https://www.eatright.org), una dieta equilibrada con los macronutrientes y micronutrientes adecuados puede aumentar la tasa metabólica en un **15-30%** durante las horas posteriores a la comida. A diferencia de las dietas restrictivas, este método preserva la masa muscular y evita el efecto rebote.
+Los **nutrientes para quemar grasa** son esenciales para un enfoque saludable y sostenible de la pérdida de peso. Según la Academia de Nutrición y Dietética (2020), una dieta equilibrada con los macronutrientes y micronutrientes adecuados puede aumentar la tasa metabólica en un **15-30%** durante las horas posteriores a la comida. A diferencia de las dietas restrictivas, este método preserva la masa muscular y evita el efecto rebote.
 
 ## Proteínas para la pérdida de grasa
 
@@ -42,7 +42,7 @@ Contrario a la creencia popular, las grasas saludables aceleran la quema de gras
 
 ## Carbohidratos complejos para la energía
 
-Los carbohidratos complejos mantienen estable la glucosa en sangre, clave para evitar picos de insulina que promueven el almacenamiento de grasa. La [Asociación Americana de Dietética (2022)](https://www.eatright.org) recomienda **3-5 porciones diarias** de:
+Los carbohidratos complejos mantienen estable la glucosa en sangre, clave para evitar picos de insulina que promueven el almacenamiento de grasa. La Asociación Americana de Dietética (2022) recomienda **3-5 porciones diarias** de:
 
 1. **Avena**: 51 g de carbohidratos por 100 g (rica en fibra)
 2. **Quinua**: 21 g por taza (proteína completa)
@@ -60,7 +60,7 @@ La [OMS (2021)](https://www.who.int) destaca estos micronutrientes para el metab
 
 ## Ejemplo de plan de comidas para la pérdida de grasa
 
-Basado en la [Revista de Nutrición Clínica (2020)](https://www.clinicalnutritionjournal.com):
+Basado en la Revista de Nutrición Clínica (2020):
 
 1. **Desayuno**: 2 huevos + ½ aguacate + 1 rebanada pan integral
 2. **Almuerzo**: 150 g de salmón + 1 taza de quinoa + brócoli al vapor
@@ -78,10 +78,10 @@ No las saludables. Un estudio de *The Lancet* (2017) con 135,000 personas mostr�
 Sí. La [Universidad de Harvard](https://www.hsph.harvard.edu) recomienda el método del plato: 50% vegetales, 25% proteína, 25% carbohidratos complejos + 1 cucharada de grasa saludable.
 
 ### ¿Los suplementos ayudan a quemar grasa?
-Solo si hay deficiencias. La [Clínica Mayo](https://www.mayoclinic.org) advierte que suplementos como termogénicos tienen efectos marginales (<5% más quema) y pueden ser riesgosos.
+Solo si hay deficiencias. La Clínica Mayo advierte que suplementos como termogénicos tienen efectos marginales (<5% más quema) y pueden ser riesgosos.
 
 ### ¿Cuánto tiempo tarda en verse resultados?
-Con una dieta adecuada y ejercicio, la [Sociedad Española de Nutrición](https://www.sennutricion.org.es) estima una pérdida de **0.5-1 kg de grasa semanal** como sostenible.
+Con una dieta adecuada y ejercicio, la Sociedad Española de Nutrición estima una pérdida de **0.5-1 kg de grasa semanal** como sostenible.
 
 ## Mi Experiencia
 

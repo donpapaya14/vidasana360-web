@@ -17,7 +17,7 @@ draft: false
 
 
 ## Introducción
-La **nutrición saludable para la pérdida de peso** es un tema crucial en la actualidad. Según un estudio de la [Asociación Americana de Nutrición](https://www.andjrnl.org/) (2020), las **almendras** y las **nueces de macadamia** son opciones populares para aquellos que buscan perder peso de manera saludable. Estas nueces no solo son ricas en nutrientes, sino que también pueden ayudar a controlar el apetito y mejorar la saciedad.
+La **nutrición saludable para la pérdida de peso** es un tema crucial en la actualidad. Según un estudio de la Asociación Americana de Nutrición (2020), las **almendras** y las **nueces de macadamia** son opciones populares para aquellos que buscan perder peso de manera saludable. Estas nueces no solo son ricas en nutrientes, sino que también pueden ayudar a controlar el apetito y mejorar la saciedad.
 
 ## Composición nutricional
 En términos de composición nutricional, las **almendras** y las **nueces de macadamia** tienen perfiles nutricionales diferentes. Según la [Base de datos de la USDA](https://ndb.nal.usda.gov/), una porción de **almendras** (28g) contiene aproximadamente **161 calorías**, **6g de proteínas**, **14g de grasas** y **6g de carbohidratos**. Por otro lado, una porción de **nueces de macadamia** (28g) contiene aproximadamente **204 calorías**, **2g de proteínas**, **21g de grasas** y **4g de carbohidratos**.

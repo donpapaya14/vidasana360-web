@@ -18,7 +18,7 @@ draft: false
 ---
 
 ## Introducción al dolor de rodilla
-El **dolor de rodilla** es un problema común que afecta a millones de personas en todo el mundo. Según la [American Academy of Orthopaedic Surgeons](https://www.aaos.org/), el dolor de rodilla puede ser causado por una variedad de factores, incluyendo lesiones, enfermedades y factores de estilo de vida. En este artículo, exploraremos las causas comunes del dolor de rodilla, ejercicios para aliviar el dolor y consejos prácticos para prevenir lesiones y dolor de rodilla.
+El **dolor de rodilla** es un problema común que afecta a millones de personas en todo el mundo. Según la American Academy of Orthopaedic Surgeons, el dolor de rodilla puede ser causado por una variedad de factores, incluyendo lesiones, enfermedades y factores de estilo de vida. En este artículo, exploraremos las causas comunes del dolor de rodilla, ejercicios para aliviar el dolor y consejos prácticos para prevenir lesiones y dolor de rodilla.
 
 ## Causas comunes del dolor de rodilla
 El dolor de rodilla puede ser causado por una variedad de factores, incluyendo lesiones, enfermedades y factores de estilo de vida. Según un estudio de la [Universidad de California](https://www.ucsf.edu/), el 23% de los adultos en Estados Unidos experimentan dolor de rodilla en algún momento de sus vidas. Algunas de las causas comunes del dolor de rodilla incluyen:
@@ -63,8 +63,8 @@ Prevenir lesiones y dolor de rodilla es importante para mantener una vida activa
 
 ## Recursos adicionales para el manejo del dolor de rodilla
 Hay muchos recursos disponibles para el manejo del dolor de rodilla, incluyendo:
-* [American Academy of Orthopaedic Surgeons](https://www.aaos.org/)
-* [Arthritis Foundation](https://www.arthritis.org/)
+* American Academy of Orthopaedic Surgeons
+* Arthritis Foundation
 * [National Institute of Arthritis and Musculoskeletal and Skin Diseases](https://www.niams.nih.gov/)
 
 ## Preguntas Frecuentes

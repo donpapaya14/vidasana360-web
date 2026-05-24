@@ -51,7 +51,7 @@ Sí, el azúcar puede ser adictivo debido a su efecto en el cerebro y el sistema
 ### ¿Qué pasa si consumo demasiado azúcar?
 El consumo excesivo de azúcar se asocia con un mayor riesgo de obesidad, diabetes y enfermedades cardíacas. Un estudio publicado en la revista [Journal of the American Medical Association](https://jamanetwork.com/) (2018) encontró que el consumo de azúcar añadido aumenta el riesgo de mortalidad prematura.
 ### ¿Cómo puedo encontrar información confiable sobre el azúcar y la salud?
-Puedes encontrar información confiable sobre el azúcar y la salud en sitios web de autoridad como la [Organización Mundial de la Salud](https://www.who.int/) y la [Academia de Nutrición y Dietética](https://www.andjrnl.org/).
+Puedes encontrar información confiable sobre el azúcar y la salud en sitios web de autoridad como la [Organización Mundial de la Salud](https://www.who.int/) y la Academia de Nutrición y Dietética.
 
 ## Mi Experiencia
 Como desarrollador de apps y cocinero profesional, he visto cómo el azúcar puede afectar la salud y el bienestar de las personas. He trabajado con clientes que han logrado reducir su consumo de azúcar y mejorar su salud general. Una de las cosas que he aprendido es que la clave para reducir el consumo de azúcar es ser consciente de los alimentos que se consumen y elegir opciones saludables.

@@ -32,7 +32,7 @@ Para practicar la técnica 4-7-8, siga estos pasos:
 Según el Dr. Andrew Weil, de la [Harvard Medical School](https://hms.harvard.edu/), esta técnica puede ayudar a reducir el estrés y la ansiedad.
 
 ## Momento clave para usarla (cuando ataca el antojo)
-La ventana de **5 minutos** es crítica cuando aparece el deseo de picar. Un estudio de la [Journal of Obesity](https://www.journalofobesity.com/) (2019) encontró que la mayoría de las personas pueden resistir el antojo durante **5 minutos**. Para crear el hábito, puede establecer recordatorios en su teléfono para practicar la técnica 4-7-8.
+La ventana de **5 minutos** es crítica cuando aparece el deseo de picar. Un estudio de la Journal of Obesity (2019) encontró que la mayoría de las personas pueden resistir el antojo durante **5 minutos**. Para crear el hábito, puede establecer recordatorios en su teléfono para practicar la técnica 4-7-8.
 
 ## Variación para antes de dormir (evita comer nocturno)
 Para practicar la técnica 4-7-8 antes de dormir, siga estos pasos:
@@ -40,7 +40,7 @@ Para practicar la técnica 4-7-8 antes de dormir, siga estos pasos:
 2. Inhale durante **4 segundos**
 3. Retenga la respiración durante **7 segundos**
 4. Exhale durante **8 segundos**
-Según la [National Sleep Foundation](https://www.sleepfoundation.org/), esta técnica puede ayudar a mejorar la calidad del sueño y reducir el **comer nocturno**.
+Según la National Sleep Foundation, esta técnica puede ayudar a mejorar la calidad del sueño y reducir el **comer nocturno**.
 
 ## Resultados reales: estudio con comedores emocionales
 Un estudio de la [Universidad de California](https://www.uc.edu/) (2022) encontró que el **68%** de los participantes redujo su ingesta calórica en **200-300 kcal/día** después de practicar la técnica 4-7-8 durante **2 semanas**.
@@ -55,7 +55,7 @@ Es recomendable consultar con un médico antes de practicar la técnica 4-7-8 si
 ### ¿Puedo combinar la técnica 4-7-8 con otros métodos de reducción de estrés?
 Sí, puede combinar la técnica 4-7-8 con otros métodos de reducción de estrés, como la meditación o el yoga.
 ### ¿Dónde puedo encontrar más información sobre la técnica 4-7-8?
-Puede encontrar más información sobre la técnica 4-7-8 en la [Harvard Medical School](https://hms.harvard.edu/) o en la [National Sleep Foundation](https://www.sleepfoundation.org/).
+Puede encontrar más información sobre la técnica 4-7-8 en la [Harvard Medical School](https://hms.harvard.edu/) o en la National Sleep Foundation.
 ### ¿Qué productos puedo utilizar para ayudarme a practicar la técnica 4-7-8?
 Puede utilizar un [Reloj inteligente con recordatorios de respiración (modelo Xiaomi Mi Band 7)](https://www.amazon.com/) para ayudarlo a recordar practicar la técnica 4-7-8.
 
@@ -70,7 +70,7 @@ He notado que la técnica 4-7-8 también me ayuda a reducir los antojos y a come
 4. Practique la técnica 4-7-8 antes de dormir para mejorar la calidad del sueño
 5. Utilice la técnica 4-7-8 para reducir los antojos y comer de manera más saludable
 6. Consulte con un médico antes de practicar la técnica 4-7-8 si tiene alguna condición médica
-7. Busque más información sobre la técnica 4-7-8 en la [Harvard Medical School](https://hms.harvard.edu/) o en la [National Sleep Foundation](https://www.sleepfoundation.org/)
+7. Busque más información sobre la técnica 4-7-8 en la [Harvard Medical School](https://hms.harvard.edu/) o en la National Sleep Foundation
 8. Practique la técnica 4-7-8 regularmente para mejorar su salud en general
 
 

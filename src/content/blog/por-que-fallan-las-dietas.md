@@ -70,7 +70,7 @@ La Dra. Susan Albers (2019) identifica 3 barreras clave y soluciones:
 
 1. **Falta de tiempo**:
    - Preparar 3 ingredientes base cada domingo (ej: quinoa, pollo, verduras)
-   - Usar apps como [Mealime](https://www.mealime.com) para planificación rápida
+   - Usar apps como Mealime para planificación rápida
 
 2. **Tentaciones sociales**:
    - Técnica "1-2-3": 1 vaso de agua, 2 respiraciones, 3 minutos de espera antes de decidir

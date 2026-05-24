@@ -57,7 +57,7 @@ Tabla comparativa de efectividad (calorías quemadas en 10 minutos):
 
 ## Ejercicios cardiovasculares para quemar grasa
 
-La [Asociación Americana del Corazón (2019)](https://www.heart.org) recomienda **150 minutos semanales** de cardio moderado para reducir grasa abdominal. Los más efectivos:
+La Asociación Americana del Corazón (2019) recomienda **150 minutos semanales** de cardio moderado para reducir grasa abdominal. Los más efectivos:
 
 1. **Entrenamiento HIIT**
    - 20 segundos sprint + 40 segundos caminata
@@ -86,7 +86,7 @@ El [Instituto Nacional de Salud (2020)](https://www.nih.gov) encontró que combi
 
 ## Consejos para maximizar la quema de grasa abdominal
 
-Según la [Revista de Nutrición y Fitness (2019)](https://www.jissn.com), estos hábitos potencian resultados:
+Según la Revista de Nutrición y Fitness (2019), estos hábitos potencian resultados:
 
 1. **Comer proteína en cada comida** (30g en desayuno según estudio de la Universidad de Missouri)
 2. **Dormir 7-8 horas** (menos de 6h aumenta grelina, hormona del hambre)
@@ -95,7 +95,7 @@ Según la [Revista de Nutrición y Fitness (2019)](https://www.jissn.com), estos
 
 ## Prevención de lesiones y seguridad
 
-La [Academia Americana de Ortopedia (2020)](https://www.aaos.org) advierte que el **45% de lesiones abdominales** ocurren por mala técnica. Reglas de oro:
+La Academia Americana de Ortopedia (2020) advierte que el **45% de lesiones abdominales** ocurren por mala técnica. Reglas de oro:
 
 1. **Calentar siempre** (5-10 minutos de movilidad articular)
 2. **Evitar crunches con manos tras la nuca** (presiona cervicales)

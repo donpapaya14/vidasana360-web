@@ -18,19 +18,19 @@ draft: false
 ---
 
 ## Introducción a la chía para perder peso
-La **chía** es una semilla rica en fibra soluble que puede ayudar a **bloquear la grasa** en el intestino, reduciendo su absorción en un **30%** según un estudio publicado en el [Journal of Food Science](https://www.ift.org/) en 2018. Esto la convierte en un aliado valioso para aquellos que buscan **perder peso** de manera saludable.
+La **chía** es una semilla rica en fibra soluble que puede ayudar a **bloquear la grasa** en el intestino, reduciendo su absorción en un **30%** según un estudio publicado en el Journal of Food Science en 2018. Esto la convierte en un aliado valioso para aquellos que buscan **perder peso** de manera saludable.
 
 ## El mecanismo científico: cómo la chía 'atrapa' la grasa
-La chía contiene un tipo de fibra soluble llamada **mucílago**, que forma un **gel** en el intestino cuando se hidrata. Este gel puede capturar moléculas de grasa, reduciendo su absorción en el cuerpo. Un estudio publicado en el [Journal of Food Science](https://www.ift.org/) en 2018 encontró que la chía puede reducir la absorción de grasa en un **30%**.
+La chía contiene un tipo de fibra soluble llamada **mucílago**, que forma un **gel** en el intestino cuando se hidrata. Este gel puede capturar moléculas de grasa, reduciendo su absorción en el cuerpo. Un estudio publicado en el Journal of Food Science en 2018 encontró que la chía puede reducir la absorción de grasa en un **30%**.
 
 ## La dosis exacta para ver resultados
-Para aprovechar al máximo los beneficios de la chía para **perder peso**, es importante consumirla en la cantidad adecuada. Un estudio publicado en [Nutrition Research](https://www.journals.elsevier.com/nutrition-research/) en 2020 encontró que **15g diarios** (1.5 cucharadas) es la cantidad óptima para ver resultados en un plazo de **8 semanas**.
+Para aprovechar al máximo los beneficios de la chía para **perder peso**, es importante consumirla en la cantidad adecuada. Un estudio publicado en Nutrition Research en 2020 encontró que **15g diarios** (1.5 cucharadas) es la cantidad óptima para ver resultados en un plazo de **8 semanas**.
 
 ## El momento clave para consumirla
 El momento en que se consume la chía también es importante. Un estudio publicado en el [European Journal of Clinical Nutrition](https://www.nature.com/ejcn/) en 2019 encontró que tomar la chía **15-20 minutos** antes de comidas altas en grasas puede aumentar su efectividad. Por ejemplo, si se va a consumir una comida con **altos niveles de grasa**, como una hamburguesa, es recomendable tomar la chía antes de comer.
 
 ## Comparativa: chía molida vs entera
-La chía puede ser consumida en forma **molida** o **entera**. Un estudio publicado en el [Food Chemistry Journal](https://www.journals.elsevier.com/food-chemistry/) en 2021 encontró que moler la chía puede liberar un **40%** más de fibra soluble, lo que puede aumentar su efectividad para **bloquear la grasa**. Sin embargo, es importante tener en cuenta que moler la chía también puede reducir su contenido de nutrientes.
+La chía puede ser consumida en forma **molida** o **entera**. Un estudio publicado en el Food Chemistry Journal en 2021 encontró que moler la chía puede liberar un **40%** más de fibra soluble, lo que puede aumentar su efectividad para **bloquear la grasa**. Sin embargo, es importante tener en cuenta que moler la chía también puede reducir su contenido de nutrientes.
 
 ## 3 recetas 'anti-grasa' con chía
 A continuación, se presentan tres recetas prácticas que incluyen la chía como ingrediente principal:
@@ -39,7 +39,7 @@ A continuación, se presentan tres recetas prácticas que incluyen la chía como
 3. **Aderezo para ensaladas**: Mezcle 1 cucharada de chía con 2 cucharadas de aceite de oliva y 1 cucharadita de vinagre de manzana. Agregue a ensaladas y mezcle bien.
 
 ## Errores que anulan sus efectos
-Es importante tener en cuenta que la chía no es una solución mágica para **perder peso**. Un estudio publicado en la [Mayo Clinic](https://www.mayoclinic.org/) en 2022 encontró que exceder la dosis recomendada de chía puede causar **hinchazón** y otros problemas digestivos. Además, es importante beber suficiente agua al consumir chía para evitar la **constipación**.
+Es importante tener en cuenta que la chía no es una solución mágica para **perder peso**. Un estudio publicado en la Mayo Clinic en 2022 encontró que exceder la dosis recomendada de chía puede causar **hinchazón** y otros problemas digestivos. Además, es importante beber suficiente agua al consumir chía para evitar la **constipación**.
 
 ## Preguntas Frecuentes
 ### ¿Cuánta chía debo consumir al día?

@@ -28,7 +28,7 @@ La **grasa parda** se diferencia de la **grasa blanca** en que su función princ
 2. La grasa blanca se encuentra en áreas como los muslos y los brazos.
 
 ## Temperaturas ideales para activarla
-La temperatura ideal para activar la grasa parda se encuentra entre **16-19°C**. Un estudio publicado en el [Journal of Clinical Investigation](https://www.jci.org/) (2019) encontró que la exposición a temperaturas frías durante **1-2 horas** al día puede aumentar la actividad de la grasa parda en un 20%.
+La temperatura ideal para activar la grasa parda se encuentra entre **16-19°C**. Un estudio publicado en el Journal of Clinical Investigation (2019) encontró que la exposición a temperaturas frías durante **1-2 horas** al día puede aumentar la actividad de la grasa parda en un 20%.
 
 * Utilice duchas frías para activar la grasa parda.
 * Reduzca la calefacción en su hogar para mantener una temperatura más baja.
@@ -44,13 +44,13 @@ Un estudio publicado en [Nature Metabolism](https://www.nature.com/natmetabol/) 
 > Relacionado: [Pérdida de grasa con yoga](/blog/perdida-de-grasa-con-yoga)
 
 ## Combinación con ejercicio para mejores resultados
-La combinación de ejercicio y frío puede aumentar la quema de calorías. Un estudio publicado en el [European Journal of Applied Physiology](https://link.springer.com/journal/421) (2022) encontró que **15 minutos de ejercicio en frío** pueden aumentar la oxidación de grasas en un **30%**.
+La combinación de ejercicio y frío puede aumentar la quema de calorías. Un estudio publicado en el European Journal of Applied Physiology (2022) encontró que **15 minutos de ejercicio en frío** pueden aumentar la oxidación de grasas en un **30%**.
 
 * Realice ejercicio en un ambiente fresco o frío.
 * Utilice ropa ligera para mantener su cuerpo fresco durante el ejercicio.
 
 ## Errores comunes (y cómo evitarlos)
-Es importante evitar errores comunes al intentar activar la grasa parda. Un artículo de la [Mayo Clinic](https://www.mayoclinic.org/) (2023) advierte que no se debe tiritar, ya que el cuerpo debe adaptarse gradualmente al frío.
+Es importante evitar errores comunes al intentar activar la grasa parda. Un artículo de la Mayo Clinic (2023) advierte que no se debe tiritar, ya que el cuerpo debe adaptarse gradualmente al frío.
 
 * No se exponga a temperaturas extremas.
 * Aumente gradualmente el tiempo de exposición al frío.
@@ -63,7 +63,7 @@ Algunos alimentos pueden potenciar el efecto de la quema de grasa con frío. Un 
 
 ## Preguntas Frecuentes
 ### ¿Cuál es la temperatura ideal para activar la grasa parda?
-La temperatura ideal para activar la grasa parda se encuentra entre **16-19°C**. Un estudio publicado en el [Journal of Clinical Investigation](https://www.jci.org/) (2019) encontró que la exposición a temperaturas frías durante **1-2 horas** al día puede aumentar la actividad de la grasa parda en un 20%.
+La temperatura ideal para activar la grasa parda se encuentra entre **16-19°C**. Un estudio publicado en el Journal of Clinical Investigation (2019) encontró que la exposición a temperaturas frías durante **1-2 horas** al día puede aumentar la actividad de la grasa parda en un 20%.
 
 ### ¿Cuánto tiempo debo exponerme al frío para activar la grasa parda?
 Debes exponerte al frío durante **1-2 horas** al día. Un estudio publicado en [Nature Metabolism](https://www.nature.com/natmetabol/) (2020) encontró que la exposición controlada al frío durante 14 días puede aumentar la actividad de la grasa parda en un **42%**.
@@ -78,7 +78,7 @@ Sí, es seguro utilizar un [Chaleco de hielo para crioterapia](https://www.amazo
 Debes esperar al menos **14 días** para ver resultados. Un estudio publicado en [Nature Metabolism](https://www.nature.com/natmetabol/) (2020) encontró que la exposición controlada al frío durante 14 días puede aumentar la actividad de la grasa parda en un **42%**.
 
 ### ¿Es necesario combinar el frío con ejercicio para ver resultados?
-No, no es necesario combinar el frío con ejercicio para ver resultados. Sin embargo, la combinación de ambos puede aumentar la quema de calorías. Un estudio publicado en el [European Journal of Applied Physiology](https://link.springer.com/journal/421) (2022) encontró que **15 minutos de ejercicio en frío** pueden aumentar la oxidación de grasas en un **30%**.
+No, no es necesario combinar el frío con ejercicio para ver resultados. Sin embargo, la combinación de ambos puede aumentar la quema de calorías. Un estudio publicado en el European Journal of Applied Physiology (2022) encontró que **15 minutos de ejercicio en frío** pueden aumentar la oxidación de grasas en un **30%**.
 
 ## Mi Experiencia
 Como desarrollador de apps y cocinero profesional, he experimentado personalmente con la quema de grasa con frío. He encontrado que la exposición controlada al frío durante 14 días puede aumentar la actividad de la grasa parda en un **42%**. También he descubierto que la combinación de frío y ejercicio puede aumentar la quema de calorías.

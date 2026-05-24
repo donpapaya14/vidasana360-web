@@ -19,7 +19,7 @@ draft: false
 
 
 ## Introducción a la técnica Pomodoro
-La **técnica Pomodoro** es un método de gestión del tiempo que puede ser muy útil para la **pérdida de grasa**. Según un estudio de la [Universidad de Oxford](https://www.ox.ac.uk) (2019), esta técnica puede mejorar la concentración y la productividad. La técnica consiste en trabajar en intervalos de 25 minutos, seguidos de 5 minutos de descanso.
+La **técnica Pomodoro** es un método de gestión del tiempo que puede ser muy útil para la **pérdida de grasa**. Según un estudio de la Universidad de Oxford (2019), esta técnica puede mejorar la concentración y la productividad. La técnica consiste en trabajar en intervalos de 25 minutos, seguidos de 5 minutos de descanso.
 
 ## Cómo aplicar Pomodoro en tu rutina de ejercicio
 Para aplicar la técnica Pomodoro en tu rutina de ejercicio, sigue estos pasos:
@@ -29,7 +29,7 @@ Para aplicar la técnica Pomodoro en tu rutina de ejercicio, sigue estos pasos:
 4. Descansa durante 5 minutos.
 5. Repite el ciclo durante 4-6 rondas.
 
-Un artículo de la [revista Journal of Sports Science and Medicine](https://www.jssm.org) (2020) encontró que la técnica Pomodoro puede mejorar la motivación y la disciplina en el ejercicio.
+Un artículo de la revista Journal of Sports Science and Medicine (2020) encontró que la técnica Pomodoro puede mejorar la motivación y la disciplina en el ejercicio.
 
 ## Beneficios del Pomodoro para la pérdida de grasa
 La técnica Pomodoro puede tener varios beneficios para la **pérdida de grasa**, incluyendo:
@@ -44,14 +44,14 @@ Aquí te presento algunos ejemplos de rutinas de ejercicio que incorporan la té
 * Flexiones: 25 minutos de flexiones, seguidos de 5 minutos de descanso.
 * Abdominales: 25 minutos de abdominales, seguidos de 5 minutos de descanso.
 
-Un libro de entrenamiento físico de la [American Council on Exercise](https://www.acefitness.org) (2020) recomienda incorporar la técnica Pomodoro en las rutinas de ejercicio.
+Un libro de entrenamiento físico de la American Council on Exercise (2020) recomienda incorporar la técnica Pomodoro en las rutinas de ejercicio.
 
 ## Consejos para mantener la motivación con Pomodoro
 Para mantener la motivación con la técnica Pomodoro, sigue estos consejos:
 1. Establece metas realistas.
 2. Celebra tus logros.
 3. Encuentra un compañero de ejercicio.
-Un artículo de la [revista Psychology Today](https://www.psychologytoday.com) (2019) encontró que la técnica Pomodoro puede mejorar la motivación y la disciplina en el ejercicio.
+Un artículo de la revista Psychology Today (2019) encontró que la técnica Pomodoro puede mejorar la motivación y la disciplina en el ejercicio.
 
 ## Preguntas Frecuentes
 ### ¿Cuánto tiempo debo trabajar con la técnica Pomodoro?

@@ -19,7 +19,7 @@ draft: false
 ---
 
 ## Beneficios del estiramiento matutino
-El estiramiento matutino es una forma efectiva de aumentar la **energía** y mejorar la **circulación sanguínea**. Según un estudio de la [American Council on Exercise (2018)](https://www.acefitness.org/), el estiramiento matutino puede aumentar la energía en un **25%** y mejorar la circulación sanguínea en un **30%**. Esto se debe a que el estiramiento ayuda a aumentar la flexibilidad y a reducir la tensión muscular.
+El estiramiento matutino es una forma efectiva de aumentar la **energía** y mejorar la **circulación sanguínea**. Según un estudio de la American Council on Exercise (2018), el estiramiento matutino puede aumentar la energía en un **25%** y mejorar la circulación sanguínea en un **30%**. Esto se debe a que el estiramiento ayuda a aumentar la flexibilidad y a reducir la tensión muscular.
 
 ## Ejercicios de estiramiento para principiantes
 A continuación, te presento 5 ejercicios de estiramiento fáciles de realizar en casa:
@@ -29,10 +29,10 @@ A continuación, te presento 5 ejercicios de estiramiento fáciles de realizar e
 4. **Estiramiento de piernas**: Inclina el cuerpo hacia adelante, estirando las piernas. Mantén durante **30 segundos**.
 5. **Estiramiento de espalda**: Coloca las manos en la espalda y arquea la espalda hacia atrás. Mantén durante **30 segundos**.
 
-Según la [National Academy of Sports Medicine (2020)](https://www.nasm.org/), estos ejercicios pueden ayudar a mejorar la flexibilidad y a reducir la tensión muscular.
+Según la National Academy of Sports Medicine (2020), estos ejercicios pueden ayudar a mejorar la flexibilidad y a reducir la tensión muscular.
 
 ## Importancia de la respiración durante el estiramiento
-La respiración es fundamental durante el estiramiento. Según el [Journal of Bodywork and Movement Therapies (2019)](https://www.jbmt.org/), la respiración profunda y lenta puede ayudar a reducir la tensión muscular y a mejorar la flexibilidad. Aquí te presento algunos consejos prácticos:
+La respiración es fundamental durante el estiramiento. Según el Journal of Bodywork and Movement Therapies (2019), la respiración profunda y lenta puede ayudar a reducir la tensión muscular y a mejorar la flexibilidad. Aquí te presento algunos consejos prácticos:
 1. **Respira profundamente**: Inhala profundamente por la nariz y exhala lentamente por la boca.
 2. **Mantén la respiración**: Mantén la respiración durante **5-10 segundos** mientras estiras.
 3. **No contengas la respiración**: No contengas la respiración mientras estiras, ya que esto puede aumentar la tensión muscular.
@@ -44,7 +44,7 @@ Incorporar el estiramiento en tu rutina diaria puede ser fácil. Según los [Cen
 3. **Estira antes de acostarte**: Estira antes de acostarte, para ayudar a relajar el cuerpo.
 
 ## Precauciones y contraindicaciones del estiramiento
-Es importante tener en cuenta algunas precauciones y contraindicaciones al estirar. Según el [American College of Sports Medicine (2020)](https://www.acsm.org/), aquí te presento algunas:
+Es importante tener en cuenta algunas precauciones y contraindicaciones al estirar. Según el American College of Sports Medicine (2020), aquí te presento algunas:
 1. **No estires si tienes lesiones**: No estires si tienes lesiones o dolor en las articulaciones.
 2. **No estires si tienes problemas de espalda**: No estires si tienes problemas de espalda, como hernias discales o espondilosis.
 3. **No estires si tienes problemas de cuello**: No estires si tienes problemas de cuello, como tortícolis o hernias cervicales.
@@ -55,7 +55,7 @@ A continuación, te presento algunos ejemplos de rutinas de estiramiento para di
 * **Rutina de estiramiento para mejorar la flexibilidad**: Estira los músculos de las piernas, brazos y torso.
 * **Rutina de estiramiento para mejorar la circulación sanguínea**: Estira los músculos de las piernas y brazos.
 
-Según el [Journal of Sports Sciences (2021)](https://www.tandfonline.com/toc/rjsp20/current), estas rutinas pueden ayudar a mejorar la flexibilidad, reducir el estrés y mejorar la circulación sanguínea.
+Según el Journal of Sports Sciences (2021), estas rutinas pueden ayudar a mejorar la flexibilidad, reducir el estrés y mejorar la circulación sanguínea.
 
 ## Preguntas Frecuentes
 ### ¿Cuánto tiempo debo estirar?

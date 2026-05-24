@@ -57,7 +57,7 @@ Existen **ejercicios específicos** para áreas del cuerpo como los brazos, pier
 Según el Journal of Strength and Conditioning Research (2019), estos ejercicios pueden ayudar a mejorar la fuerza muscular y la flexibilidad en áreas específicas del cuerpo.
 
 ## Conclusión y recursos adicionales
-En conclusión, el **ejercicio en casa sin equipo** es una excelente opción para aquellos que buscan mejorar su salud y condición física sin tener que invertir en equipos costosos o suscribirse a un gimnasio. Para obtener más información y recursos, te recomiendo visitar la página web de la [OMS](https://www.who.int/) o la [American Council on Exercise (ACE)](https://www.acefitness.org/).
+En conclusión, el **ejercicio en casa sin equipo** es una excelente opción para aquellos que buscan mejorar su salud y condición física sin tener que invertir en equipos costosos o suscribirse a un gimnasio. Para obtener más información y recursos, te recomiendo visitar la página web de la [OMS](https://www.who.int/) o la American Council on Exercise (ACE).
 
 ## Preguntas Frecuentes
 ### ¿Cuánto tiempo debo entrenar al día?

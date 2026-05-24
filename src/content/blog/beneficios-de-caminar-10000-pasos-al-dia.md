@@ -25,7 +25,7 @@ Caminar **10.000 pasos al día** es una forma excelente de mejorar nuestra salud
 La cantidad de pasos diarios necesarios para mejorar la salud varía según la edad y el nivel de actividad física. Sin embargo, **10.000 pasos diarios** es un umbral comúnmente aceptado para mejorar la salud cardiovascular. Un estudio de la Universidad de Harvard (2019) encontró que caminar **7.000 pasos al día** puede reducir el riesgo de mortalidad en un **30%**.
 
 ## Ejercicio físico y riesgo de enfermedades
-El ejercicio físico regular, incluyendo caminar **10.000 pasos al día**, puede reducir el riesgo de enfermedades como la diabetes, la hipertensión y el infarto. Un estudio de la [Asociación Americana de Cardiología (2013)](https://www.heart.org/) encontró que realizar **150 minutos de ejercicio moderado a la semana** puede reducir el riesgo de enfermedad cardiovascular en un **30%**.
+El ejercicio físico regular, incluyendo caminar **10.000 pasos al día**, puede reducir el riesgo de enfermedades como la diabetes, la hipertensión y el infarto. Un estudio de la Asociación Americana de Cardiología (2013) encontró que realizar **150 minutos de ejercicio moderado a la semana** puede reducir el riesgo de enfermedad cardiovascular en un **30%**.
 
 ## Beneficios para la salud mental
 El ejercicio físico, incluyendo caminar **10.000 pasos al día**, también puede reducir el estrés y mejorar la salud mental. Un estudio de la Universidad de Columbia (2015) encontró que realizar **30 minutos de caminata diaria** puede reducir los síntomas de ansiedad y depresión en un **40%**.
@@ -33,11 +33,11 @@ El ejercicio físico, incluyendo caminar **10.000 pasos al día**, también pued
 ## Cómo incorporar caminar 10.000 pasos en tu rutina diaria
 Para incorporar caminar **10.000 pasos en tu rutina diaria**, sigue estos pasos:
 1. **Planifica tus rutas**: Identifica lugares cerca de tu hogar o trabajo donde puedas caminar.
-2. **Utiliza una aplicación de seguimiento**: Descarga una aplicación que te permita rastrear tus pasos diarios, como [Google Fit](https://www.google.com/fit/).
+2. **Utiliza una aplicación de seguimiento**: Descarga una aplicación que te permita rastrear tus pasos diarios, como Google Fit.
 3. **Establece metas diarias**: Establece metas diarias para aumentar tus pasos gradualmente.
 
 ## Diferencias entre caminar y otros ejercicios
-Caminar **10.000 pasos al día** es diferente de otros ejercicios, como correr o hacer bicicleta. Un estudio de la [American Council on Exercise (2017)](https://www.acefitness.org/) encontró que caminar puede ser una forma más segura y accesible de ejercicio para personas con discapacidades o lesiones.
+Caminar **10.000 pasos al día** es diferente de otros ejercicios, como correr o hacer bicicleta. Un estudio de la American Council on Exercise (2017) encontró que caminar puede ser una forma más segura y accesible de ejercicio para personas con discapacidades o lesiones.
 
 ## Consejos para superar obstáculos comunes
 Para superar obstáculos comunes, como el tiempo o la falta de motivación, sigue estos consejos:

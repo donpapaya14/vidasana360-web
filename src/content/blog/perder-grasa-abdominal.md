@@ -22,12 +22,12 @@ draft: false
 La grasa abdominal no solo es un problema estético, sino también de salud. Según un estudio de la [Universidad de Harvard (2019)](https://www.harvard.edu), **el exceso de grasa visceral aumenta el riesgo de diabetes tipo 2 en un 56%** y enfermedades cardiovasculares en un 44%. Las causas principales incluyen:
 
 1. **Desequilibrios hormonales**: El cortisol (hormona del estrés) promueve la acumulación de grasa en el abdomen. Un estudio en *Psychoneuroendocrinology* (2020) mostró que niveles altos de cortisol aumentan la grasa abdominal en mujeres un 32%.
-2. **Dieta alta en ultraprocesados**: Consumir más de 20% de calorías diarias de alimentos procesados eleva la grasa visceral, según la [Academia de Nutrición y Dietética (2018)](https://www.eatright.org).
+2. **Dieta alta en ultraprocesados**: Consumir más de 20% de calorías diarias de alimentos procesados eleva la grasa visceral, según la Academia de Nutrición y Dietética (2018).
 3. **Sedentarismo**: Menos de 150 minutos semanales de ejercicio moderado se asocian con un 15% más de grasa abdominal (American Heart Association, 2021).
 
 ## Ejercicios específicos para grasa abdominal
 
-El American Council on Exercise ([ACE, 2020](https://www.acefitness.org)) identificó los ejercicios más efectivos para quemar grasa abdominal:
+El American Council on Exercise (ACE, 2020) identificó los ejercicios más efectivos para quemar grasa abdominal:
 
 1. **Plancha abdominal**: Mantén la posición 45 segundos, 3 series. Activa el 100% del core.
 2. **Russian twists**: 15 repeticiones por lado con peso. Quema **20% más calorías** que abdominales tradicionales.
@@ -47,7 +47,7 @@ Tabla comparativa de efectividad:
 
 ## Dieta para perder grasa abdominal
 
-La [Academia de Nutrición y Dietética (2018)](https://www.eatright.org) recomienda:
+La Academia de Nutrición y Dietética (2018) recomienda:
 
 1. **Proteínas magras**: 1.6g por kg de peso corporal diarios. Pechuga de pollo y tofu reducen la grasa abdominal un 22% en 12 semanas.
 2. **Fibra soluble**: 10g diarios de avena o manzanas disminuyen la grasa visceral un 3.7% anual (Nutrition Journal, 2019).

@@ -18,7 +18,7 @@ draft: false
 ---
 
 ## Introducción a la flora intestinal para perder peso
-La **flora intestinal** juega un papel crucial en nuestra salud y bienestar. Según un estudio de la [Universidad de Louvain](https://www.uclouvain.be) (2022), la presencia de ciertas bacterias en el intestino puede influir en la **quema de grasa** y el **peso corporal**. En este artículo, exploraremos cómo mejorar la **flora intestinal para perder peso** y mantener un **bienestar** óptimo.
+La **flora intestinal** juega un papel crucial en nuestra salud y bienestar. Según un estudio de la Universidad de Louvain (2022), la presencia de ciertas bacterias en el intestino puede influir en la **quema de grasa** y el **peso corporal**. En este artículo, exploraremos cómo mejorar la **flora intestinal para perder peso** y mantener un **bienestar** óptimo.
 
 ## Las 2 bacterias clave que aceleran la quema de grasa
 La **Akkermansia muciniphila** y la **Bifidobacterium lactis** son dos bacterias que han demostrado mejorar la **sensibilidad a la insulina** y reducir la **inflamación**. Un estudio de la Universidad de Louvain (2022) encontró que la presencia de estas bacterias en el intestino puede aumentar la quema de grasa un **25%**. Para aumentar la presencia de estas bacterias, se recomienda consumir **alimentos probióticos** como el **kefir** y el **chucrut**.

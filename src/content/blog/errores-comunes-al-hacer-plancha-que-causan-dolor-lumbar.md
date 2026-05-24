@@ -24,14 +24,14 @@ Al realizar **ejercicios de plancha**, es común cometer errores que pueden caus
 
 ## Arquear la espalda baja: el error #1
 
-Al arquear la espalda baja, se puede causar **estrés en la columna vertebral**, lo que puede llevar a dolor lumbar. Para corregir este error, es importante **activar los glúteos**. Un estudio publicado en el [Journal of Strength and Conditioning Research](https://journals.lww.com/nsca-scj) (2021) encontró que la activación de los glúteos puede reducir el estrés en la columna vertebral en un **45%**. Para activar los glúteos, sigue estos pasos:
+Al arquear la espalda baja, se puede causar **estrés en la columna vertebral**, lo que puede llevar a dolor lumbar. Para corregir este error, es importante **activar los glúteos**. Un estudio publicado en el Journal of Strength and Conditioning Research (2021) encontró que la activación de los glúteos puede reducir el estrés en la columna vertebral en un **45%**. Para activar los glúteos, sigue estos pasos:
 1. Coloca tus manos debajo de tus hombros.
 2. Presiona tus glúteos hacia abajo y hacia atrás.
 3. Mantén esta posición durante **3 segundos**.
 
 ## Colocar los codos demasiado adelante
 
-Colocar los codos demasiado adelante puede causar **estrés en los hombros** y la columna vertebral. Según el [American Council on Exercise](https://www.acefitness.org/) (2022), la posición correcta de los codos es debajo de los hombros, con un **ángulo de 90°**. Para corregir este error, sigue estos pasos:
+Colocar los codos demasiado adelante puede causar **estrés en los hombros** y la columna vertebral. Según el American Council on Exercise (2022), la posición correcta de los codos es debajo de los hombros, con un **ángulo de 90°**. Para corregir este error, sigue estos pasos:
 1. Coloca tus manos debajo de tus hombros.
 2. Ajusta tus codos para que estén en un ángulo de 90°.
 3. Mantén esta posición durante **3 segundos**.
@@ -45,7 +45,7 @@ Aguantar la respiración sin darte cuenta puede causar **tensión muscular** y d
 
 ## Dejar caer la cabeza y forzar el cuello
 
-Dejar caer la cabeza y forzar el cuello puede causar **dolor cervical** y lumbar. Según la [National Academy of Sports Medicine](https://www.nasm.org/), la posición correcta del cuello es **neutral**, con la mirada hacia un punto a **30cm del suelo**. Para corregir este error, sigue estos pasos:
+Dejar caer la cabeza y forzar el cuello puede causar **dolor cervical** y lumbar. Según la National Academy of Sports Medicine, la posición correcta del cuello es **neutral**, con la mirada hacia un punto a **30cm del suelo**. Para corregir este error, sigue estos pasos:
 1. Coloca tu cabeza en una posición neutral.
 2. Ajusta tu mirada hacia un punto a 30cm del suelo.
 3. Mantén esta posición durante **3 segundos**.

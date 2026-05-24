@@ -22,22 +22,22 @@ draft: false
 El **chitosan** es una fibra derivada de caparazones de crustáceos que se une a las moléculas de grasa en el intestino, impidiendo su absorción. Según un estudio publicado en el [European Journal of Clinical Nutrition](https://www.nature.com/ejcn/) (2014), el chitosan puede atrapar hasta **5 veces su peso en grasa**. Esto lo convierte en un suplemento interesante para aquellos que buscan reducir su ingesta de grasa.
 
 ## Qué es el chitosan y cómo actúa
-El chitosan es una fibra soluble que se une a las grasas en el intestino, formando una especie de gel que impide su absorción. Esto puede ayudar a reducir la cantidad de grasas que se absorben en el cuerpo. Un estudio publicado en el [Journal of Obesity](https://www.hindawi.com/journals/jobes/) (2016) encontró que el chitosan puede reducir la absorción lipídica hasta en un **30%**.
+El chitosan es una fibra soluble que se une a las grasas en el intestino, formando una especie de gel que impide su absorción. Esto puede ayudar a reducir la cantidad de grasas que se absorben en el cuerpo. Un estudio publicado en el Journal of Obesity (2016) encontró que el chitosan puede reducir la absorción lipídica hasta en un **30%**.
 
 ## Dosis efectiva según estudios
-La dosis efectiva de chitosan para reducir la absorción de grasas es de **3-4 gramos diarios**, según un estudio publicado en el [Journal of Obesity](https://www.hindawi.com/journals/jobes/) (2016). Es importante tomar el chitosan **antes de comidas altas en grasa** para maximizar su efecto.
+La dosis efectiva de chitosan para reducir la absorción de grasas es de **3-4 gramos diarios**, según un estudio publicado en el Journal of Obesity (2016). Es importante tomar el chitosan **antes de comidas altas en grasa** para maximizar su efecto.
 
 ## Alimentos que potencian su efecto
-Algunos alimentos pueden potenciar el efecto del chitosan. El **vinagre de manzana** puede aumentar la solubilidad del chitosan, mientras que el **té verde** puede acelerar el metabolismo y la **pimienta cayena** puede aumentar la termogénesis. Un estudio publicado en [Nutrition & Metabolism](https://www.nutritionandmetabolism.com/) (2018) encontró que la combinación de estos alimentos con chitosan puede aumentar su efecto.
+Algunos alimentos pueden potenciar el efecto del chitosan. El **vinagre de manzana** puede aumentar la solubilidad del chitosan, mientras que el **té verde** puede acelerar el metabolismo y la **pimienta cayena** puede aumentar la termogénesis. Un estudio publicado en Nutrition & Metabolism (2018) encontró que la combinación de estos alimentos con chitosan puede aumentar su efecto.
 
 ## Cuándo tomarlo para máximo impacto
-Es importante tomar el chitosan **20 minutos antes de comidas ricas en grasas**, especialmente aquellas que contienen grasas saturadas. Algunos ejemplos de comidas que pueden beneficiarse del chitosan son la **pizza**, los **fritos** y los **embutidos**. Un estudio publicado en el [International Journal of Clinical Pharmacology Research](https://www.journalijcpr.com/) (2003) encontró que el chitosan puede reducir la absorción de grasas en un **25%** cuando se toma antes de comidas ricas en grasas.
+Es importante tomar el chitosan **20 minutos antes de comidas ricas en grasas**, especialmente aquellas que contienen grasas saturadas. Algunos ejemplos de comidas que pueden beneficiarse del chitosan son la **pizza**, los **fritos** y los **embutidos**. Un estudio publicado en el International Journal of Clinical Pharmacology Research (2003) encontró que el chitosan puede reducir la absorción de grasas en un **25%** cuando se toma antes de comidas ricas en grasas.
 
 ## Precauciones y contraindicaciones
 Es importante tener en cuenta que el chitosan puede causar **alergias** en personas con sensibilidad a los mariscos. Además, el chitosan puede interactuar con **anticoagulantes**, por lo que es importante consultar con un médico antes de tomarlo. También es importante aumentar la ingesta de **agua** para evitar el estreñimiento. La [FDA](https://www.fda.gov/) (2020) recomienda seguir las instrucciones del fabricante y consultar con un médico antes de tomar cualquier suplemento.
 
 ## Alternativas veganas igual de efectivas
-Existen alternativas veganas al chitosan que pueden ser igual de efectivas. El **glucomanano**, una fibra derivada del konjac, puede ser una opción vegetal. Un estudio publicado en el [British Journal of Nutrition](https://www.cambridge.org/core/journals/british-journal-of-nutrition) (2015) encontró que el glucomanano puede reducir la absorción de grasas en un **20%**. Otra opción es la **goma guar**, una fibra soluble que puede ayudar a reducir la absorción de grasas.
+Existen alternativas veganas al chitosan que pueden ser igual de efectivas. El **glucomanano**, una fibra derivada del konjac, puede ser una opción vegetal. Un estudio publicado en el British Journal of Nutrition (2015) encontró que el glucomanano puede reducir la absorción de grasas en un **20%**. Otra opción es la **goma guar**, una fibra soluble que puede ayudar a reducir la absorción de grasas.
 
 ## Preguntas Frecuentes
 ### ¿Cuánto chitosan debo tomar?

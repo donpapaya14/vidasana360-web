@@ -56,7 +56,7 @@ El ayuno intermitente es una técnica que implica alternar períodos de ayuno y 
 ### ¿Cómo funciona el ayuno 16:8?
 El ayuno 16:8 implica ayunar durante 16 horas y comer dentro de una ventana de 8 horas. Un estudio de la [Universidad de Illinois](https://www.illinois.edu/) (2019) encontró que este método puede ser beneficioso para la pérdida de grasa abdominal.
 ### ¿Qué alimentos puedo comer durante el ayuno 16:8?
-Durante el período de alimentación, es importante consumir alimentos saludables. La [Asociación Americana de Cardiología](https://www.heart.org/) (2017) recomienda frutas y verduras, proteínas magras, granos integrales y nueces y semillas.
+Durante el período de alimentación, es importante consumir alimentos saludables. La Asociación Americana de Cardiología (2017) recomienda frutas y verduras, proteínas magras, granos integrales y nueces y semillas.
 ### ¿Puedo hacer ejercicio durante el ayuno 16:8?
 Sí, se puede hacer ejercicio durante el ayuno 16:8. Un estudio de la [Universidad de California](https://www.uc.edu/) (2018) encontró que el ejercicio aeróbico durante el ayuno puede aumentar la quema de grasa un **25%**.
 ### ¿Cuáles son los beneficios a largo plazo del ayuno 16:8?

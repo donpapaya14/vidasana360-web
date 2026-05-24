@@ -28,7 +28,7 @@ La **meditación**, el **yoga** y la **respiración profunda** son técnicas res
 3. Respiración profunda: 5 minutos al día, 2 veces al día
 
 ## Ejercicios de relajación para reducir el estrés
-Los ejercicios de **relajación muscular progresiva**, **visualización guiada** y **técnicas de mindfulness** pueden calmar la mente y el cuerpo, según un estudio publicado en la [revista Journal of Clinical Psychology](https://onlinelibrary.wiley.com/journal/10975007) (2018). Estos ejercicios pueden ser practicados de la siguiente manera:
+Los ejercicios de **relajación muscular progresiva**, **visualización guiada** y **técnicas de mindfulness** pueden calmar la mente y el cuerpo, según un estudio publicado en la revista Journal of Clinical Psychology (2018). Estos ejercicios pueden ser practicados de la siguiente manera:
 | Ejercicio | Frecuencia | Duración |
 | --- | --- | --- |
 | Relajación muscular progresiva | 2 veces a la semana | 10 minutos |
@@ -36,7 +36,7 @@ Los ejercicios de **relajación muscular progresiva**, **visualización guiada**
 | Técnicas de mindfulness | 3 veces a la semana | 5 minutos |
 
 ## Alimentación saludable para manejar el estrés
-Una dieta rica en **nutrientes**, incluyendo alimentos con **omega-3**, **vitaminas** y **minerales**, puede ayudar a reducir el estrés y apoyar la pérdida de peso, según un informe de la [Academia de Nutrición y Dietética](https://www.andjrnl.org/) (2022). Algunos alimentos recomendados son:
+Una dieta rica en **nutrientes**, incluyendo alimentos con **omega-3**, **vitaminas** y **minerales**, puede ayudar a reducir el estrés y apoyar la pérdida de peso, según un informe de la Academia de Nutrición y Dietética (2022). Algunos alimentos recomendados son:
 * Pescado azul
 * Frutas y verduras
 * Granos integrales
@@ -46,7 +46,7 @@ Para incorporar técnicas de manejo del estrés en la vida diaria, es importante
 1. Planificar el tiempo
 2. Establecer metas realistas
 3. Buscar apoyo social
-según un artículo de la [revista Psychology Today](https://www.psychologytoday.com/) (2021).
+según un artículo de la revista Psychology Today (2021).
 
 ## Estrategias para mantener el progreso a largo plazo
 La consistencia, la autoevaluación regular y la adaptación de las estrategias de manejo del estrés según sea necesario son clave para mantener la pérdida de peso y la salud general, según un estudio de seguimiento publicado en el [Journal of Obesity](https://journals.sagepub.com/home/oby) (2020).

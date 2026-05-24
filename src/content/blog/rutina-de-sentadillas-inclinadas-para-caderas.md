@@ -19,7 +19,7 @@ draft: false
 ---
 
 ## ¿Por qué las sentadillas inclinadas son importantes?
-Las **sentadillas inclinadas para caderas** son fundamentales para reducir el riesgo de lesiones y mejorar la estabilidad en la cadera. Según un estudio de la [American Council on Exercise (ACE)](https://www.acefitness.org/) en 2019, las sentadillas inclinadas pueden ayudar a fortalecer los músculos de la cadera y reducir el riesgo de lesiones en la rodilla y la cadera.
+Las **sentadillas inclinadas para caderas** son fundamentales para reducir el riesgo de lesiones y mejorar la estabilidad en la cadera. Según un estudio de la American Council on Exercise (ACE) en 2019, las sentadillas inclinadas pueden ayudar a fortalecer los músculos de la cadera y reducir el riesgo de lesiones en la rodilla y la cadera.
 
 ## Consejos para realizar sentadillas inclinadas correctamente
 Para realizar **sentadillas inclinadas** correctamente, sigue estos pasos:
@@ -27,26 +27,26 @@ Para realizar **sentadillas inclinadas** correctamente, sigue estos pasos:
 2. Inclina la cadera hacia atrás, manteniendo la espalda recta y los músculos abdominales contraídos.
 3. Baja el cuerpo hacia abajo, manteniendo la cadera y la rodilla en línea recta.
 4. Vuelve a la posición inicial, repitiendo el movimiento durante 3 series de 12 repeticiones.
-Según un artículo de la [Journal of Strength and Conditioning Research](https://journals.lww.com/nsca-scj/pages/default.aspx) en 2015, la técnica correcta es fundamental para evitar lesiones y obtener los beneficios de las sentadillas inclinadas.
+Según un artículo de la Journal of Strength and Conditioning Research en 2015, la técnica correcta es fundamental para evitar lesiones y obtener los beneficios de las sentadillas inclinadas.
 
 ## Tipos de sentadillas inclinadas para caderas
 Existen diferentes variaciones de **sentadillas inclinadas** para caderas, incluyendo:
 * Sentadillas con mancuernas: Utiliza mancuernas para agregar resistencia y fortalecer los músculos de la cadera.
 * Sentadillas con esfera: Utiliza una esfera para agregar inestabilidad y desafiar los músculos de la cadera.
-Según el libro de entrenamiento de la [American College of Sports Medicine (ACSM)](https://www.acsm.org/) en 2018, las sentadillas inclinadas con mancuernas pueden ser una excelente opción para aquellos que buscan agregar resistencia a su rutina de entrenamiento.
+Según el libro de entrenamiento de la American College of Sports Medicine (ACSM) en 2018, las sentadillas inclinadas con mancuernas pueden ser una excelente opción para aquellos que buscan agregar resistencia a su rutina de entrenamiento.
 
 ## Ejemplos de rutinas de entrenamiento con sentadillas inclinadas
 Aquí te presento algunos ejemplos de rutinas de entrenamiento que incluyen **sentadillas inclinadas**:
 * Rutina de entrenamiento de fuerza: 3 series de 12 repeticiones de sentadillas inclinadas con mancuernas, seguidas de 3 series de 12 repeticiones de sentadillas con esfera.
 * Rutina de entrenamiento de condición física: 3 series de 12 repeticiones de sentadillas inclinadas con mancuernas, seguidas de 3 series de 12 repeticiones de sentadillas con esfera y 30 minutos de cardio.
-Según un artículo de la [Strength and Conditioning Journal](https://journals.lww.com/nsca-scj/pages/default.aspx) en 2017, las rutinas de entrenamiento que incluyen sentadillas inclinadas pueden ser efectivas para mejorar la fuerza y la condición física.
+Según un artículo de la Strength and Conditioning Journal en 2017, las rutinas de entrenamiento que incluyen sentadillas inclinadas pueden ser efectivas para mejorar la fuerza y la condición física.
 
 ## Preparación y seguridad para realizar sentadillas inclinadas
 Antes de realizar **sentadillas inclinadas**, es importante prepararse y tomar medidas de seguridad:
 1. Calienta con 5-10 minutos de cardio y estiramiento.
 2. Utiliza un peso adecuado y no excedas tus límites.
 3. Mantén la espalda recta y los músculos abdominales contraídos durante todo el ejercicio.
-Según la guía de seguridad del [National Strength and Conditioning Association (NSCA)](https://www.nsca.com/) en 2020, la preparación y la seguridad son fundamentales para evitar lesiones y obtener los beneficios de las sentadillas inclinadas.
+Según la guía de seguridad del National Strength and Conditioning Association (NSCA) en 2020, la preparación y la seguridad son fundamentales para evitar lesiones y obtener los beneficios de las sentadillas inclinadas.
 
 ## Ventajas de incluir sentadillas inclinadas en tu rutina de entrenamiento
 Las **sentadillas inclinadas** pueden ser una excelente adición a tu rutina de entrenamiento, ya que pueden ayudar a:

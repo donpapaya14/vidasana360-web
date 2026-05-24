@@ -66,11 +66,11 @@ El estrés es una respuesta natural del cuerpo a situaciones que lo ponen en pel
 ### ¿Cómo puedo reducir el estrés?
 Puedes reducir el estrés mediante la práctica del ejercicio autogenico, la meditación, el yoga, y otras técnicas de relajación. Un estudio de la Universidad de Harvard (2015) encontró que la práctica regular de la meditación puede reducir los niveles de cortisol en un 20%.
 ### ¿Qué es la ansiedad?
-La ansiedad es un trastorno mental que se caracteriza por sentimientos de miedo, ansiedad y nerviosismo. Según la [Asociación Americana de Psicología](https://www.apa.org/), la ansiedad puede tener efectos negativos en la salud física y mental.
+La ansiedad es un trastorno mental que se caracteriza por sentimientos de miedo, ansiedad y nerviosismo. Según la Asociación Americana de Psicología, la ansiedad puede tener efectos negativos en la salud física y mental.
 ### ¿Cómo puedo mejorar mi bienestar emocional?
 Puedes mejorar tu bienestar emocional mediante la práctica del ejercicio autogenico, la meditación, el yoga, y otras técnicas de relajación. Un estudio de la Universidad de California (2018) encontró que la práctica regular del ejercicio autogenico puede mejorar la calidad de vida en un 30%.
 ### ¿Qué es la relajación?
-La relajación es un estado de calma y tranquilidad que se puede lograr mediante la práctica del ejercicio autogenico, la meditación, el yoga, y otras técnicas de relajación. Según la [Sociedad Americana de Psicología](https://www.apa.org/), la relajación puede tener efectos positivos en la salud física y mental.
+La relajación es un estado de calma y tranquilidad que se puede lograr mediante la práctica del ejercicio autogenico, la meditación, el yoga, y otras técnicas de relajación. Según la Sociedad Americana de Psicología, la relajación puede tener efectos positivos en la salud física y mental.
 ### ¿Cómo puedo practicar la relajación?
 Puedes practicar la relajación mediante la respiración profunda, la visualización, y otras técnicas de relajación. Un estudio de la Universidad de Oxford (2019) encontró que la práctica regular de la relajación puede reducir los síntomas de ansiedad y depresión en un 20%.
 

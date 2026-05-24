@@ -23,7 +23,7 @@ Los **ejercicios de respiración para estrés** son una herramienta científica 
 
 ## Técnica de respiración 4-7-8
 
-Desarrollada por el **Dr. Andrew Weil** ([2019](https://www.drweil.com)), esta técnica es ideal para **reducción de estrés** inmediata. Sigue estos pasos:
+Desarrollada por el **Dr. Andrew Weil** (2019), esta técnica es ideal para **reducción de estrés** inmediata. Sigue estos pasos:
 
 1. **Inhalar** por la nariz durante **4 segundos**
 2. **Mantener** la respiración **7 segundos**
@@ -41,7 +41,7 @@ La **neurociencia** explica por qué funciona: la respiración profunda estimula
 
 ## Ejercicios de respiración para principiantes
 
-La [Asociación Americana de Ansiedad y Depresión (2022)](https://adaa.org) recomienda empezar con:
+La Asociación Americana de Ansiedad y Depresión (2022) recomienda empezar con:
 
 1. **Respiración diafragmática**: 5 minutos al despertar, manos en abdomen
 2. **Conteo 5-5**: Inhalar/exhalar en 5 segundos, 10 repeticiones
@@ -53,7 +53,7 @@ La [Asociación Americana de Ansiedad y Depresión (2022)](https://adaa.org) rec
 - Practica **2 minutos cada hora** (configura alarmas)
 - Combínalo con actividades cotidianas: antes de comer, en el transporte
 
-Según [Mindful (2021)](https://www.mindful.org), quienes integran estos hábitos mejoran su **productividad en un 19%**.
+Según Mindful (2021), quienes integran estos hábitos mejoran su **productividad en un 19%**.
 
 ## Mitigar el estrés crónico con la respiración
 

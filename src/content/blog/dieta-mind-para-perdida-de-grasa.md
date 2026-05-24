@@ -54,7 +54,7 @@ Es importante seguir la dieta MIND a largo plazo para ver resultados significati
 ### ¿Puedo seguir la dieta MIND si tengo alguna condición médica?
 Es importante consultar con un profesional de la salud antes de iniciar cualquier dieta, especialmente si tienes alguna condición médica. 
 ### ¿Dónde puedo encontrar más información sobre la dieta MIND?
-Puedes encontrar más información sobre la dieta MIND en [la Organización Mundial de la Salud](https://www.who.int/) o en [la Academia de Nutrición y Dietética](https://www.andjrnl.org/).
+Puedes encontrar más información sobre la dieta MIND en [la Organización Mundial de la Salud](https://www.who.int/) o en la Academia de Nutrición y Dietética.
 
 ## Mi Experiencia
 Como desarrollador de apps y cocinero profesional, he tenido la oportunidad de experimentar con diferentes dietas y planes de comidas. La dieta MIND es una de las más efectivas y fáciles de seguir que he encontrado. Me encanta la variedad de alimentos que se pueden incluir y la flexibilidad del plan de comidas. 

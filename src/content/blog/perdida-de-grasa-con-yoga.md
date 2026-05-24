@@ -31,8 +31,8 @@ Estos **ejercicios de yoga para principiantes** son ideales para iniciarse en la
 
 > Relacionado: [Pérdida de grasa con HIIT](/blog/perdida-de-grasa-con-hiit)
 
-1. **Postura del Guerrero II (Virabhadrasana II)**: Fortalece piernas y core. Mantén 30 segundos por lado, 3 repeticiones. [Yoga Journal (2020)](https://www.yogajournal.com) confirma que activa hasta **120 calorías/hora**.
-2. **Perro boca abajo (Adho Mukha Svanasana)**: Estira y tonifica. Ideal para principiantes, según un estudio de la [Clínica Mayo (2019)](https://www.mayoclinic.org).
+1. **Postura del Guerrero II (Virabhadrasana II)**: Fortalece piernas y core. Mantén 30 segundos por lado, 3 repeticiones. Yoga Journal (2020) confirma que activa hasta **120 calorías/hora**.
+2. **Perro boca abajo (Adho Mukha Svanasana)**: Estira y tonifica. Ideal para principiantes, según un estudio de la Clínica Mayo (2019).
 3. **Tabla (Phalakasana)**: Quema **48 calorías/10 minutos** (datos del *American Council on Exercise*).
 
 **Tabla comparativa de gasto calórico**:
@@ -48,7 +48,7 @@ Estos **ejercicios de yoga para principiantes** son ideales para iniciarse en la
 
 ## Rutina de yoga para la pérdida de grasa
 
-Sigue esta rutina de **20 minutos** (basada en [American Council on Exercise, 2019](https://www.acefitness.org)):
+Sigue esta rutina de **20 minutos** (basada en American Council on Exercise, 2019):
 
 1. **Calentamiento (5 min)**: Saludos al sol x3 rondas.
 2. **Fase activa (12 min)**:
@@ -74,7 +74,7 @@ La [Universidad de California (2018)](https://www.ucla.edu) encontró que el yog
 
 ## Consejos para combinar yoga con dieta saludable
 
-La [Academia de Nutrición y Dietética (2020)](https://www.eatright.org) recomienda:
+La Academia de Nutrición y Dietética (2020) recomienda:
 
 1. **Proteína post-yoga**: 20g dentro de los 45 minutos (ej: huevos o yogur griego).
 2. **Hidratación**: 500ml de agua durante la práctica (estudio de *Medicine & Science in Sports*).

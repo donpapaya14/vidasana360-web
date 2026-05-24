@@ -18,7 +18,7 @@ draft: false
 ---
 
 ## Introducción a la Comparación
-La elección de alimentos saludables es crucial para nuestra salud y bienestar. Según un estudio de la [Academia de Nutrición y Dietética](https://www.andjrnl.org/), 2020, una dieta equilibrada puede prevenir enfermedades crónicas. En este artículo, exploraremos la comparación entre **avena vs arroz integral**, dos alimentos que ofrecen beneficios significativos para nuestra salud.
+La elección de alimentos saludables es crucial para nuestra salud y bienestar. Según un estudio de la Academia de Nutrición y Dietética, 2020, una dieta equilibrada puede prevenir enfermedades crónicas. En este artículo, exploraremos la comparación entre **avena vs arroz integral**, dos alimentos que ofrecen beneficios significativos para nuestra salud.
 
 ## Composición Nutricional
 La **composición nutricional** de la avena y el arroz integral es fundamental para entender sus beneficios. Según la [Base de Datos de Nutrición del USDA](https://ndb.nal.usda.gov/), 2022, la avena contiene **150 calorías**, **5g de proteínas**, **2g de grasas** y **27g de carbohidratos** por cada 100g, mientras que el arroz integral contiene **110 calorías**, **2g de proteínas**, **1g de grasas** y **25g de carbohidratos**.

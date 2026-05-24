@@ -24,7 +24,7 @@ Un abdomen fuerte y plano después de los 40 no es cuestión de estética, sino 
 ## Ejercicios de estabilización del core
 
 ### Por qué empezar con el core
-El American Council on Exercise ([ACE, 2020](https://www.acefitness.org)) recomienda ejercicios de estabilización antes de movimientos dinámicos. Estos mejoran el control postural y reducen el riesgo de dolor lumbar, que afecta al **80% de adultos mayores de 45** (Journal of Orthopaedic Research).
+El American Council on Exercise (ACE, 2020) recomienda ejercicios de estabilización antes de movimientos dinámicos. Estos mejoran el control postural y reducen el riesgo de dolor lumbar, que afecta al **80% de adultos mayores de 45** (Journal of Orthopaedic Research).
 
 ### Técnicas clave:
 1. **Plancha frontal**: 3 series de 20-30 segundos. Mantén codos bajo hombros y abdomen contraído.
@@ -33,7 +33,7 @@ El American Council on Exercise ([ACE, 2020](https://www.acefitness.org)) recomi
 ## Ejercicios para los músculos del abdomen
 
 ### Músculos clave a trabajar
-El National Academy of Sports Medicine ([NASM, 2018](https://www.nasm.org)) identifica estos grupos musculares prioritarios:
+El National Academy of Sports Medicine (NASM, 2018) identifica estos grupos musculares prioritarios:
 
 | Músculo | Ejercicio | Series/Reps |
 |---------|-----------|-------------|
@@ -45,7 +45,7 @@ El National Academy of Sports Medicine ([NASM, 2018](https://www.nasm.org)) iden
 
 ## Ejercicios con pesas y resistencia
 
-Un estudio del [Journal of Strength and Conditioning Research (2017)](https://journals.lww.com) demostró que añadir resistencia incrementa la activación muscular en un **40%**. Productos recomendados:
+Un estudio del Journal of Strength and Conditioning Research (2017) demostró que añadir resistencia incrementa la activación muscular en un **40%**. Productos recomendados:
 - [Amazon Basics Manos de pesas ajustables en Amazon](https://www.amazon.es/s?k=Amazon+Basics+Manos+de+pesas+ajustables&tag=vladys-21) (2-10kg)
 - Bandas de resistencia de 15-30kg
 

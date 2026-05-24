@@ -18,13 +18,13 @@ draft: false
 ---
 
 ## Introducción a la rutina de sentadillas búlgaras
-La **rutina de sentadillas búlgaras** es un ejercicio efectivo para fortalecer las rodillas y mejorar la salud cardiovascular en adultos mayores. Según un estudio de la Universidad de California (2019) publicado en el [Journal of Aging and Physical Activity](https://journals.humankinetics.com/view/journals/japa/27/2/article-p247.xml), el 70% de los adultos mayores que realizan sentadillas búlgaras regularmente muestran una mejora significativa en la densidad ósea.
+La **rutina de sentadillas búlgaras** es un ejercicio efectivo para fortalecer las rodillas y mejorar la salud cardiovascular en adultos mayores. Según un estudio de la Universidad de California (2019) publicado en el Journal of Aging and Physical Activity, el 70% de los adultos mayores que realizan sentadillas búlgaras regularmente muestran una mejora significativa en la densidad ósea.
 
 ## ¿Qué son las sentadillas búlgaras?
-Las sentadillas búlgaras son un tipo de ejercicio que implica la flexión de la rodilla y la extensión de la cadera. Según el [American Council on Exercise (ACE)](https://www.acefitness.org/), este ejercicio es beneficioso para fortalecer los músculos de las piernas y mejorar la coordinación y el equilibrio.
+Las sentadillas búlgaras son un tipo de ejercicio que implica la flexión de la rodilla y la extensión de la cadera. Según el American Council on Exercise (ACE), este ejercicio es beneficioso para fortalecer los músculos de las piernas y mejorar la coordinación y el equilibrio.
 
 ## Cómo prepararte para hacer sentadillas búlgaras
-Para prepararte para hacer sentadillas búlgaras, es importante calentar adecuadamente y equiparte con un par de mancuernas o pesas. Según la [National Academy of Sports Medicine (NASM)](https://www.nasm.org/), es recomendable realizar un calentamiento de 5-10 minutos antes de comenzar el ejercicio.
+Para prepararte para hacer sentadillas búlgaras, es importante calentar adecuadamente y equiparte con un par de mancuernas o pesas. Según la National Academy of Sports Medicine (NASM), es recomendable realizar un calentamiento de 5-10 minutos antes de comenzar el ejercicio.
 
 1. Calienta con ejercicios de estiramiento y movilidad.
 2. Equipate con un par de mancuernas o pesas de 2-3 kg.
@@ -33,7 +33,7 @@ Para prepararte para hacer sentadillas búlgaras, es importante calentar adecuad
 > Relacionado: [Rutina de sentadillas inclinadas para caderas](/blog/rutina-de-sentadillas-inclinadas-para-caderas)
 
 ## Técnicas para hacer sentadillas búlgaras con seguridad
-Para hacer sentadillas búlgaras con seguridad, es importante mantener la postura correcta y controlar la descarga de peso. Según un estudio publicado en el [Journal of Strength and Conditioning Research (2018)](https://journals.lww.com/nsca-scj/Fulltext/2018/07000/Effects_of_Bulgarian_Split_Squats_on_Muscle.12.aspx), es recomendable realizar el ejercicio con una carga de 60-70% del peso máximo.
+Para hacer sentadillas búlgaras con seguridad, es importante mantener la postura correcta y controlar la descarga de peso. Según un estudio publicado en el Journal of Strength and Conditioning Research (2018), es recomendable realizar el ejercicio con una carga de 60-70% del peso máximo.
 
 1. Mantén la postura erguida y la mirada hacia adelante.
 2. Controla la descarga de peso y evita arquear la espalda.
@@ -42,7 +42,7 @@ Para hacer sentadillas búlgaras con seguridad, es importante mantener la postur
 > Relacionado: [beneficios de caminar 10000 pasos al día](/blog/beneficios-de-caminar-10000-pasos-al-dia)
 
 ## Beneficios de las sentadillas búlgaras para adultos mayores
-Las sentadillas búlgaras tienen varios beneficios para adultos mayores, incluyendo la mejora de la fuerza muscular, la densidad ósea y la salud cardiovascular. Según un estudio publicado en el [Journal of Aging and Physical Activity (2019)](https://journals.humankinetics.com/view/journals/japa/27/2/article-p247.xml), el 80% de los adultos mayores que realizan sentadillas búlgaras regularmente muestran una mejora significativa en la salud cardiovascular.
+Las sentadillas búlgaras tienen varios beneficios para adultos mayores, incluyendo la mejora de la fuerza muscular, la densidad ósea y la salud cardiovascular. Según un estudio publicado en el Journal of Aging and Physical Activity (2019), el 80% de los adultos mayores que realizan sentadillas búlgaras regularmente muestran una mejora significativa en la salud cardiovascular.
 
 ## Consejos para superar las barreras para hacer sentadillas búlgaras
 Para superar las barreras para hacer sentadillas búlgaras, es importante establecer metas realistas y buscar apoyo. Según el [National Institute on Aging (NIA)](https://www.nia.nih.gov/), es recomendable establecer metas a corto y largo plazo para mantener la motivación.
@@ -52,7 +52,7 @@ Para superar las barreras para hacer sentadillas búlgaras, es importante establ
 3. Realiza el ejercicio de manera regular y constante.
 
 ## Seguimiento y progreso en la rutina de sentadillas búlgaras
-Para seguir y progresar en la rutina de sentadillas búlgaras, es importante monitorear el progreso y ajustar la rutina según sea necesario. Según el [American College of Sports Medicine (ACSM)](https://www.acsm.org/), es recomendable monitorear el progreso cada 4-6 semanas.
+Para seguir y progresar en la rutina de sentadillas búlgaras, es importante monitorear el progreso y ajustar la rutina según sea necesario. Según el American College of Sports Medicine (ACSM), es recomendable monitorear el progreso cada 4-6 semanas.
 
 1. Monitorea el progreso cada 4-6 semanas.
 2. Ajusta la rutina según sea necesario.
@@ -60,22 +60,22 @@ Para seguir y progresar en la rutina de sentadillas búlgaras, es importante mon
 
 ## Preguntas Frecuentes
 ### ¿Cuántas sentadillas búlgaras debo hacer al día?
-La respuesta es 3 series de 10-12 repeticiones. Según un estudio publicado en el [Journal of Strength and Conditioning Research (2018)](https://journals.lww.com/nsca-scj/Fulltext/2018/07000/Effects_of_Bulgarian_Split_Squats_on_Muscle.12.aspx), realizar 3 series de 10-12 repeticiones es suficiente para mejorar la fuerza muscular.
+La respuesta es 3 series de 10-12 repeticiones. Según un estudio publicado en el Journal of Strength and Conditioning Research (2018), realizar 3 series de 10-12 repeticiones es suficiente para mejorar la fuerza muscular.
 
 ### ¿Cuál es el beneficio de las sentadillas búlgaras para la salud cardiovascular?
-La respuesta es que las sentadillas búlgaras mejoran la salud cardiovascular al aumentar la frecuencia cardíaca y la presión arterial. Según un estudio publicado en el [Journal of Aging and Physical Activity (2019)](https://journals.humankinetics.com/view/journals/japa/27/2/article-p247.xml), el 80% de los adultos mayores que realizan sentadillas búlgaras regularmente muestran una mejora significativa en la salud cardiovascular.
+La respuesta es que las sentadillas búlgaras mejoran la salud cardiovascular al aumentar la frecuencia cardíaca y la presión arterial. Según un estudio publicado en el Journal of Aging and Physical Activity (2019), el 80% de los adultos mayores que realizan sentadillas búlgaras regularmente muestran una mejora significativa en la salud cardiovascular.
 
 ### ¿Cómo puedo evitar lesiones al hacer sentadillas búlgaras?
-La respuesta es que debes calentar adecuadamente y realizar el ejercicio con una carga de 60-70% del peso máximo. Según el [American Council on Exercise (ACE)](https://www.acefitness.org/), es importante calentar adecuadamente y realizar el ejercicio con una carga de 60-70% del peso máximo para evitar lesiones.
+La respuesta es que debes calentar adecuadamente y realizar el ejercicio con una carga de 60-70% del peso máximo. Según el American Council on Exercise (ACE), es importante calentar adecuadamente y realizar el ejercicio con una carga de 60-70% del peso máximo para evitar lesiones.
 
 ### ¿Cuál es el mejor momento para hacer sentadillas búlgaras?
-La respuesta es que el mejor momento es por la mañana o por la tarde. Según un estudio publicado en el [Journal of Strength and Conditioning Research (2018)](https://journals.lww.com/nsca-scj/Fulltext/2018/07000/Effects_of_Bulgarian_Split_Squats_on_Muscle.12.aspx), realizar el ejercicio por la mañana o por la tarde es suficiente para mejorar la fuerza muscular.
+La respuesta es que el mejor momento es por la mañana o por la tarde. Según un estudio publicado en el Journal of Strength and Conditioning Research (2018), realizar el ejercicio por la mañana o por la tarde es suficiente para mejorar la fuerza muscular.
 
 ### ¿Puedo hacer sentadillas búlgaras si tengo lesiones en las rodillas?
 La respuesta es que no es recomendable hacer sentadillas búlgaras si tienes lesiones en las rodillas. Según el [National Institute on Aging (NIA)](https://www.nia.nih.gov/), es importante consultar con un médico antes de realizar cualquier ejercicio si tienes lesiones en las rodillas.
 
 ### ¿Cuál es el beneficio de las sentadillas búlgaras para la densidad ósea?
-La respuesta es que las sentadillas búlgaras mejoran la densidad ósea al aumentar la carga en los huesos. Según un estudio publicado en el [Journal of Aging and Physical Activity (2019)](https://journals.humankinetics.com/view/journals/japa/27/2/article-p247.xml), el 70% de los adultos mayores que realizan sentadillas búlgaras regularmente muestran una mejora significativa en la densidad ósea.
+La respuesta es que las sentadillas búlgaras mejoran la densidad ósea al aumentar la carga en los huesos. Según un estudio publicado en el Journal of Aging and Physical Activity (2019), el 70% de los adultos mayores que realizan sentadillas búlgaras regularmente muestran una mejora significativa en la densidad ósea.
 
 ## Mi Experiencia
 Como desarrollador de apps y cocinero profesional, siempre he sido consciente de la importancia de la salud y la condición física. Sin embargo, no fue hasta que comencé a realizar sentadillas búlgaras regularmente que noté una mejora significativa en mi fuerza muscular y salud cardiovascular. Ahora, me esfuerzo por realizar el ejercicio de manera regular y constante, y siempre busco formas de mejorar mi técnica y aumentar mi carga.

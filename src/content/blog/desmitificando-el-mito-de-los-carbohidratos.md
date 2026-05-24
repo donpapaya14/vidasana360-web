@@ -18,7 +18,7 @@ draft: false
 ---
 
 ## Introducción a los carbohidratos
-Los **carbohidratos** son uno de los tres macronutrientes fundamentales para el cuerpo humano, junto con las proteínas y las grasas. Según la [Academia de Nutrición y Dietética](https://www.andjrnl.org/), los carbohidratos son la principal fuente de energía para el cuerpo. Existen varios **tipos de carbohidratos**, incluyendo los carbohidratos simples (azúcares) y complejos (almidones y fibras). Estos se encuentran en una variedad de **fuentes alimentarias**, como frutas, verduras, granos integrales y productos lácteos.
+Los **carbohidratos** son uno de los tres macronutrientes fundamentales para el cuerpo humano, junto con las proteínas y las grasas. Según la Academia de Nutrición y Dietética, los carbohidratos son la principal fuente de energía para el cuerpo. Existen varios **tipos de carbohidratos**, incluyendo los carbohidratos simples (azúcares) y complejos (almidones y fibras). Estos se encuentran en una variedad de **fuentes alimentarias**, como frutas, verduras, granos integrales y productos lácteos.
 
 ## El papel de los carbohidratos en la pérdida de peso
 Un estudio publicado en la [revista Journal of the American Medical Association](https://jamanetwork.com/journals/jama) en 2019 encontró que una **dieta baja en carbohidratos** puede ser efectiva para la **pérdida de peso** a corto plazo, pero no necesariamente a largo plazo. Otro estudio de la [Universidad de Harvard](https://www.hsph.harvard.edu/) encontró que una **dieta equilibrada** que incluye carbohidratos complejos y grasas saludables es más efectiva para mantener la pérdida de peso a largo plazo.
@@ -31,7 +31,7 @@ Para incluir carbohidratos de manera saludable en la dieta, se recomienda:
 1. **Incluir carbohidratos complejos** en la dieta, como frutas, verduras, granos integrales y productos lácteos.
 2. **Limitar el consumo de carbohidratos simples** (azúcares).
 3. **Leer las etiquetas de los alimentos** para elegir opciones con menos azúcares añadidos.
-La [Asociación Americana de Diabetes](https://www.diabetes.org/) recomienda que las personas con diabetes trabajen con un profesional de la salud para desarrollar un plan de alimentación personalizado.
+La Asociación Americana de Diabetes recomienda que las personas con diabetes trabajen con un profesional de la salud para desarrollar un plan de alimentación personalizado.
 
 ## Ejemplos de carbohidratos saludables para incluir en la dieta
 Algunos ejemplos de carbohidratos saludables incluyen:
@@ -42,7 +42,7 @@ Algunos ejemplos de carbohidratos saludables incluyen:
 Según la [Base de datos de nutrientes del Departamento de Agricultura de los Estados Unidos](https://ndb.nal.usda.gov/), estos alimentos son ricos en carbohidratos complejos y tienen un valor nutricional alto.
 
 ## Conclusión y recomendaciones finales
-En resumen, los carbohidratos son una parte importante de una dieta equilibrada y saludable. Para incluir carbohidratos de manera saludable en la dieta, se recomienda incluir carbohidratos complejos y limitar el consumo de carbohidratos simples. La [Academia de Nutrición y Dietética](https://www.andjrnl.org/) recomienda trabajar con un profesional de la salud para desarrollar un plan de alimentación personalizado.
+En resumen, los carbohidratos son una parte importante de una dieta equilibrada y saludable. Para incluir carbohidratos de manera saludable en la dieta, se recomienda incluir carbohidratos complejos y limitar el consumo de carbohidratos simples. La Academia de Nutrición y Dietética recomienda trabajar con un profesional de la salud para desarrollar un plan de alimentación personalizado.
 
 ## Preguntas Frecuentes
 ### ¿Cuántos carbohidratos debo consumir al día?
@@ -52,7 +52,7 @@ No todos los carbohidratos son 'malos' para la salud. Los carbohidratos complejo
 ### ¿Cómo puedo reducir mi consumo de carbohidratos simples?
 Para reducir el consumo de carbohidratos simples, se recomienda leer las etiquetas de los alimentos, elegir opciones con menos azúcares añadidos y limitar el consumo de alimentos procesados.
 ### ¿Son los carbohidratos necesarios para el ejercicio?
-Sí, los carbohidratos son necesarios para el ejercicio. Según la [Academia de Nutrición y Dietética](https://www.andjrnl.org/), los carbohidratos son la principal fuente de energía para el cuerpo durante el ejercicio.
+Sí, los carbohidratos son necesarios para el ejercicio. Según la Academia de Nutrición y Dietética, los carbohidratos son la principal fuente de energía para el cuerpo durante el ejercicio.
 ### ¿Cómo puedo incluir carbohidratos saludables en mi dieta?
 Para incluir carbohidratos saludables en la dieta, se recomienda incluir frutas, verduras, granos integrales y productos lácteos. También se recomienda leer las etiquetas de los alimentos y elegir opciones con menos azúcares añadidos.
 ### ¿Son los carbohidratos buenos para la digestión?

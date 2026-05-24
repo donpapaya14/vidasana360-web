@@ -85,7 +85,7 @@ A continuación, se presentan algunos puntos de acción concretos para incorpora
 *   **Incorpora comidas saludables y deliciosas** en tu dieta para mantener una buena salud y bienestar.
 *   **Busca productos complementarios**, como [suplementos de proteínas en Amazon](https://www.amazon.es/s?k=suplementos+de+proteínas&tag=vladys-21), para ayudarte a alcanzar tus objetivos de fitness.
 *   **Visita sitios web de autoridad**, como [OMS](https://www.who.int/), para obtener información precisa y actualizada sobre salud y bienestar.
-*   **Lee estudios y artículos**, como [Universidad de Exeter](https://www.exeter.ac.uk/), para obtener información precisa y actualizada sobre salud y bienestar.
+*   **Lee estudios y artículos**, como Universidad de Exeter, para obtener información precisa y actualizada sobre salud y bienestar.
 
 
 ### You might also like

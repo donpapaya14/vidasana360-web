@@ -27,7 +27,7 @@ Caminar **7500 pasos al día** puede reducir el riesgo de enfermedades cardíaca
 
 ## Impacto en la pérdida de peso
 
-La [Revista de Medicina del Deporte (2020)](https://www.sportsmedicinejournal.com) demostró que caminar **7500 pasos diarios** quema aproximadamente **300-400 calorías extra**, dependiendo del peso y ritmo. Esto equivale a perder **1-1.5 kg por mes** sin cambios dietéticos adicionales. 
+La Revista de Medicina del Deporte (2020) demostró que caminar **7500 pasos diarios** quema aproximadamente **300-400 calorías extra**, dependiendo del peso y ritmo. Esto equivale a perder **1-1.5 kg por mes** sin cambios dietéticos adicionales. 
 
 **Tabla comparativa de gasto calórico**:
 
@@ -45,11 +45,11 @@ Un estudio de la [Universidad de California (2018)](https://www.berkeley.edu) co
 
 ## Efecto en la densidad ósea
 
-La [Revista de Osteoporosis (2017)](https://www.osteoporosisjournal.org) publicó que caminar **7500 pasos diarios** aumenta la densidad mineral ósea en un **1.2% anual** en adultos mayores, reduciendo el riesgo de fracturas. El impacto moderado de cada paso estimula la formación de tejido óseo nuevo.
+La Revista de Osteoporosis (2017) publicó que caminar **7500 pasos diarios** aumenta la densidad mineral ósea en un **1.2% anual** en adultos mayores, reduciendo el riesgo de fracturas. El impacto moderado de cada paso estimula la formación de tejido óseo nuevo.
 
 ## Consejos para alcanzar 7500 pasos al día
 
-1. **Usa un podómetro**: La [American Heart Association (2020)](https://www.heart.org) recomienda dispositivos como la [Pulsera de actividad física Fitbit en Amazon](https://www.amazon.es/s?k=Pulsera+de+actividad+física+Fitbit&tag=vladys-21) para monitoreo preciso
+1. **Usa un podómetro**: La American Heart Association (2020) recomienda dispositivos como la [Pulsera de actividad física Fitbit en Amazon](https://www.amazon.es/s?k=Pulsera+de+actividad+física+Fitbit&tag=vladys-21) para monitoreo preciso
 2. **Pausas activas**: Camina 5 minutos cada hora de trabajo (8 horas = 40 minutos extra)
 3. **Transporte activo**: Bájate 1 parada antes del metro/autobús (+15-20 min caminata)
 4. **Reuniones caminando**: Propone "walking meetings" para reuniones de 30 minutos
