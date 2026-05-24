@@ -43,7 +43,7 @@ Caminar **10.000 pasos al día** es diferente de otros ejercicios, como correr o
 Para superar obstáculos comunes, como el tiempo o la falta de motivación, sigue estos consejos:
 1. **Encuentra un compañero de caminata**: Caminar con un amigo o familiar puede hacer que sea más divertido y motivador.
 2. **Varía tus rutas**: Cambia tus rutas para evitar la monotonía y mantener el interés.
-3. **Recompénsate**: Establece recompensas para alcanzar tus metas diarias, como un **Pedometer Fábrica de Suerte** o un [ reloj fitness en Amazon](https://www.amazon.es/s?k=+reloj+fitness&tag=vladys-21)(https://www.amazon.es/).
+3. **Recompénsate**: Establece recompensas para alcanzar tus metas diarias, como un **Pedometer Fábrica de Suerte** o un [ reloj fitness en Amazon](https://www.amazon.es/s?k=+reloj+fitness&tag=vladys-21)(https://www.amazon.es/?tag=vladys-21).
 
 ## Preguntas Frecuentes
 ### ¿Cuántos pasos diarios son suficientes para perder peso?
@@ -55,7 +55,7 @@ Caminar con un perro puede ser una excelente forma de ejercicio y compañía. As
 ### ¿Cuánto tiempo debe durar mi caminata diaria?
 La duración de tu caminata diaria dependerá de tus metas y nivel de condición física. Un estudio de la Universidad de Harvard (2019) encontró que caminar **30 minutos al día** puede ser beneficioso para la salud cardiovascular.
 ### ¿Puedo caminar con un reloj fitness?
-Un reloj fitness puede ser una herramienta útil para rastrear tus pasos y actividad física. [ reloj fitness en Amazon](https://www.amazon.es/s?k=+reloj+fitness&tag=vladys-21)(https://www.amazon.es/) o un [ pedometer en Amazon](https://www.amazon.es/s?k=+pedometer&tag=vladys-21)(https://www.amazon.es/) pueden ser opciones excelentes.
+Un reloj fitness puede ser una herramienta útil para rastrear tus pasos y actividad física. [ reloj fitness en Amazon](https://www.amazon.es/s?k=+reloj+fitness&tag=vladys-21)(https://www.amazon.es/?tag=vladys-21) o un [ pedometer en Amazon](https://www.amazon.es/s?k=+pedometer&tag=vladys-21)(https://www.amazon.es/?tag=vladys-21) pueden ser opciones excelentes.
 ### ¿Es importante calentar antes de caminar?
 Calentar antes de caminar puede ayudar a prevenir lesiones y mejorar la eficiencia de tu caminata. Un estudio de la Universidad de Columbia (2015) encontró que calentar **5-10 minutos** antes de caminar puede reducir el riesgo de lesiones en un **20%**.
 

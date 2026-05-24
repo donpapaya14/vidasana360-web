@@ -92,7 +92,7 @@ A continuación, se presentan 6 puntos de acción concretos para aplicar la diet
 3. Sustituye la mitad del arroz por coliflor
 4. Come alimentos altos en volumen y bajos en calorías
 5. Haz ejercicios que te gusten y te hagan sentir bien
-6. Utiliza una [Báscula de alimentos digital Ozeri Pronto](https://www.amazon.com/Ozeri-Pronto-Digital-Kitchen-Scale/dp/B00004OCLY) para medir tus porciones y controlar tus calorías.
+6. Utiliza una [Báscula de alimentos digital Ozeri Pronto](https://www.amazon.com/Ozeri-Pronto-Digital-Kitchen-Scale/dp/B00004OCLY?tag=vladys-21) para medir tus porciones y controlar tus calorías.
 
 
 

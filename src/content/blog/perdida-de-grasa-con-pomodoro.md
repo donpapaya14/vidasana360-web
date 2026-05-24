@@ -61,9 +61,9 @@ El ejercicio aeróbico, como correr o nadar, es mejor para la **pérdida de gras
 ### ¿Cómo puedo mantener la motivación con la técnica Pomodoro?
 Puedes mantener la motivación estableciendo metas realistas y celebrando tus logros.
 ### ¿Qué es el Timón de Pomodoro?
-El [Timón de Pomodoro](https://www.amazon.es/Timón-de-Pomodoro) es un producto que te ayuda a mantener la motivación y la disciplina en el ejercicio.
+El [Timón de Pomodoro](https://www.amazon.es/Timón-de-Pomodoro?tag=vladys-21) es un producto que te ayuda a mantener la motivación y la disciplina en el ejercicio.
 ### ¿Qué otros productos puedo utilizar con la técnica Pomodoro?
-Puedes utilizar productos como [Amazon: reloj de pulsera](https://www.amazon.es/Reloj-de-Pulsera) o [Amazon: auriculares](https://www.amazon.es/Auriculares) para mejorar tu experiencia con la técnica Pomodoro.
+Puedes utilizar productos como [Amazon: reloj de pulsera](https://www.amazon.es/Reloj-de-Pulsera?tag=vladys-21) o [Amazon: auriculares](https://www.amazon.es/Auriculares?tag=vladys-21) para mejorar tu experiencia con la técnica Pomodoro.
 
 ## Mi Experiencia
 Como desarrollador de apps y cocinero profesional, he utilizado la técnica Pomodoro para mejorar mi productividad y mi salud. Me ha ayudado a mantener la motivación y la disciplina en el ejercicio y en el trabajo.
@@ -75,7 +75,7 @@ Aquí te presento 8 puntos de acción concretos para mejorar tu salud y producti
 1. Establece metas realistas para tu ejercicio y trabajo.
 2. Utiliza la técnica Pomodoro para trabajar en intervalos de 25 minutos, seguidos de 5 minutos de descanso.
 3. Celebra tus logros y encuentra un compañero de ejercicio.
-4. Utiliza productos como el [Timón de Pomodoro](https://www.amazon.es/Timón-de-Pomodoro) para mejorar tu experiencia con la técnica Pomodoro.
+4. Utiliza productos como el [Timón de Pomodoro](https://www.amazon.es/Timón-de-Pomodoro?tag=vladys-21) para mejorar tu experiencia con la técnica Pomodoro.
 5. Incorpora la técnica Pomodoro en tus rutinas de ejercicio y trabajo.
 6. Mantén la motivación y la disciplina en el ejercicio y en el trabajo.
 7. Utiliza la técnica Pomodoro para mejorar tu salud y productividad.

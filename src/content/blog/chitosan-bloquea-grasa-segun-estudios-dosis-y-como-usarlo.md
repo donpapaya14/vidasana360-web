@@ -49,7 +49,7 @@ El chitosan puede causar **alergias** en personas con sensibilidad a los marisco
 ### ¿Existen alternativas veganas al chitosan?
 Sí, existen alternativas veganas al chitosan, como el **glucomanano** y la **goma guar**.
 ### ¿Dónde puedo comprar chitosan?
-El chitosan está disponible en forma de suplemento en tiendas de salud y en línea. Un ejemplo de producto es el [Chitosan 500mg cápsulas (Now Foods)](https://www.amazon.com/Chitosan-500mg-Capsules-Now-Foods).
+El chitosan está disponible en forma de suplemento en tiendas de salud y en línea. Un ejemplo de producto es el [Chitosan 500mg cápsulas (Now Foods)](https://www.amazon.com/Chitosan-500mg-Capsules-Now-Foods?tag=vladys-21).
 ### ¿Cuánto cuesta el chitosan?
 El precio del chitosan varía según la marca y la cantidad. Es importante investigar y comparar precios antes de comprar.
 
@@ -72,7 +72,7 @@ Aquí hay algunos puntos de acción concretos para aprovechar al máximo el chit
 
 *Este artículo contiene enlaces de afiliado. Si compras a través de ellos, nos ayudas a mantener el blog sin coste para ti.*
 
-- [Chitosan 500mg cápsulas (Now Foods)](https://www.amazon.es/s?k=Chitosan+500mg+cápsulas+(Now+Foods)&tag=vladys-21)
+- [Chitosan 500mg cápsulas (Now Foods)](https://www.amazon.es/s?k=Chitosan+500mg+cápsulas+(Now+Foods&tag=vladys-21)&tag=vladys-21)
 - [Glucomanano](https://www.amazon.es/s?k=Glucomanano&tag=vladys-21)
 
 

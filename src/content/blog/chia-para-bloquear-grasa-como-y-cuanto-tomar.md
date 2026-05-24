@@ -49,7 +49,7 @@ Es recomendable consumir la chía **15-20 minutos** antes de comidas altas en gr
 ### ¿Puedo moler la chía?
 Sí, se puede moler la chía, pero es importante tener en cuenta que esto puede reducir su contenido de nutrientes.
 ### ¿Dónde puedo comprar chía?
-La chía puede ser comprada en tiendas de alimentos saludables o en línea. Una opción recomendada es el [Semillas de chía orgánica Nutiva (pack 2kg)](https://www.amazon.com/).
+La chía puede ser comprada en tiendas de alimentos saludables o en línea. Una opción recomendada es el [Semillas de chía orgánica Nutiva (pack 2kg)](https://www.amazon.com/?tag=vladys-21).
 ### ¿Cuál es el beneficio de la chía para perder peso?
 La chía puede ayudar a **bloquear la grasa** en el intestino, reduciendo su absorción en un **30%**.
 ### ¿Puedo consumir chía si tengo problemas digestivos?
@@ -66,7 +66,7 @@ A continuación, se presentan los puntos clave para aprovechar al máximo los be
 4. No exceder la dosis recomendada de chía.
 5. Experimentar con diferentes recetas que incluyan chía.
 6. Consultar con un médico antes de consumir chía si se tienen problemas digestivos.
-7. Comprar chía de alta calidad, como el [Semillas de chía orgánica Nutiva (pack 2kg)](https://www.amazon.com/).
+7. Comprar chía de alta calidad, como el [Semillas de chía orgánica Nutiva (pack 2kg)](https://www.amazon.com/?tag=vladys-21).
 8. Agregar chía a la dieta de manera gradual para evitar problemas digestivos.
 
 
@@ -74,7 +74,7 @@ A continuación, se presentan los puntos clave para aprovechar al máximo los be
 
 *Este artículo contiene enlaces de afiliado. Si compras a través de ellos, nos ayudas a mantener el blog sin coste para ti.*
 
-- [Semillas de chía orgánica Nutiva (pack 2kg)](https://www.amazon.es/s?k=Semillas+de+chía+orgánica+Nutiva+(pack+2kg)&tag=vladys-21)
+- [Semillas de chía orgánica Nutiva (pack 2kg)](https://www.amazon.es/s?k=Semillas+de+chía+orgánica+Nutiva+(pack+2kg&tag=vladys-21)&tag=vladys-21)
 - [Aceite de oliva](https://www.amazon.es/s?k=Aceite+de+oliva&tag=vladys-21)
 
 

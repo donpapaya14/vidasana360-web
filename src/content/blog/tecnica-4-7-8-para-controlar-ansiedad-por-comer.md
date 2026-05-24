@@ -57,7 +57,7 @@ Sí, puede combinar la técnica 4-7-8 con otros métodos de reducción de estré
 ### ¿Dónde puedo encontrar más información sobre la técnica 4-7-8?
 Puede encontrar más información sobre la técnica 4-7-8 en la [Harvard Medical School](https://hms.harvard.edu/) o en la National Sleep Foundation.
 ### ¿Qué productos puedo utilizar para ayudarme a practicar la técnica 4-7-8?
-Puede utilizar un [Reloj inteligente con recordatorios de respiración (modelo Xiaomi Mi Band 7)](https://www.amazon.com/) para ayudarlo a recordar practicar la técnica 4-7-8.
+Puede utilizar un [Reloj inteligente con recordatorios de respiración (modelo Xiaomi Mi Band 7)](https://www.amazon.com/?tag=vladys-21) para ayudarlo a recordar practicar la técnica 4-7-8.
 
 ## Mi Experiencia
 Como desarrollador de apps y cocinero profesional, he encontrado que la técnica 4-7-8 es una herramienta efectiva para reducir el estrés y la ansiedad. Me gusta practicarla antes de dormir para mejorar la calidad de mi sueño.
@@ -65,7 +65,7 @@ He notado que la técnica 4-7-8 también me ayuda a reducir los antojos y a come
 
 ## Resumen Práctico
 1. Practique la técnica 4-7-8 durante **5-10 minutos** al día
-2. Utilice un [Reloj inteligente con recordatorios de respiración (modelo Xiaomi Mi Band 7)](https://www.amazon.com/) para recordar practicar la técnica
+2. Utilice un [Reloj inteligente con recordatorios de respiración (modelo Xiaomi Mi Band 7)](https://www.amazon.com/?tag=vladys-21) para recordar practicar la técnica
 3. Combina la técnica 4-7-8 con otros métodos de reducción de estrés, como la meditación o el yoga
 4. Practique la técnica 4-7-8 antes de dormir para mejorar la calidad del sueño
 5. Utilice la técnica 4-7-8 para reducir los antojos y comer de manera más saludable
@@ -78,7 +78,7 @@ He notado que la técnica 4-7-8 también me ayuda a reducir los antojos y a come
 
 *Este artículo contiene enlaces de afiliado. Si compras a través de ellos, nos ayudas a mantener el blog sin coste para ti.*
 
-- [Reloj inteligente con recordatorios de respiración (modelo Xiaomi Mi Band 7)](https://www.amazon.es/s?k=Reloj+inteligente+con+recordatorios+de+respiración+(modelo+Xiaomi+Mi+Band+7)&tag=vladys-21)
+- [Reloj inteligente con recordatorios de respiración (modelo Xiaomi Mi Band 7)](https://www.amazon.es/s?k=Reloj+inteligente+con+recordatorios+de+respiración+(modelo+Xiaomi+Mi+Band+7&tag=vladys-21)&tag=vladys-21)
 - [Libro sobre la técnica 4-7-8](https://www.amazon.es/s?k=Libro+sobre+la+técnica+4-7-8&tag=vladys-21)
 
 

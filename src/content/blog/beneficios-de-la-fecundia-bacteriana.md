@@ -61,7 +61,7 @@ Para monitorizar el crecimiento de la Fecundia Bacteriana, es importante realiza
 ### ¿Qué alimentos puedo incluir en mi dieta para fomentar el crecimiento de la Fecundia Bacteriana?
 Algunos alimentos que pueden ayudar a fomentar el crecimiento de la Fecundia Bacteriana son los frutos secos, las semillas y las frutas.
 ### ¿Qué productos puedo utilizar para fomentar el crecimiento de la Fecundia Bacteriana?
-Algunos productos que pueden ayudar a fomentar el crecimiento de la Fecundia Bacteriana son [Garden of Life RAW Organic Probiotics](https://www.amazon.com/Garden-Life-RAW-Organic-Probiotics/) y [Renew Life Ultimate Probiotics](https://www.amazon.com/Renew-Life-Ultimate-Probiotics/).
+Algunos productos que pueden ayudar a fomentar el crecimiento de la Fecundia Bacteriana son [Garden of Life RAW Organic Probiotics](https://www.amazon.com/Garden-Life-RAW-Organic-Probiotics/?tag=vladys-21) y [Renew Life Ultimate Probiotics](https://www.amazon.com/Renew-Life-Ultimate-Probiotics/?tag=vladys-21).
 
 ## Mi Experiencia
 Como desarrollador de apps y cocinero profesional, he tenido la oportunidad de investigar y experimentar con diferentes dietas y productos para fomentar el crecimiento de la Fecundia Bacteriana. He encontrado que una dieta rica en prebióticos y pobre en antibióticos puede ayudar a aumentar la cantidad de Fecundia Bacteriana en el intestino.
@@ -71,7 +71,7 @@ Para fomentar el crecimiento de la Fecundia Bacteriana y mejorar la salud intest
 1. Incluir alimentos que contengan prebióticos en la dieta
 2. Evitar alimentos que contengan antibióticos
 3. Realizar análisis de heces y medir la cantidad de Fecundia Bacteriana en el intestino
-4. Utilizar productos como [Garden of Life RAW Organic Probiotics](https://www.amazon.com/Garden-Life-RAW-Organic-Probiotics/) y [Renew Life Ultimate Probiotics](https://www.amazon.com/Renew-Life-Ultimate-Probiotics/)
+4. Utilizar productos como [Garden of Life RAW Organic Probiotics](https://www.amazon.com/Garden-Life-RAW-Organic-Probiotics/?tag=vladys-21) y [Renew Life Ultimate Probiotics](https://www.amazon.com/Renew-Life-Ultimate-Probiotics/?tag=vladys-21)
 5. Consultar con un profesional de la salud antes de iniciar cualquier dieta o tratamiento
 6. Investigar y experimentar con diferentes dietas y productos para encontrar lo que funciona mejor para cada persona
 7. Considerar la posibilidad de utilizar suplementos de prebióticos y probióticos para fomentar el crecimiento de la Fecundia Bacteriana

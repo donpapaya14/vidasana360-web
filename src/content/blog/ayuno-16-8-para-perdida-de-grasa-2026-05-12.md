@@ -62,7 +62,7 @@ Sí, se puede hacer ejercicio durante el ayuno 16:8. Un estudio de la [Universid
 ### ¿Cuáles son los beneficios a largo plazo del ayuno 16:8?
 Un estudio de la [Universidad de Harvard](https://www.harvard.edu/) (2020) encontró que el ayuno 16:8 puede tener beneficios a largo plazo para la salud, incluyendo la pérdida de grasa y la reducción del riesgo de enfermedades crónicas.
 ### ¿Dónde puedo encontrar más información sobre el ayuno 16:8?
-Puedes encontrar más información sobre el ayuno 16:8 en [Libro de recetas para ayuno intermitente](https://www.amazon.es/Libro-de-recetas-para-ayuno-intermitente) o en [sitios web de salud](https://www.cdc.gov/).
+Puedes encontrar más información sobre el ayuno 16:8 en [Libro de recetas para ayuno intermitente](https://www.amazon.es/Libro-de-recetas-para-ayuno-intermitente?tag=vladys-21) o en [sitios web de salud](https://www.cdc.gov/).
 
 ## Mi Experiencia
 Como desarrollador de apps y cocinero profesional, he experimentado personalmente con el ayuno 16:8. He encontrado que es una técnica efectiva para la pérdida de grasa y la mejora de la salud general. Sin embargo, es importante recordar que cada persona es diferente y que es importante consultar con un profesional de la salud antes de iniciar cualquier régimen de ayuno.

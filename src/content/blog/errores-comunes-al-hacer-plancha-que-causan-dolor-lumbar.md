@@ -69,7 +69,7 @@ Para evitar el dolor lumbar, es importante **activar los glúteos**, mantener un
 El patrón respiratorio correcto es **inhalar durante 3 segundos** y **exhalar durante 3 segundos**.
 
 ### ¿Qué tipo de colchoneta de yoga es recomendable para ejercicios en suelo?
-Una [Colchoneta de yoga extra gruesa para ejercicios en suelo](https://www.amazon.com/) es recomendable para ejercicios en suelo.
+Una [Colchoneta de yoga extra gruesa para ejercicios en suelo](https://www.amazon.com/?tag=vladys-21) es recomendable para ejercicios en suelo.
 
 ### ¿Cuánto tiempo debo realizar el ejercicio de plancha?
 Comienza con **20 segundos** de ejercicio de plancha y incrementa el tiempo gradualmente.

@@ -69,7 +69,7 @@ Aquí hay 6 puntos de acción concretos para perder grasa con vinagre de manzana
 5. Consulta con un profesional de la salud antes de comenzar cualquier nuevo régimen de pérdida de peso.
 6. Asegúrate de ser consistente y paciente, ya que los resultados pueden tardar en aparecer.
 
-Puedes encontrar vinagre de manzana de alta calidad en tiendas de salud o en línea, como el [Vinagre de manzana orgánico Bragg](https://www.amazon.com/Bragg-Organic-Apple-Cider-Vinegar/dp/B0002AQYR6) o el [Vinagre de manzana con la 'madre'](https://www.amazon.com/Vinegar-Mother-Organic-Apple-Cider/dp/B07B9R7RYG).
+Puedes encontrar vinagre de manzana de alta calidad en tiendas de salud o en línea, como el [Vinagre de manzana orgánico Bragg](https://www.amazon.com/Bragg-Organic-Apple-Cider-Vinegar/dp/B0002AQYR6?tag=vladys-21) o el [Vinagre de manzana con la 'madre'](https://www.amazon.com/Vinegar-Mother-Organic-Apple-Cider/dp/B07B9R7RYG?tag=vladys-21).
 
 
 ---

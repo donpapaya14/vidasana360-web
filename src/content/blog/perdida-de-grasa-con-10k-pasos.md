@@ -49,7 +49,7 @@ La cantidad de pasos que debes caminar al día para perder peso depende de vario
 ### ¿Es seguro caminar solo por la noche?
 La seguridad de caminar solo por la noche depende de varios factores, incluyendo la iluminación de la zona, la presencia de tráfico y la existencia de áreas peligrosas. Es importante tomar precauciones para asegurarse de que la caminata sea segura y divertida.
 ### ¿Puedo usar un [Fitbit Inspire](https://www.fitbit.com/es/products/inspire) para rastrear mis pasos?
-Sí, un [Fitbit Inspire](https://www.fitbit.com/es/products/inspire) puede ser una excelente opción para rastrear tus pasos y establecer metas para mejorar la salud. También puedes considerar otros productos como un [Amazon Halo](https://www.amazon.com/Amazon-Halo-Fitness-Tracker) o un [Garmin Vivosport](https://www.garmin.com/es/products/vivosport).
+Sí, un [Fitbit Inspire](https://www.fitbit.com/es/products/inspire) puede ser una excelente opción para rastrear tus pasos y establecer metas para mejorar la salud. También puedes considerar otros productos como un [Amazon Halo](https://www.amazon.com/Amazon-Halo-Fitness-Tracker?tag=vladys-21) o un [Garmin Vivosport](https://www.garmin.com/es/products/vivosport).
 ### ¿Cuánto tiempo debo caminar al día para mejorar mi salud?
 La cantidad de tiempo que debes caminar al día para mejorar tu salud depende de varios factores, incluyendo tu nivel de actividad física y tus objetivos de salud. Un estudio de la Universidad de Harvard (2019) encontró que caminar **30 minutos al día** puede reducir el riesgo de enfermedades cardíacas un **23%**.
 ### ¿Puedo caminar con un amigo o familiar?
