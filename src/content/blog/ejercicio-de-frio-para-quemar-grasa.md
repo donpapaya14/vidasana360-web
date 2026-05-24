@@ -144,3 +144,9 @@ El mayor reto fue la adaptación psicológica. Usé la técnica "3 respiraciones
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Técnica de respiración para estrés](/blog/tecnica-de-respiracion-para-estres)
+- [Rutina de estiramientos matutinos](/blog/rutina-de-estiramientos-matutinos)
+- [Estrés y pérdida de peso](/blog/estres-y-perdida-de-peso-2026-05-13)

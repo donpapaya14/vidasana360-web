@@ -134,3 +134,9 @@ Gradually increasing calories after a long diet to raise your metabolic floor. B
 - **Take planned 2-week breaks** every 6-8 weeks at maintenance
 - **Don't cut more when stalled** — first verify, then fix protein, then fix steps
 - **The scale lies in week 1** — water weight fluctuation masks real progress for 2-3 weeks
+
+## 📚 Sigue leyendo
+
+- [Cómo el vinagre de manzana quema grasa según la ciencia](/blog/como-el-vinagre-de-manzana-quema-grasa-segun-la-ciencia)
+- [Chía para bloquear grasa: cómo y cuánto tomar](/blog/chia-para-bloquear-grasa-como-y-cuanto-tomar)
+- [Pérdida de grasa sin resultados](/blog/perdida-de-grasa-sin-resultados-2026-05-22)

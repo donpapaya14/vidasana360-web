@@ -113,3 +113,9 @@ Como desarrollador de apps y cocinero profesional, he visto cómo cambia mi prod
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Cómo reducir cortisol con ejercicio de fuerza en casa](/blog/como-reducir-cortisol-con-ejercicio-de-fuerza-en-casa)
+- [Ejercicio en casa para principiantes](/blog/ejercicio-en-casa-para-principiantes-2026-05-08)
+- [Ejercicios para abdomen después de 40](/blog/ejercicios-para-abdomen-despues-de-40)

@@ -106,3 +106,9 @@ A continuación, te presento 6 puntos de acción concretos para perder peso sin 
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Ayuno 16/8 para pérdida de grasa](/blog/ayuno-16-8-para-perdida-de-grasa)
+- [Caloric Deficit Sin Hambre](/blog/caloric-deficit-sin-hambre)
+- [Pérdida de grasa con HIIT](/blog/perdida-de-grasa-con-hiit)

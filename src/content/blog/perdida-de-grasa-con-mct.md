@@ -91,3 +91,9 @@ Para **perder grasa con MCT**, sigue estos pasos:
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Chía para bloquear grasa: cómo y cuánto tomar](/blog/chia-para-bloquear-grasa-como-y-cuanto-tomar)
+- [Ayuno 5:2 para pérdida de grasa](/blog/ayuno-5-2-para-perdida-de-grasa)
+- [Cómo el frío ayuda a quemar grasa según la ciencia](/blog/como-el-frio-ayuda-a-quemar-grasa-segun-la-ciencia)

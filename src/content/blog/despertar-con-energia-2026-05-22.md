@@ -113,3 +113,9 @@ Como desarrollador de apps y cocinero profesional, he encontrado que la exposici
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Ejercicio nocturno para pérdida de grasa](/blog/ejercicio-nocturno-para-perdida-de-grasa)
+- [Mantén un horario de sueño para perder peso](/blog/manten-un-horario-de-sueno-para-perder-peso)
+- [Hábitos de sueño para perder peso](/blog/habitos-de-sueno-para-perder-peso)

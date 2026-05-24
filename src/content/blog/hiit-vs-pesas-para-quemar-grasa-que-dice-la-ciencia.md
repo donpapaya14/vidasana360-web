@@ -78,3 +78,9 @@ Para resumir, aquí hay **6 puntos de acción** que puedes tomar para mejorar tu
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Ejercicio vs Calentamiento: ¿Cuál Es Mejor?](/blog/ejercicio-vs-calentamiento-cual-es-mejor)
+- [beneficios de caminar 10000 pasos al día](/blog/beneficios-de-caminar-10000-pasos-al-dia)
+- [Ejercicios para dolor de rodilla](/blog/ejercicios-para-dolor-de-rodilla)

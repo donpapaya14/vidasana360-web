@@ -90,3 +90,9 @@ Para perder peso de manera saludable y sostenible, sigue estos pasos:
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Pérdida de grasa sin resultados](/blog/perdida-de-grasa-sin-resultados-2026-05-22)
+- [Por qué contar calorías te hace fracasar en la dieta](/blog/por-que-contar-calorias-te-hace-fracasar-en-la-dieta)
+- [Pérdida de grasa con HIIT](/blog/perdida-de-grasa-con-hiit)

@@ -124,3 +124,9 @@ Opta por frutas con canela (ej: manzana asada) o 2 cuadritos de chocolate negro 
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Mito proteína baja](/blog/mito-proteina-baja)
+- [Dieta Flexitariana](/blog/dieta-flexitariana)
+- [Suplementos para pérdida de grasa](/blog/suplementos-para-perdida-de-grasa)

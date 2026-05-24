@@ -113,3 +113,9 @@ Aquí te presento 6 puntos de acción concretos para reducir el estrés y la ans
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Ejercicio nocturno para pérdida de grasa](/blog/ejercicio-nocturno-para-perdida-de-grasa)
+- [Ejercicio de frío para quemar grasa](/blog/ejercicio-de-frio-para-quemar-grasa)
+- [Técnica de respiración para reducir estrés](/blog/tecnica-de-respiracion-para-reducir-estres)

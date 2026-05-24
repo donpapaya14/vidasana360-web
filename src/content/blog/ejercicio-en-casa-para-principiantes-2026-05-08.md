@@ -97,3 +97,9 @@ A continuación, se presentan algunos puntos de acción concretos para empezar a
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Quemar grasa con ejercicios de fuerza](/blog/quemar-grasa-con-ejercicios-de-fuerza)
+- [Foods that Affect Mood: Gut-Brain Axis](/blog/foods-that-affect-mood-gut-brain-axis)
+- [Cómo reducir cortisol con ejercicio de fuerza en casa](/blog/como-reducir-cortisol-con-ejercicio-de-fuerza-en-casa)

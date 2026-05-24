@@ -125,3 +125,9 @@ Como desarrollador de apps y cocinero profesional, Vladys Z. comparte:
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Pérdida de grasa con yoga](/blog/perdida-de-grasa-con-yoga)
+- [Cómo reducir cortisol con ejercicio de fuerza en casa](/blog/como-reducir-cortisol-con-ejercicio-de-fuerza-en-casa)
+- [Rutina de sentadillas búlgaras después de 40](/blog/rutina-de-sentadillas-bulgaras-despues-de-40)

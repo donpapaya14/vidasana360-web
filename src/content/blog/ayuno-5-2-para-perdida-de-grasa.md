@@ -120,3 +120,9 @@ Como desarrollador de apps y cocinero profesional, Vladys Z. probó el ayuno 5:2
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Caloric Deficit Sin Hambre](/blog/caloric-deficit-sin-hambre)
+- [Cómo el vinagre de manzana quema grasa según la ciencia](/blog/como-el-vinagre-de-manzana-quema-grasa-segun-la-ciencia)
+- [Pérdida de grasa sin resultados](/blog/perdida-de-grasa-sin-resultados)

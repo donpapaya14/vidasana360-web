@@ -85,3 +85,9 @@ Para incorporar caminar **10.000 pasos al día** en tu rutina diaria, sigue esto
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Pérdida de grasa con HIIT](/blog/perdida-de-grasa-con-hiit-2026-05-21)
+- [Rutina de ejercicios para cintura](/blog/rutina-de-ejercicios-para-cintura)
+- [Ejercicios para dolor de cadera](/blog/ejercicios-para-dolor-de-cadera)

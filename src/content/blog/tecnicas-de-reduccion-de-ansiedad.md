@@ -95,3 +95,9 @@ Null, [suplemento de vitamina D en Amazon](https://www.amazon.es/s?k=suplemento+
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Pérdida de grasa con Pomodoro](/blog/perdida-de-grasa-con-pomodoro)
+- [Técnicas de reducción de cortisol](/blog/tecnicas-de-reduccion-de-cortisol)
+- [Pérdida de grasa con yoga](/blog/perdida-de-grasa-con-yoga)

@@ -78,3 +78,9 @@ A continuación, se presentan 6-8 puntos de acción concretos para incorporar pa
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Dieta Flexitariana](/blog/dieta-flexitariana)
+- [Beneficios del pescado azul](/blog/beneficios-del-pescado-azul)
+- [Mito proteína baja](/blog/mito-proteina-baja)

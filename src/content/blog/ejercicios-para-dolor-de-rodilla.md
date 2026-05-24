@@ -113,3 +113,9 @@ Aquí hay 6 puntos de acción concretos que puede tomar para aliviar y prevenir 
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Ejercicios para aliviar dolor lumbar respaldados por fisioterapia](/blog/ejercicios-para-aliviar-dolor-lumbar-respaldados-por-fisioterapia)
+- [Pérdida de grasa con 10k pasos](/blog/perdida-de-grasa-con-10k-pasos)
+- [Caminar 8000 pasos al día para perder grasa según estudios](/blog/caminar-8000-pasos-al-dia-para-perder-grasa-segun-estudios)

@@ -115,3 +115,9 @@ He utilizado un [Chaleco de hielo para crioterapia](https://www.amazon.es/?tag=v
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Ayuno 5:2 para pérdida de grasa](/blog/ayuno-5-2-para-perdida-de-grasa)
+- [Why You](/blog/not-losing-weight-caloric-deficit-reason)
+- [Ayuno 16/8 para pérdida de grasa](/blog/ayuno-16-8-para-perdida-de-grasa)

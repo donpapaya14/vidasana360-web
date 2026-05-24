@@ -94,3 +94,9 @@ Como desarrollador de apps y cocinero profesional, he experimentado el estrés y
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Cómo reducir cortisol con ejercicio de fuerza en casa](/blog/como-reducir-cortisol-con-ejercicio-de-fuerza-en-casa)
+- [Alimentos que reducen ansiedad por comer según ciencia](/blog/alimentos-que-reducen-ansiedad-por-comer-segun-ciencia)
+- [Técnicas de respiración para reducir cortisol y ansiedad](/blog/tecnicas-de-respiracion-para-reducir-cortisol-y-ansiedad)

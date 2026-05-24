@@ -97,3 +97,9 @@ Para perder grasa caminando **8000 pasos al día**, sigue estos pasos:
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Ejercicios para dolor de cadera](/blog/ejercicios-para-dolor-de-cadera)
+- [Ejercicios para dolor de espalda](/blog/ejercicios-para-dolor-de-espalda-2026-05-15)
+- [Rutina de sentadillas inclinadas para caderas](/blog/rutina-de-sentadillas-inclinadas-para-caderas)

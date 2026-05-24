@@ -84,3 +84,9 @@ Me gusta compartir mis experiencias y consejos con otros para que puedan mejorar
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Rutina de 10 minutos para quemar grasa sin saltos](/blog/rutina-de-10-minutos-para-quemar-grasa-sin-saltos)
+- [Ejercicios para dolor de espalda](/blog/ejercicios-para-dolor-de-espalda-2026-05-15)
+- [Pérdida de grasa con HIIT](/blog/perdida-de-grasa-con-hiit-2026-05-21)

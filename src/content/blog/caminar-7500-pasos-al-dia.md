@@ -104,3 +104,9 @@ Como chef profesional, recomiendo caminar **20 minutos después de comer**: acel
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [HIIT vs pesas para quemar grasa: qué dice la ciencia](/blog/hiit-vs-pesas-para-quemar-grasa-que-dice-la-ciencia)
+- [Rutina de sentadillas con pesas para fortalecer rodillas](/blog/rutina-de-sentadillas-con-pesas-para-fortalecer-rodillas)
+- [Pérdida de grasa con 10k pasos](/blog/perdida-de-grasa-con-10k-pasos)

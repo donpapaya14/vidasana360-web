@@ -74,3 +74,9 @@ Aquí te presento 6 puntos de acción concretos para incorporar el aguacate en t
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Quinoa vs lentejas: cuál es mejor para perder grasa](/blog/quinoa-vs-lentejas-cual-es-mejor-para-perder-grasa)
+- [Beneficios del pescado azul](/blog/beneficios-del-pescado-azul)
+- [Dieta DASH para perder peso](/blog/dieta-dash-para-perder-peso-2026-05-18)

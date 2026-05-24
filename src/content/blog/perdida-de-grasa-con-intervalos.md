@@ -96,3 +96,9 @@ A continuación, se presentan algunos puntos de acción concretos para maximizar
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Pérdida de grasa con yoga](/blog/perdida-de-grasa-con-yoga)
+- [Foods that Affect Mood: Gut-Brain Axis](/blog/foods-that-affect-mood-gut-brain-axis)
+- [Ejercicio en casa para principiantes](/blog/ejercicio-en-casa-para-principiantes-2026-05-08)

@@ -92,3 +92,9 @@ Aquí hay 6 puntos de acción concretos que puedes seguir para mejorar tu salud 
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Errores comunes al hacer plancha que causan dolor lumbar](/blog/errores-comunes-al-hacer-plancha-que-causan-dolor-lumbar)
+- [Ejercicios para dolor lumbar](/blog/ejercicios-para-dolor-lumbar)
+- [HIIT vs pesas para quemar grasa: qué dice la ciencia](/blog/hiit-vs-pesas-para-quemar-grasa-que-dice-la-ciencia)

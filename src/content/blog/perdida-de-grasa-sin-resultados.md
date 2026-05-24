@@ -103,3 +103,9 @@ Para **perder grasa sin resultados**, sigue estos **6 pasos**:
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Cómo el frío ayuda a quemar grasa según la ciencia](/blog/como-el-frio-ayuda-a-quemar-grasa-segun-la-ciencia)
+- [Cómo el vinagre de manzana quema grasa según la ciencia](/blog/como-el-vinagre-de-manzana-quema-grasa-segun-la-ciencia)
+- [Pérdida de grasa con déficit calórico](/blog/perdida-de-grasa-con-deficit-calorico-2026-05-17)

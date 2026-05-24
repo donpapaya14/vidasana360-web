@@ -122,3 +122,9 @@ Como desarrollador de apps que pasaba 12h sentado, descubrí que **el entrenamie
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Cómo mejorar la flora intestinal para perder grasa](/blog/como-mejorar-la-flora-intestinal-para-perder-grasa)
+- [Técnica de respiración para estrés](/blog/tecnica-de-respiracion-para-estres)
+- [Pérdida de grasa con ayuno](/blog/perdida-de-grasa-con-ayuno)

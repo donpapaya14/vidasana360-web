@@ -94,3 +94,9 @@ Puedes encontrar productos como [Bandas de resistencia Set de 5 niveles en Amazo
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Caminar 7500 pasos al día](/blog/caminar-7500-pasos-al-dia)
+- [Ejercicio con pesas para hombros](/blog/ejercicio-con-pesas-para-hombros)
+- [HIIT vs pesas para quemar grasa: qué dice la ciencia](/blog/hiit-vs-pesas-para-quemar-grasa-que-dice-la-ciencia)

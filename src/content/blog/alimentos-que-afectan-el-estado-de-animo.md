@@ -110,3 +110,9 @@ Para mejorar tu **estado de ánimo**, sigue estos **consejos prácticos**:
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Perder grasa abdominal](/blog/perder-grasa-abdominal)
+- [Cómo el ayuno intermitente afecta la pérdida de grasa](/blog/como-el-ayuno-intermitente-afecta-la-perdida-de-grasa)
+- [Rutina de sentadillas búlgaras después de 40](/blog/rutina-de-sentadillas-bulgaras-despues-de-40)

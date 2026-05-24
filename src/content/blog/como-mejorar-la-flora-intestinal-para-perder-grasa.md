@@ -103,3 +103,9 @@ Puedes encontrar productos como [Probióticos con Akkermansia muciniphila en Ama
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Estrés y pérdida de peso](/blog/estres-y-perdida-de-peso)
+- [Técnica de respiración para reducir estrés](/blog/tecnica-de-respiracion-para-reducir-estres)
+- [Quemar grasa con frío](/blog/quemar-grasa-con-frio)

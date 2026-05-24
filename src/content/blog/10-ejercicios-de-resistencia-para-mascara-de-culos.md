@@ -107,3 +107,9 @@ A continuación, se presentan 8 puntos de acción concretos para fortalecer el c
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Alimentos para reducir ansiedad](/blog/alimentos-para-reducir-ansiedad)
+- [Alimentos que reducen ansiedad por comer según ciencia](/blog/alimentos-que-reducen-ansiedad-por-comer-segun-ciencia)
+- [Foods that Affect Mood: Gut-Brain Axis](/blog/foods-that-affect-mood-gut-brain-axis)

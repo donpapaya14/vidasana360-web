@@ -148,3 +148,9 @@ La clave está en integrarlos como herramientas, no soluciones mágicas. Incluso
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Dieta Flexitariana](/blog/dieta-flexitariana)
+- [Avena vs Arroz Integral](/blog/avena-vs-arroz-integral)
+- [Dieta volumétrica para perder peso sin pasar hambre](/blog/dieta-volumetrica-para-perder-peso-sin-pasar-hambre)

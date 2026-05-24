@@ -106,3 +106,9 @@ Lávala bajo agua fría 1 minuto antes de cocer. Esto elimina **saponinas**, com
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Mitología del azúcar en la dieta](/blog/mitologia-del-azucar-en-la-dieta)
+- [Dieta Flexitariana](/blog/dieta-flexitariana)
+- [nutrientes para perder peso rápido](/blog/nutrientes-para-perder-peso-rapido)

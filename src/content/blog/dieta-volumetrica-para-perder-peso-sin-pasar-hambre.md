@@ -115,3 +115,9 @@ A continuación, se presentan 6 puntos de acción concretos para aplicar la diet
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Suplementos para pérdida de grasa](/blog/suplementos-para-perdida-de-grasa)
+- [Beneficios del pescado azul](/blog/beneficios-del-pescado-azul)
+- [Cómo el té verde acelera el metabolismo según estudios](/blog/como-el-te-verde-acelera-el-metabolismo-segun-estudios)

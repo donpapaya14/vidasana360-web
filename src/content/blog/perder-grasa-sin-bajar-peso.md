@@ -145,3 +145,9 @@ Mi error fue subestimar el aceite de oliva: 1 cucharada son **120 kcal no contab
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Cómo el frío ayuda a quemar grasa según la ciencia](/blog/como-el-frio-ayuda-a-quemar-grasa-segun-la-ciencia)
+- [Déficit Calórico para Perder Peso](/blog/deficit-calorico-para-perder-peso)
+- [Pérdida de grasa con déficit calórico](/blog/perdida-de-grasa-con-deficit-calorico-2026-05-17)

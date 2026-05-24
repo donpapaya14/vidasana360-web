@@ -114,3 +114,9 @@ Aquí te presento 6 puntos de acción concretos para evitar el dolor lumbar y me
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Ejercicios para dolor lumbar](/blog/ejercicios-para-dolor-lumbar)
+- [beneficios de caminar 10000 pasos al día](/blog/beneficios-de-caminar-10000-pasos-al-dia)
+- [10.000 Pasos Diarios](/blog/10-000-pasos-diarios)

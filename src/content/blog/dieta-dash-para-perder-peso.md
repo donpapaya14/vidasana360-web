@@ -92,3 +92,9 @@ Aquí hay 8 puntos de acción concretos para seguir la dieta DASH de manera efec
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Desmitificando el mito de los carbohidratos](/blog/desmitificando-el-mito-de-los-carbohidratos)
+- [Nutrientes para pérdida de grasa](/blog/nutrientes-para-perdida-de-grasa)
+- [Suplementos para pérdida de grasa efectivos](/blog/suplementos-para-perdida-de-grasa-efectivos)

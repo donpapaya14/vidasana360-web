@@ -95,3 +95,9 @@ Para resumir, aquí hay 6 puntos de acción concretos que puede seguir para inco
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Beneficios del aguacate para perder grasa](/blog/beneficios-del-aguacate-para-perder-grasa)
+- [Beneficios del pescado azul](/blog/beneficios-del-pescado-azul)
+- [Quinoa vs lentejas: cuál es mejor para perder grasa](/blog/quinoa-vs-lentejas-cual-es-mejor-para-perder-grasa)

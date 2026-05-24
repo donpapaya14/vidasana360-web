@@ -95,3 +95,9 @@ Aquí hay 6 puntos de acción concretos que puedes seguir para aliviar el dolor 
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Rutina de ejercicios para perder grasa](/blog/rutina-de-ejercicios-para-perder-grasa)
+- [beneficios de caminar 10000 pasos al día](/blog/beneficios-de-caminar-10000-pasos-al-dia)
+- [Ejercicios para dolor de espalda](/blog/ejercicios-para-dolor-de-espalda-2026-05-15)

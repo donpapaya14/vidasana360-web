@@ -102,3 +102,9 @@ Como cocinero profesional, he visto clientes caer en el error de eliminar prote�
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Nutrientes para pérdida de grasa](/blog/nutrientes-para-perdida-de-grasa)
+- [Cómo el té verde acelera el metabolismo según estudios](/blog/como-el-te-verde-acelera-el-metabolismo-segun-estudios)
+- [Mitología del azúcar en la dieta](/blog/mitologia-del-azucar-en-la-dieta)

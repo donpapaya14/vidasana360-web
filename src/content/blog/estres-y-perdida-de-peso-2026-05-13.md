@@ -92,3 +92,9 @@ Me gustaría compartir un consejo personal: es importante ser paciente y no desa
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Pérdida de grasa con HIIT](/blog/perdida-de-grasa-con-hiit-2026-05-10)
+- [Hábitos de sueño para perder peso](/blog/habitos-de-sueno-para-perder-peso)
+- [Ejercicio de frío para quemar grasa](/blog/ejercicio-de-frio-para-quemar-grasa)

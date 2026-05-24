@@ -113,3 +113,9 @@ Como desarrollador de apps y cocinero profesional, Vladys Z. comparte: "Pasé 8 
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Rutina de 10 minutos para quemar grasa sin saltos](/blog/rutina-de-10-minutos-para-quemar-grasa-sin-saltos)
+- [Pérdida de grasa con 10k pasos](/blog/perdida-de-grasa-con-10k-pasos)
+- [Ejercicios para dolor de cadera](/blog/ejercicios-para-dolor-de-cadera)

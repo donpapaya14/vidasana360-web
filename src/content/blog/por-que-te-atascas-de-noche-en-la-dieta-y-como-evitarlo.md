@@ -84,3 +84,9 @@ Aquí hay 6 puntos de acción concretos para ayudarte a controlar tu hambre noct
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Déficit Calórico para Pérdida de Peso](/blog/deficit-calorico-para-perdida-de-peso)
+- [Cómo el vinagre de manzana quema grasa según la ciencia](/blog/como-el-vinagre-de-manzana-quema-grasa-segun-la-ciencia)
+- [Pérdida de grasa con MCT](/blog/perdida-de-grasa-con-mct)

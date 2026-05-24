@@ -110,3 +110,9 @@ A continuación, se presentan 8 puntos de acción concretos para perder peso con
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Cómo el frío ayuda a quemar grasa según la ciencia](/blog/como-el-frio-ayuda-a-quemar-grasa-segun-la-ciencia)
+- [Chitosan bloquea grasa según estudios: dosis y cómo usarlo](/blog/chitosan-bloquea-grasa-segun-estudios-dosis-y-como-usarlo)
+- [Ayuno 16:8 para pérdida de grasa](/blog/ayuno-16-8-para-perdida-de-grasa-2026-05-12)

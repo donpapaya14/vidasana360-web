@@ -77,3 +77,9 @@ He probado el **Glucomanano en polvo** y he encontrado que es un suplemento muy 
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Nutrientes clave para perder grasa abdominal con alimentos](/blog/nutrientes-clave-para-perder-grasa-abdominal-con-alimentos)
+- [Dieta MIND para Pérdida de Grasa](/blog/dieta-mind-para-perdida-de-grasa)
+- [Quinoa vs lentejas: cuál es mejor para perder grasa](/blog/quinoa-vs-lentejas-cual-es-mejor-para-perder-grasa)

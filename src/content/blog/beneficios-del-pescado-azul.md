@@ -93,3 +93,9 @@ Para incorporar **pescado azul** en tu dieta y estilo de vida saludable, sigue e
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Dieta MIND para Pérdida de Grasa](/blog/dieta-mind-para-perdida-de-grasa)
+- [¿El pan integral engorda? La verdad según la ciencia](/blog/el-pan-integral-engorda-la-verdad-segun-la-ciencia)
+- [Almendras vs nueces de macadamia](/blog/almendras-vs-nueces-de-macadamia)

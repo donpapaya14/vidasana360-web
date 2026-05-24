@@ -76,3 +76,9 @@ Aquí hay algunos puntos de acción concretos para empezar a incluir **almendras
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Beneficios del aguacate para perder grasa](/blog/beneficios-del-aguacate-para-perder-grasa)
+- [Dieta DASH para perder peso](/blog/dieta-dash-para-perder-peso)
+- [Dieta MIND para Pérdida de Grasa](/blog/dieta-mind-para-perdida-de-grasa)

@@ -137,3 +137,9 @@ Como desarrollador de apps y cocinero profesional, Vladys Z. comparte:
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Ayuno 16:8 para pérdida de grasa](/blog/ayuno-16-8-para-perdida-de-grasa-2026-05-12)
+- [Pérdida de grasa con MCT](/blog/perdida-de-grasa-con-mct)
+- [Pérdida de grasa sin resultados](/blog/perdida-de-grasa-sin-resultados)

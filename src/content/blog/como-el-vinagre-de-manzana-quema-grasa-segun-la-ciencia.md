@@ -91,3 +91,9 @@ Puedes encontrar vinagre de manzana de alta calidad en tiendas de salud o en lí
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Pérdida de grasa con MCT](/blog/perdida-de-grasa-con-mct)
+- [Cómo el frío ayuda a quemar grasa según la ciencia](/blog/como-el-frio-ayuda-a-quemar-grasa-segun-la-ciencia)
+- [Pérdida de grasa sin resultados](/blog/perdida-de-grasa-sin-resultados-2026-05-22)

@@ -96,3 +96,9 @@ Recuerda que la preparación y la seguridad son fundamentales para evitar lesion
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Rutina de 10 minutos para quemar grasa sin saltos](/blog/rutina-de-10-minutos-para-quemar-grasa-sin-saltos)
+- [Ejercicios para dolor de rodilla](/blog/ejercicios-para-dolor-de-rodilla)
+- [Ejercicios para aliviar dolor lumbar respaldados por fisioterapia](/blog/ejercicios-para-aliviar-dolor-lumbar-respaldados-por-fisioterapia)

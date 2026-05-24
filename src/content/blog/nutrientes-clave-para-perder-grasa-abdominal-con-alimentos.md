@@ -97,3 +97,9 @@ A continuación, se presentan 6 puntos de acción concretos para perder grasa ab
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Dieta volumétrica para perder peso sin pasar hambre](/blog/dieta-volumetrica-para-perder-peso-sin-pasar-hambre)
+- [Suplementos para pérdida de grasa efectivos](/blog/suplementos-para-perdida-de-grasa-efectivos)
+- [¿El pan integral engorda? La verdad según la ciencia](/blog/el-pan-integral-engorda-la-verdad-segun-la-ciencia)

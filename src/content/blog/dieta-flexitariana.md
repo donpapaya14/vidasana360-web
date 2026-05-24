@@ -102,3 +102,9 @@ A continuación, se presentan 8 puntos de acción concretos para implementar la 
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Dieta MIND para Pérdida de Grasa](/blog/dieta-mind-para-perdida-de-grasa)
+- [Dieta DASH para perder peso](/blog/dieta-dash-para-perder-peso-2026-05-18)
+- [nutrientes para perder peso rápido](/blog/nutrientes-para-perder-peso-rapido)

@@ -97,3 +97,9 @@ A continuación, se presentan 8 puntos de acción concretos para comenzar a real
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Por qué te atascas de noche en la dieta (y cómo evitarlo)](/blog/por-que-te-atascas-de-noche-en-la-dieta-y-como-evitarlo)
+- [Pérdida de grasa sin resultados](/blog/perdida-de-grasa-sin-resultados)
+- [Perder grasa sin bajar peso](/blog/perder-grasa-sin-bajar-peso)

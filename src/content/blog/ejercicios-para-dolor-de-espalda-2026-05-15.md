@@ -78,3 +78,9 @@ Para aliviar el dolor de espalda, es importante:
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Errores comunes al hacer plancha que causan dolor lumbar](/blog/errores-comunes-al-hacer-plancha-que-causan-dolor-lumbar)
+- [Caminar 7500 pasos al día](/blog/caminar-7500-pasos-al-dia)
+- [Ejercicios para dolor de rodilla](/blog/ejercicios-para-dolor-de-rodilla)

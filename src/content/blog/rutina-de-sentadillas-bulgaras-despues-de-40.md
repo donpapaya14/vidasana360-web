@@ -110,3 +110,9 @@ Como desarrollador de apps y cocinero profesional, siempre he sido consciente de
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Perder grasa abdominal](/blog/perder-grasa-abdominal)
+- [Técnicas de reducción de cortisol](/blog/tecnicas-de-reduccion-de-cortisol)
+- [Ejercicio en casa para principiantes](/blog/ejercicio-en-casa-para-principiantes-2026-05-08)

@@ -83,3 +83,9 @@ Como desarrollador de apps y cocinero profesional, he probado muchos productos y
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Avena vs Arroz Integral](/blog/avena-vs-arroz-integral)
+- [Mitología del azúcar en la dieta](/blog/mitologia-del-azucar-en-la-dieta)
+- [Nutrientes para quemar grasa](/blog/nutrientes-para-quemar-grasa)

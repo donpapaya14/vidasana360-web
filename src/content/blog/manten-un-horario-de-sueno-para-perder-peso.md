@@ -94,3 +94,9 @@ Aquí hay algunos puntos de acción concretos para mantener un **horario de sue�
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Beneficios de la Fecundia Bacteriana](/blog/beneficios-de-la-fecundia-bacteriana)
+- [Ejercicios para quemar grasa abdominal](/blog/ejercicios-para-quemar-grasa-abdominal)
+- [Técnica de respiración para estrés](/blog/tecnica-de-respiracion-para-estres)

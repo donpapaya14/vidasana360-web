@@ -87,3 +87,9 @@ Como desarrollador de apps y cocinero profesional, he encontrado que la respirac
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Quemar grasa con ejercicios de fuerza](/blog/quemar-grasa-con-ejercicios-de-fuerza)
+- [10+ EJERCICIOS DE RESISTENCIA PARA MÁSCARA DE CULOS](/blog/10-ejercicios-de-resistencia-para-mascara-de-culos)
+- [Alimentos que reducen ansiedad por comer según ciencia](/blog/alimentos-que-reducen-ansiedad-por-comer-segun-ciencia)

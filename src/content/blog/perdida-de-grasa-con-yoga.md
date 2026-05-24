@@ -142,3 +142,9 @@ Como desarrollador de apps, pasaba 12 horas sentado y gané 15kg. Empecé con **
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Perder grasa abdominal](/blog/perder-grasa-abdominal)
+- [Alimentos que afectan el estado de ánimo](/blog/alimentos-que-afectan-el-estado-de-animo)
+- [Ejercicios para abdomen después de 40](/blog/ejercicios-para-abdomen-despues-de-40)

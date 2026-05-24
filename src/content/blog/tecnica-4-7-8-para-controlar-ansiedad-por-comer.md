@@ -93,3 +93,9 @@ He notado que la técnica 4-7-8 también me ayuda a reducir los antojos y a come
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Ejercicios para quemar grasa abdominal](/blog/ejercicios-para-quemar-grasa-abdominal)
+- [Estrés y pérdida de peso](/blog/estres-y-perdida-de-peso-2026-05-13)
+- [Rutina de estiramientos matutinos](/blog/rutina-de-estiramientos-matutinos)

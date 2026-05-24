@@ -114,3 +114,9 @@ Aquí hay 8 puntos de acción concretos para mejorar tu **energía matutina**:
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Cómo mejorar la flora intestinal para perder peso](/blog/como-mejorar-la-flora-intestinal-para-perder-peso)
+- [Técnica de respiración para reducir estrés](/blog/tecnica-de-respiracion-para-reducir-estres)
+- [Pérdida de grasa con HIIT](/blog/perdida-de-grasa-con-hiit-2026-05-10)

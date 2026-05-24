@@ -89,3 +89,9 @@ Aquí hay algunos puntos de acción prácticos para mejorar tu salud y bienestar
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [HIIT vs pesas para quemar grasa: qué dice la ciencia](/blog/hiit-vs-pesas-para-quemar-grasa-que-dice-la-ciencia)
+- [Errores comunes al hacer plancha que causan dolor lumbar](/blog/errores-comunes-al-hacer-plancha-que-causan-dolor-lumbar)
+- [beneficios de caminar 10000 pasos al día](/blog/beneficios-de-caminar-10000-pasos-al-dia)

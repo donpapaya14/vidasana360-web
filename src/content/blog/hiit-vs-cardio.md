@@ -85,3 +85,9 @@ Para resumir, aquí hay 6 puntos de acción para incluir HIIT y cardio en tu rut
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [beneficios de caminar 10000 pasos al día](/blog/beneficios-de-caminar-10000-pasos-al-dia)
+- [HIIT vs pesas para quemar grasa: qué dice la ciencia](/blog/hiit-vs-pesas-para-quemar-grasa-que-dice-la-ciencia)
+- [Rutina de ejercicios para perder grasa](/blog/rutina-de-ejercicios-para-perder-grasa)

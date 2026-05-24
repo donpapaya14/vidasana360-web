@@ -120,3 +120,9 @@ Para mantener un déficit calórico sin hambre, sigue estos pasos:
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Déficit Calórico para Pérdida de Peso](/blog/deficit-calorico-para-perdida-de-peso)
+- [Why You](/blog/not-losing-weight-caloric-deficit-reason)
+- [Pérdida de grasa sin resultados](/blog/perdida-de-grasa-sin-resultados)

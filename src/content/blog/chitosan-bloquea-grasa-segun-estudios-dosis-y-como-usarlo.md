@@ -87,3 +87,9 @@ Aquí hay algunos puntos de acción concretos para aprovechar al máximo el chit
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [caloric deficit sin hambre](/blog/caloric-deficit-sin-hambre-2026-05-19)
+- [Ayuno 16/8 para pérdida de grasa](/blog/ayuno-16-8-para-perdida-de-grasa)
+- [Por qué te atascas de noche en la dieta (y cómo evitarlo)](/blog/por-que-te-atascas-de-noche-en-la-dieta-y-como-evitarlo)

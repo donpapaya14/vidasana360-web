@@ -87,3 +87,9 @@ Como desarrollador de apps y cocinero profesional, he encontrado que la respirac
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Despertar con energía](/blog/despertar-con-energia-2026-05-22)
+- [Despertar con Energía](/blog/despertar-con-energia)
+- [Mantén un horario de sueño para perder peso](/blog/manten-un-horario-de-sueno-para-perder-peso)

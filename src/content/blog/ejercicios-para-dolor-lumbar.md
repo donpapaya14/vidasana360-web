@@ -116,3 +116,9 @@ Como desarrollador de apps, pasé años con **dolor lumbar crónico** por malas 
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Pérdida de grasa con HIIT](/blog/perdida-de-grasa-con-hiit-2026-05-21)
+- [beneficios de caminar 10000 pasos al día](/blog/beneficios-de-caminar-10000-pasos-al-dia)
+- [Ejercicio con pesas para hombros](/blog/ejercicio-con-pesas-para-hombros)

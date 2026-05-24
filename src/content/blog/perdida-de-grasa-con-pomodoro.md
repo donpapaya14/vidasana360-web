@@ -102,3 +102,9 @@ Aquí te presento 8 puntos de acción concretos para mejorar tu salud y producti
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Ejercicios para abdomen después de 40](/blog/ejercicios-para-abdomen-despues-de-40)
+- [Foods that Affect Mood: Gut-Brain Axis](/blog/foods-that-affect-mood-gut-brain-axis)
+- [Técnicas de reducción de ansiedad](/blog/tecnicas-de-reduccion-de-ansiedad)

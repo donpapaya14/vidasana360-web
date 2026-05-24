@@ -144,3 +144,9 @@ Ahora recomiendo el libro [The Beck Diet Solution en Amazon](https://www.amazon.
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [caloric deficit sin hambre](/blog/caloric-deficit-sin-hambre-2026-05-19)
+- [Por qué contar calorías te hace fracasar en la dieta](/blog/por-que-contar-calorias-te-hace-fracasar-en-la-dieta)
+- [Pérdida de grasa sin resultados](/blog/perdida-de-grasa-sin-resultados)

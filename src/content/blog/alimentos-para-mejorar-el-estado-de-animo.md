@@ -145,3 +145,9 @@ Un truco personal: preparo un "batido del ánimo" con plátano, espinacas, cúrc
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Ejercicio en casa sin equipo](/blog/ejercicio-en-casa-sin-equipo)
+- [Cómo el ayuno intermitente afecta la pérdida de grasa](/blog/como-el-ayuno-intermitente-afecta-la-perdida-de-grasa)
+- [Alimentos que reducen ansiedad por comer según ciencia](/blog/alimentos-que-reducen-ansiedad-por-comer-segun-ciencia)

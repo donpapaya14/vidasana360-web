@@ -123,3 +123,9 @@ Su consejo: "Graba tus primeros entrenamientos para corregir posturas. Yo usé m
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Pérdida de grasa con ayuno](/blog/perdida-de-grasa-con-ayuno)
+- [Estrés y pérdida de peso](/blog/estres-y-perdida-de-peso)
+- [Estrés y pérdida de peso](/blog/estres-y-perdida-de-peso-2026-05-13)

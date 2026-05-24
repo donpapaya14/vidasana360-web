@@ -90,3 +90,9 @@ Como desarrollador de apps y cocinero profesional, he aprendido la importancia d
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [beneficios de caminar 10000 pasos al día](/blog/beneficios-de-caminar-10000-pasos-al-dia)
+- [Caminar 7500 pasos al día](/blog/caminar-7500-pasos-al-dia)
+- [Ejercicios para aliviar dolor lumbar respaldados por fisioterapia](/blog/ejercicios-para-aliviar-dolor-lumbar-respaldados-por-fisioterapia)

@@ -88,3 +88,9 @@ Aquí hay 8 puntos de acción concretos para reducir el consumo de azúcar y mej
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Almendras vs nueces de macadamia](/blog/almendras-vs-nueces-de-macadamia)
+- [Mito proteína baja](/blog/mito-proteina-baja)
+- [Avena vs Quinoa](/blog/avena-vs-quinoa)

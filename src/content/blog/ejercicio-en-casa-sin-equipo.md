@@ -107,3 +107,9 @@ Aquí te presento un resumen práctico de los puntos clave para empezar a entren
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Alimentos que afectan el estado de ánimo](/blog/alimentos-que-afectan-el-estado-de-animo)
+- [Técnicas de reducción de ansiedad](/blog/tecnicas-de-reduccion-de-ansiedad)
+- [Quemar grasa con ejercicios de fuerza](/blog/quemar-grasa-con-ejercicios-de-fuerza)

@@ -111,3 +111,9 @@ Como desarrollador de apps y cocinero profesional, Vladys Z. comparte: "A los 42
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Foods that Affect Mood: Gut-Brain Axis](/blog/foods-that-affect-mood-gut-brain-axis)
+- [Alimentos para mejorar el estado de ánimo](/blog/alimentos-para-mejorar-el-estado-de-animo)
+- [Quemar grasa con ejercicios de fuerza](/blog/quemar-grasa-con-ejercicios-de-fuerza)

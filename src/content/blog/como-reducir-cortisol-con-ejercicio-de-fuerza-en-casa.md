@@ -107,3 +107,9 @@ A continuación, se presentan 8 puntos de acción concretos para **reducir corti
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Técnicas de reducción de ansiedad](/blog/tecnicas-de-reduccion-de-ansiedad)
+- [Quemar grasa con ejercicios de fuerza](/blog/quemar-grasa-con-ejercicios-de-fuerza)
+- [Alimentos para mejorar el estado de ánimo](/blog/alimentos-para-mejorar-el-estado-de-animo)

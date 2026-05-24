@@ -91,3 +91,9 @@ Como desarrollador de apps y cocinero profesional, he encontrado que la combinac
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Suplementos para pérdida de grasa efectivos](/blog/suplementos-para-perdida-de-grasa-efectivos)
+- [Dieta DASH para perder peso](/blog/dieta-dash-para-perder-peso)
+- [Dieta MIND para Pérdida de Grasa](/blog/dieta-mind-para-perdida-de-grasa)

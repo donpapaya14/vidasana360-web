@@ -99,3 +99,9 @@ A continuación, se presentan algunos puntos de acción concretos para incorpora
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [HIIT vs pesas para quemar grasa: qué dice la ciencia](/blog/hiit-vs-pesas-para-quemar-grasa-que-dice-la-ciencia)
+- [Rutina de ejercicios para cintura](/blog/rutina-de-ejercicios-para-cintura)
+- [Rutina de sentadillas inclinadas para caderas](/blog/rutina-de-sentadillas-inclinadas-para-caderas)

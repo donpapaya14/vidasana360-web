@@ -90,3 +90,9 @@ A continuación, se presentan 6 puntos de acción concretos para incluir carbohi
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Almendras vs nueces de macadamia](/blog/almendras-vs-nueces-de-macadamia)
+- [Beneficios del aguacate para perder grasa](/blog/beneficios-del-aguacate-para-perder-grasa)
+- [Cómo el té verde acelera el metabolismo según estudios](/blog/como-el-te-verde-acelera-el-metabolismo-segun-estudios)

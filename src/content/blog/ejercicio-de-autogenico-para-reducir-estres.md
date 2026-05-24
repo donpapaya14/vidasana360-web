@@ -107,3 +107,9 @@ Recuerda que la reducción del estrés y el mejoramiento del bienestar emocional
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Estrés y pérdida de peso](/blog/estres-y-perdida-de-peso)
+- [Técnica 4-7-8 para controlar ansiedad por comer](/blog/tecnica-4-7-8-para-controlar-ansiedad-por-comer)
+- [Estrés y pérdida de peso](/blog/estres-y-perdida-de-peso-2026-05-13)

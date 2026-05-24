@@ -97,3 +97,9 @@ Para fomentar el crecimiento de la Fecundia Bacteriana y mejorar la salud intest
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Quemar grasa con frío](/blog/quemar-grasa-con-frio)
+- [6 ejercicios para reducir estrés](/blog/6-ejercicios-para-reducir-estres)
+- [Estrés y pérdida de peso](/blog/estres-y-perdida-de-peso)

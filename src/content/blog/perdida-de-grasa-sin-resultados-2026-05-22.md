@@ -108,3 +108,9 @@ Para perder grasa de manera efectiva, es importante:
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Déficit Calórico para Perder Peso](/blog/deficit-calorico-para-perder-peso)
+- [Déficit Calórico para Pérdida de Peso](/blog/deficit-calorico-para-perdida-de-peso)
+- [Pérdida de grasa con HIIT](/blog/perdida-de-grasa-con-hiit)

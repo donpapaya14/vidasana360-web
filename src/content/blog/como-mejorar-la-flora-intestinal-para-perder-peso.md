@@ -90,3 +90,9 @@ A continuación, se presentan **6 puntos de acción** para mejorar la **flora in
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Ejercicio con pesas para perder grasa](/blog/ejercicio-con-pesas-para-perder-grasa)
+- [Despertar con energía](/blog/despertar-con-energia-2026-05-22)
+- [Cómo mejorar la flora intestinal para perder grasa](/blog/como-mejorar-la-flora-intestinal-para-perder-grasa)

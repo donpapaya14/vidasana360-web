@@ -130,3 +130,9 @@ Cuando trabajaba en el lanzamiento de una app de fitness, pasaba 14 horas al dí
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Pérdida de grasa con ayuno](/blog/perdida-de-grasa-con-ayuno)
+- [Cómo mejorar la flora intestinal para perder peso](/blog/como-mejorar-la-flora-intestinal-para-perder-peso)
+- [Despertar con Energía](/blog/despertar-con-energia)

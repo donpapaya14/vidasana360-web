@@ -91,3 +91,9 @@ Aquí hay algunos puntos de acción concretos para empezar a hacer ejercicio en 
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Pérdida de grasa con Pomodoro](/blog/perdida-de-grasa-con-pomodoro)
+- [Rutina de sentadillas búlgaras después de 40](/blog/rutina-de-sentadillas-bulgaras-despues-de-40)
+- [Cómo el ayuno intermitente afecta la pérdida de grasa](/blog/como-el-ayuno-intermitente-afecta-la-perdida-de-grasa)

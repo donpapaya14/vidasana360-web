@@ -84,3 +84,9 @@ A continuación, se presentan algunos puntos de acción concretos para iniciar e
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Hábitos de sueño para perder peso](/blog/habitos-de-sueno-para-perder-peso)
+- [Despertar con energía](/blog/despertar-con-energia-2026-05-22)
+- [Pérdida de grasa con HIIT](/blog/perdida-de-grasa-con-hiit-2026-05-10)

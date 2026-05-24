@@ -106,3 +106,9 @@ draft: false
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Déficit Calórico para Perder Peso](/blog/deficit-calorico-para-perder-peso)
+- [Cómo el frío ayuda a quemar grasa según la ciencia](/blog/como-el-frio-ayuda-a-quemar-grasa-segun-la-ciencia)
+- [Ayuno 16:8 para pérdida de grasa](/blog/ayuno-16-8-para-perdida-de-grasa-2026-05-12)

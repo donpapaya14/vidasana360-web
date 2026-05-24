@@ -86,3 +86,9 @@ Como desarrollador de apps y cocinero profesional, he experimentado con el ayuno
 ---
 
 *Escrito por **Vladys Z.** — Desarrollador de aplicaciones y cocinero profesional. Apasionado por mejorar la vida de las personas con contenido basado en ciencia y experiencia real. Sígueme en [YouTube](https://youtube.com/@VidaaSana360).*
+
+## 📚 Sigue leyendo
+
+- [Chitosan bloquea grasa según estudios: dosis y cómo usarlo](/blog/chitosan-bloquea-grasa-segun-estudios-dosis-y-como-usarlo)
+- [Por qué contar calorías te hace fracasar en la dieta](/blog/por-que-contar-calorias-te-hace-fracasar-en-la-dieta)
+- [Por qué te atascas de noche en la dieta (y cómo evitarlo)](/blog/por-que-te-atascas-de-noche-en-la-dieta-y-como-evitarlo)
